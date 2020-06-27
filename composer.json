@@ -1,31 +1,8 @@
 {
-    "name": "ramkrishna70/php-bithostin",
-    "description": "Php code libs of different providers.",
-    "keywords": [
-        "odd", "bithostin", "class", "php"
-    ],
+    "name": "bithostin/phplibs",
+    "description": "This a php library taken from different providers. Which is healpfull for different purposes.",
     "type": "library",
     "license": "MIT",
-    "homepage": "https://github.com/ramkrishna70/php-bithostin",
-    "authors": [{
-        "name": "Ram Krishna",
-        "email": "ramkrishna70@live.com",
-        "homepage": "https://ramkrishna.bithost.in"
-    }],
     "minimum-stability": "dev",
-    "require": {
-        "php": ">=7.1.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "~4.0"
-    },
-    "support": {
-        "issues": "https://github.com/ramkrishna70/php-bithostin/issues",
-        "source": "https://github.com/ramkrishna70/php-bithostin.git"
-    },
-    "autoload": {
-        "psr-7": {
-            "bithost": "/"
-        }
-    }
+    "require": {}
 }
