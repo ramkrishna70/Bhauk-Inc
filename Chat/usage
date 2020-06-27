@@ -1,0 +1,22 @@
+
+####################################
+
+Follow the following steps for using this class
+
+1) unzip( or untar )  the files chat.zip (or chat.tar ) and copy all the files in the document root. 
+
+2) If you are not using mysql database test then replace the define statements with the repective database.
+   create the mysql tables chat and rooms as described in db_details.asc.
+3) run the file index.php file, and you will be presented with a login page. Enter any name as login id and select the room name(initially there will be only one room called MainRoom) and click on Login button. 
+
+3) This will present the chat screen where the window will be divided into different screens which displays rooms list, messages, chatters list and input field for sending messages.
+
+4) Depending on your requirement you can change the refreshing rate of the frames. For ex. for changing the messages to be refreshed every 5 seconds change the line 
+  <META http-equiv="Refresh" content='8'>
+
+   in the file chatDisplay.php file as
+
+  <META http-equiv="Refresh" content='5'>
+ 
+
+####################################

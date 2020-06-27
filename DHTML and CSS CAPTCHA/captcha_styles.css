@@ -1,0 +1,10 @@
+/* styles for CAPTCHA grid drawing */
+.capnormal {font-size:11pt; color:#202020; background-color:#A0A0E0;
+        border: 1px solid #9090C0; width:12px;
+}
+td.captcha_cell { border: 1px solid #9090C0; background-color:#E0E0F8;
+  text-align:center; font-size:7px;
+}
+td.captcha_cellmo { border: 1px solid #9090C0; background-color:#B0B0E8;
+  text-align:center; font-size:7px;
+}

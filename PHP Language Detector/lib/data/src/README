@@ -1,0 +1,24 @@
+
+Source files directory for the trainer
+--------------------------------------
+
+Create a directory for each language to model, using the identifier for the
+language as the name for the directory.
+
+You are encouraged to use ISO 639-1 language codes (es,en,de,fr, etc.) but you
+can use the names you want (spanish, english, german, french, ...) The trainer
+will use blindly the directory name as the identifier for the language.
+
+So, if you use "alemán" as the name of the directory with the german train data,
+the library will identify texts like those as "alemán", not "german", nor "de".
+
+Into every directory, copy sample texts for the language. Encode all of them in
+UTF-8 only, and use only plain text files with .txt extension (or .txt.gz if
+you want to save space).
+
+After running the trainer, the models for every language will be saved in the
+"model" directory.
+
+
+Good luck
+

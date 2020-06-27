@@ -1,0 +1,95 @@
+===== BASIC DOCUMENTATION FOR basic_basket CLASS =====
+
+0.- INTRODUCTION
+
+  This class is a reduction of the general basic shopping basket I use in the
+  webs I work on.  It is not fully tested as it is at the moment, but I suppose
+  it is functional (just removed page layout and extra data management from the
+  class I work on, and that one is really functioning ;) )
+
+  Requires adv_mysql_db classes to work as the base for database operations
+
+1.- INTERFACE
+
+  PUBLIC INTERFACE:
+
+  basket($conn,$view) : Constructor
+     
+     $conn -> string for the name of a global mysql_conn OBJECT
+     $view -> script that displays infor for a single product
+
+  function insert($prodid,$qty) : Inserts products in the basket
+
+     $prodid -> id from tbl_products
+     $qty -> Total quantity to add on the chart (SUM on an update or just INSERT)
+
+     If product already exists in the current basket $qty is added to current units
+
+  function delete($prodid) : Deletes product from basket
+
+     $prodid -> id from tbl_products
+
+  function empty_basket() : Removes all entries from current basket
+
+  function update() : Recalculates the basket
+
+  function change_qty($prodid,$qty) : Takes care of unit change on the basket
+
+    $prodid -> id from tbl_products
+    $qty -> final numer of units in the basket
+
+    Calculates appropiate $qty to pass to insert function, 0 units calls delete
+
+  function screen_dump() : Outputs the basket content on screen... modify to fit your design
+
+
+  itemcount -> total items in the basket
+  total -> total price for all items in the basket
+
+
+  Table structures needed:
+
+  tbl_active_sessions:
+
+	sessionid:  char(13) not null primary key (gets the result of a uniqueid("") operation)
+	start:	    int not null (gets the result from a time() operation)
+
+  tbl_products:
+
+	id: int unsigned not null primary key [auto_increment]
+	product: char(50) not null (name of the product size may vary)
+	price: decimal(8,2) default 0 (price... define as needed for your currency)
+	data: varchar(255) (description for the product)
+
+  tbl_basket:
+
+	sessionid: char(13) not null (associates all products for a single user)
+	prodid: int unsigned not null (associates with the product in tbl_products)
+	product: char(50) not null (redundant, but reduces select operations sometimes...)
+	price: decilam(8,2) (redundant same as above...)
+	qty: tinyint unsigned default 0 (number of units in the basket)
+
+
+  Note this structure is quite silly indeed it is just the basic minimal fields required but 
+  is the base to the real database structure
+
+2.- Future releases and WIP
+
+  This class will not be very much updated as it is a limited version of the real class I work on
+  and is published just as a base class to work on, anyway some changes may be posted in 
+  http://phpclasses.upperdesign.com
+
+  NO WIP for this class
+
+  Any suggestions are wellcome
+
+3.- Contact information
+
+  Carlos Falo Hervás
+  slainte@jet.es
+
+  C/Manila 54-56 Esc. A Ent. 4ª
+  08034 Barcelona Spain
+
+  Phone: +34 9 3 2063652
+  Fax:	 +34 9 3 2063689

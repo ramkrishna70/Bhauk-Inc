@@ -1,0 +1,15 @@
+<?php 
+
+// EXAMPLE:
+ try{
+   $ssh=new SSH2_Connect;
+ } catch (Exception $e) echo $e->getMessage()
+
+// some php scripts
+
+// execute ssh command
+ try{
+   $ssh->SSH_Start_Script("ls -a", true);
+ } catch (Exception $e) echo $e->getMessage()
+
+?>

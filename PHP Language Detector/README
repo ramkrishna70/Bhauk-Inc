@@ -1,0 +1,17 @@
+
+Php Lang Detector
+=================
+Copyright 2011 Juan José López Mellado (juanjo.lopez.mellado@gmail.com)
+
+What?
+=====
+This is a PHP-5 library for language detection.
+
+Given a string, encoded in UTF-8, it decides in what known language the text is
+written. It includes a trainer for adding new languages to the detection
+database.
+
+License
+=======
+This code is distributed under the Apache License, version 2.0. You should
+have received a copy of the license in a file called 'LICENSE'

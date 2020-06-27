@@ -1,0 +1,11 @@
+
+Calculated models directory
+---------------------------
+
+This directory contains calculated data. The trainer erases all this files and
+creates new ones every time it is executed.
+
+If you want to add new models for new languages, please read the README file in
+the "src" directory and run the trainer.
+
+Good luck

@@ -1,0 +1,1015 @@
+Internet est le réseau informatique mondial qui rend accessible au public des services comme le courrier électronique et le World Wide Web. Ses utilisateurs sont désignés par le néologisme internaute. Techniquement, Internet se définit comme le réseau public mondial utilisant le protocole de communication IP (Internet Protocol).
+
+Internet ayant été popularisé par l'apparition du World Wide Web, les deux sont parfois confondus par le public non averti. En réalité, le Web est une des applications d'Internet, comme le sont le courrier électronique, la messagerie instantanée ou les systèmes de partage de fichiers poste à poste.
+
+Par ailleurs, du point de vue de la confidentialité des communications, il importe de distinguer Internet des intranets, les réseaux privés au sein des entreprises, administrations, etc., et des extranets, interconnexions d'intranets pouvant emprunter Internet.
+
+Sommaire [masquer]
+1 Terminologie 
+2 Historique 
+3 Gouvernance 
+3.1 Au niveau mondial 
+3.2 Au niveau régional (continents) 
+4 Statistiques 
+5 Aspects juridiques 
+6 Technique 
+6.1 Requis 
+6.2 Protocoles 
+6.3 La Toile comme utopie 
+7 Voir aussi 
+7.1 Liens internes 
+7.2 Liens externes 
+ 
+
+
+ Terminologie  [modifier]
+Le terme est d'origine américaine Internet (InterNetwork). Sa première utilisation documentée remonte à octobre 1972 par Robert E. Kahn au cours de la première ICCC (International Conference on Computer Communications) à Washington.
+
+Au cours de l'histoire de la création d'Internet, on trouve différents noms qui sont parfois considérés comme ancêtres du terme Internet : internetting, interconnected networks, internetworking, internetwork, international inter-connected networks, Inter Net, inter-net, International Network. Toutefois les origines exactes du terme Internet restent à déterminer. Ce flou a favorisé l'apparition de multiples explications faisant office d'origine. Aujourd'hui ceux qui prétendent détenir la véritable origine du terme sont légion (un exemple courant est de dire qu'Internet est un mot-valise pour interconnected networks). Toutefois on sait que c'est le 1er janvier 1983 que le nom Internet, déjà en usage pour désigner l'ensemble d'ARPANET et des réseaux, est devenu officiel.
+
+La définition de ce qu'est Internet n'est pas évidente à expliciter de manière précise sans entrer dans les détails techniques, ce qui tend à une vulgarisation de la définition et facilite les confusions et imprécisions en français. Une des confusions les plus courantes porte sur le Net (en français « réseau ») et le Web (en français « toile » dans le sens « toile d'araignée »). En réaction à l'importance croissante du « phénomène Internet » et la prolifération de termes relatifs à ce phénomène dans le langage, il y a eu diverses publications au Journal officiel de la République française. L'une d'elle indique qu'il faut utiliser le mot Internet comme un nom commun, c'est-à-dire sans majuscule. L'Académie française recommande de dire « l'internet », comme on dit souvent « le web ».
+
+En anglais, on utilise un article défini et une majuscule pour parler d'Internet. Cet usage vient du fait qu'Internet est de loin le plus étendu (mondial) et le plus grand internet du monde. Un internet (avec un i minuscule) est un terme anglais utilisé pour désigner une interconnexion de réseaux informatiques par en:internetworking (un interréseau ou un internet).
+
+L'usage courant fait référence à Internet de différentes manières. Outre les recommandations officielles, il n'est pas rare de rencontrer les termes suivants : « le Net » ou « le net », « Internet », « l'Internet », « le réseau des réseaux » ou plus simplement « le réseau » ou « le Réseau » décliné parfois en « Le réseau ». Certains termes sont utilisés à tort pour faire référence à Internet, par exemple : « la Toile », « le web » ou « le Web » (the Web en anglais), mais cela désigne la Toile et non pas Internet. Cette confusion entre web et net existe aussi en anglais.
+
+Internet a été conçu pour relier des réseaux informatiques hétéroclites sur des distances intercontinentales : universitaires, d'entreprises, gouvernementaux, nationaux, etc., qui peuvent eux-mêmes relier des sous-réseaux et finalement des ordinateurs. 
+
+ Historique  [modifier]
+Article détaillé : Histoire d'Internet. 
+Les mémos que J.C.R. Licklider du Massachusetts Institute of Technology (MIT) écrivit en août 1962 sont les plus anciens textes décrivant les interactions sociales qui seraient possibles avec un réseau d'ordinateurs. Cela devait notamment faciliter les communications entre chercheurs du Defense Advanced Research Projects Agency (DARPA). En octobre 1962, Licklider fut le premier chef du programme de recherche en informatique du DARPA. Il persuada ses successeurs Ivan Sutherland, Bob Taylor et le chercheur du MIT Lawrence G. Roberts de l'intérêt des réseaux informatiques.
+
+En 1961, Leonard Kleinrock du MIT avait publié le premier texte théorique sur les télécommunications par paquets et en 1964 il publia le premier livre sur le sujet.
+
+En 1965, Roberts testa avec Thomas Merrill la première connexion informatique à longue distance, entre le Massachusetts et la Californie. Le résultat montra que des ordinateurs pouvaient travailler ensemble à distance, mais que le mode de télécommunication par établissement de circuit du système téléphonique était inadapté. Le concept de communication par paquets de Kleinrock s'imposa.
+
+En 1966, Roberts fut engagé par Taylor au DARPA pour concevoir l'ARPANET. Il publia les plans en 1967. En présentant ce texte, il découvrit deux autres groupes de chercheurs travaillant indépendamment sur le même sujet : un groupe du National Physical Laboratory (NPL) du Royaume-Uni avec Donald Davies et Roger Scantlebury, et un groupe de la RAND Corporation avec Paul Baran.
+
+Entre 1962 et 1965, le groupe de la RAND avait étudié la transmission par paquets pour l'armée américaine. Le but était de pouvoir maintenir les télécommunications en cas d'attaque (éventuellement atomique), ce que permet une transmission par paquets dans un réseau non centralisé. Il s'agissait d'un développement indépendant d'ARPANET : bien que probablement robuste face à une telle attaque, ARPANET n'a pourtant été conçu que pour faciliter les télécommunications entre chercheurs. Le rapport de Paul Baran est resté purement théorique, et est rapidement tombé dans l'oubli. Mais le mythe d'« ARPANET comme dernier rempart à une attaque atomique » trouve là son origine.
+
+Pendant ce temps-là, au British National Physical Laboratory, l'équipe de Donald Davies avait progressé : NPL Network, le premier réseau maillé fondé sur la transmission de datagrammes (packets) était fonctionnel. Mais l'histoire d'Internet n'a pas été écrite par les Européens : ARPANET sera désormais l'origine officielle d'Internet.
+
+En août 1968, le DARPA accepta de financer le développement du matériel de routage des paquets d'ARPANET. Ce développement fut confié en décembre à un groupe de la firme BBN (Bolt Beranek and Newman) de Boston. Ce dernier travailla avec Robert E. Kahn (Bob Kahn) sur l'architecture du réseau. Roberts améliorait les aspects topologiques et économiques du réseau. Kleinrock préparait des systèmes de mesure du réseau.
+
+En septembre 1969, BBN installa le premier équipement à l'université de Californie (UCLA) où travaillait Kleinrock. Le second nœud du réseau fut installé au Stanford Research Institute (SRI) où travaillait Doug Engelbart sur un projet d'hypertexte. Deux nœuds supplémentaires furent ajoutés avec l'université de Santa Barbara et l'université de l'Utah. Fin 1969, ARPANET comptait donc quatre nœuds.
+
+Le Network Working Group (NWG) conduit par Steve Crocker finit le protocole de communication poste à poste NCP en décembre 1970. Ce protocole fut adopté entre 1971 et 1972 par les sites branchés à ARPANET. Ceci permit le développement d'applications par les utilisateurs du réseau.
+
+En 1972, Ray Tomlinson mit au point la première application importante : le courrier électronique. En octobre 1972, Kahn organisa la première démonstration à grande échelle d'ARPANET à l'International Computer Communication Conference (ICCC). C'était la première démonstration publique.
+
+Le concept d'Internet est né d'ARPANET. L'idée était de permettre la connexion entre des réseaux divers : ARPANET, des communications avec les satellites, des communications par radio. Cette idée fut introduite par Kahn en 1972 sous le nom de Internetting. Le protocole NCP d'ARPANET ne permettait pas d'adresser des hôtes hors d'ARPANET ni de corriger d'éventuelles erreurs de transmission. Kahn décida donc de développer un nouveau protocole, qui devint finalement TCP/IP.
+
+En parallèle, un projet inspiré par ARPANET était dirigé en France par Louis Pouzin : le projet Cyclades. De nombreuses propriétés de TCP/IP ont ainsi été développées, plus tôt, pour Cyclades. Pouzin et Kahn indiquent que TCP/IP a été inspiré par Cyclades.
+
+En 1973, Kahn demanda à Vinton G. Cerf (Vint Cerf) (parfois appelé père d'Internet) de travailler avec lui, car Cerf connaissait les détails de mise en œuvre de NCP. Le premier document faisant référence à TCP est écrit en 1973 par Cerf : A Partial Specification of an International Transmission Protocol. La première spécification formelle de TCP date de décembre 1974, c'est le RFC 675.
+
+La version initiale de TCP ne permettait que la communication en établissant un circuit virtuel. Cela fonctionnait bien pour le transfert de fichiers ou le travail à distance, mais n'était pas adapté à des applications comme la téléphonie par Internet. TCP fut donc séparé de IP et UDP proposé pour les transmissions sans établissement d'un circuit.
+
+À la fin des années 1980, la NSF (National Science Foundation) qui dépend de l'administration américaine, met en place cinq centres informatiques surpuissants, auxquels les utilisateurs pouvaient se connecter, quel que soit le lieu où ils se trouvaient aux États-Unis : ARPAnet devenait ainsi accessible sur une plus grande échelle. Le système rencontra un franc succès et, après la mise à niveau importante (matériels et lignes) à la fin des années 1980, s'ouvrit au trafic commercial au début des années 1990. Le début des années 1990 marque, en fait, la naissance d'Internet tel que nous le connaissons aujourd'hui : le réseau reliant tous ces réseaux parlant le même langage, connu sous le nom de norme TCP/IP (Transmission Control Protocol/ Internet Protocol) qui permet à des ordinateurs différents de communiquer aisément entre eux.
+
+
+ Gouvernance  [modifier]
+Article détaillé : Gouvernance d'internet. 
+Selon la définition du groupe de travail sur la gouvernance d'internet, il faut entendre par « gouvernance de l’Internet » l’élaboration et l’application par les États, le secteur privé et la société civile, dans le cadre de leurs rôles respectifs, de principes, normes, règles, procédures de prise de décisions et programmes communs propres à modeler l’évolution et l’usage de l’Internet.
+
+Il faut noter l'importance des registres de métadonnées dans l'établissement de règles d'accès aux ressources Web qui utilisent les Uniform Resource Identifier (qui peuvent être les URL qui s'affichent sur la barre de navigation de l'ordinateur personnel).
+
+
+ Au niveau mondial  [modifier]
+ 
+nombre d'utilisateurs par pays en 2006, (souces CIA).Le rapport du Groupe de travail sur la gouvernance de l’Internet[1] donne un ensemble de recommandations sur la gouvernance d'internet.
+
+Un certain nombre d'organismes sont chargés de la gestion d'Internet, avec des attributions spécifiques. Ils participent à l'élaboration des standards techniques, l'attribution des noms de domaines, des adresses IP, etc. :
+
+ICANN ; sous la tutelle du ministère du Commerce américain. 
+IETF 
+ISOC 
+Dans un but de maintenir ou d'élargir la neutralité des réseaux, mais aussi d'engager les diverses parties globales dans un dialogue sur le sujet de la gouvernance, les Nations unies ont convoqué:
+
+SMSI 
+Forum sur la gouvernance de l’Internet 
+ Statistiques  [modifier]
+ 
+
+
+ Aspects juridiques  [modifier]
+Article détaillé : Droit d'Internet. 
+
+ Technique  [modifier]
+Internet est composé d'une multitude de réseaux répartis dans le monde entier. Chaque réseau est rattaché à une entité propre (université, fournisseur d'accès à Internet, armée) et se voit attribué un identifiant unique appelé Autonomous System (AS). Afin de pouvoir communiquer entre eux, les réseaux s'échangent des données, soit en établissant une liaison directe, soit en se rattachant à un nœud d'échange (point de peering).
+
+Chaque réseau est donc connecté à plusieurs autres réseaux. Lorsqu'une communication doit s'établir entre deux ordinateurs appartenant à des AS différents, il faut alors déterminer le chemin à effectuer parmi les réseaux. Aucun élément d'Internet ne connaît le réseau dans son ensemble, les données sont simplement redirigées vers un autre nœud selon des règles de routage. Environ 50 % du trafic mondial d’Internet passe par l'État de Virginie.
+
+
+ Requis  [modifier]
+Faire partie d'Internet, en tant que réseau de réseaux, nécessite d'être connecté à un réseau IP. Pour le grand public, du matériel et des logiciels sont nécessaires :
+
+Canal de communication : 
+lignes téléphoniques : 
+analogiques : RTC, xDSL 
+numériques : RNIS 
+fibre optique 
+câble 
+satellite 
+Fournisseur d'accès à Internet (FAI) (en anglais ISP pour Internet Service Provider) 
+Client pour le protocole réseau utilisé (PPP, PPPoX, Ethernet, ATM, etc.) 
+D'autres logiciels sont eux nécessaires pour exploiter Internet suivant les usages.
+
+World Wide Web : un navigateur Web 
+Messagerie électronique : un client SMTP et POP(POP3) ou IMAP / IMAP4 
+Transferts de fichiers : un client ou un serveur FTP (File Transfert Protocol) 
+D'autres encore assurent la sécurité, par exemple :
+
+Pare-feu 
+
+ Protocoles  [modifier]
+Internet fonctionne suivant un modèle en couches, calqué sur le modèle OSI. Les éléments appartenant aux mêmes couches utilisent un protocole de communication pour s'échanger des informations.
+
+Un protocole est un ensemble de règles qui définissent un langage afin de faire communiquer plusieurs ordinateurs. Ils sont définis par des normes ouvertes, les RFC.
+
+Chaque protocole a des indications particulières et, ensemble, ils fournissent un éventail de moyens permettant de répondre à la multiplicité et à la diversité des besoins sur Internet.
+
+Les principaux sont les suivants :
+
+IP (Internet Protocol) : protocole réseau qui définit le mode d'échange élémentaire entre les ordinateurs participant au réseau en leur donnant une adresse unique sur le réseau. 
+TCP : responsable de l'établissement de la connexion et du contrôle de la transmission. C'est un protocole de remise fiable. Il s'assure que le destinataire a bien reçu les données, au contraire d'UDP. 
+HTTP (HyperText Transfer Protocol) : protocole mis en œuvre pour le chargement des pages Web. 
+HTTPS : pendant du HTTP pour la navigation en mode sécurisé. 
+FTP (File Transfer Protocol) : protocole utilisé pour le transfert de fichiers sur Internet. 
+SMTP (Simple Mail Transfer Protocol) : mode d'échange du courrier électronique en envoi. 
+POP3 (Post Office Protocol version 3) : mode d'échange du courrier électronique en réception. 
+IMAP (Internet Message Access Protocol) : un autre mode d'échange de courrier électronique. 
+IRC (Internet Relay Chat) : protocole de discussion instantanée. 
+NNTP (Network News Transfert Protocol) : protocole de transfert de message utilisé par les forums de discussion Usenet 
+SSL ou TLS : protocoles de transaction sécurisée, utilisés notamment pour le paiement sécurisé. 
+P2P (Peer to Peer) : mode d'échange de fichiers 
+UDP : permet de communiquer, de façon non fiable mais légère, par petits datagrammes. 
+DNS (Domain Name System) : système de résolution de noms Internet. 
+ICMP (Internet Control Message Protocol) : protocole de contrôle du protocole IP. 
+Indépendamment du transfert entre deux points, quelques protocoles sont nécessaires aussi pour que les passerelles puissent s'échanger des informations de routage. Ce sont Interior Gateway Protocol (IGP), Exterior Gateway Protocol (EGP) et Border Gateway Protocol (BGP).
+
+
+ La Toile comme utopie  [modifier]
+Article détaillé : Internet et utopie. 
+La Toile (le World Wide Web en anglais) est sans doute la dernière utopie après la chute du communisme et partage toutes les caractéristiques propres aux utopies effectivement mises en place. D’une part la Toile se base sur des principes abstraits et elle est guidée par un certain idéalisme mais d’autre part les intérêts privés ont tendance à reprendre le dessus et à combattre les principes d’origines.
+
+La Toile est guidée par un certain idéalisme basique. Celui qu’on peut considérer comme l’inventeur de la Toile, le britannique Sir Tim Berners-Lee, inventeur du premier navigateur, du protocole d’écriture HTTP et président du World Wide Web Consortium a en effet abandonné tous ses droits afin de permettre la rapide diffusion du protocole HTTP et de l’idée de Toile en général. En outre, il a toujours insisté sur l’idée que la Toile devait être un système non hiérarchisé où les liens se font directement par hypertexte et non par un nœud centralisant les informations. La Toile quelque part permet même la réalisation d’un vieux rêve de réorganisation de l’information selon non plus des modèles linéaires mais par hypertexte exposé pour la première fois par Vannevar Bush. Mais la Toile est aussi déterminée par d’importants intérêts privés venant du fait que l’informatique privée se développe extrêmement rapidement. La multiplication de sites commerciaux en est déjà un signe. Mais il faut bien voir que certaines entreprises ont quasiment tenté de dominer la Toile.
+
+Toute analyse de la Toile se trouve donc au carrefour de plusieurs niveaux de lectures et d’analyse : économie, informatique, sociologie, technologie. Mais le concept-clé pour le définir reste celui d’utopie appliquée.
+
+
+ Voir aussi  [modifier]
+Pages correspondant à ce thème sur les projets Wikimedia :
+
+     Ressources multimédia sur Commons. 
+     Définition sur Wiktionnaire. 
+     Article d’actualité sur Wikinews. 
+
+ Liens internes  [modifier]
+IPv6 
+Société 
+internaute 
+commerce électronique 
+société de l'information 
+fracture numérique 
+technologies de l'information et de la communication 
+économie de la connaissance 
+libertés sur Internet 
+Méta-information 
+langues d'Internet 
+Dépendance à Internet 
+Navigation sociale 
+Hyper-information 
+Mondialisation 
+Hypermonde 
+Monde (univers) 
+Organisme 
+IANA 
+ICANN 
+Internet Society 
+Internet Engineering Task Force 
+Internet Systems Consortium 
+Association for Computing Machinery 
+Technique 
+adresse IP 
+IPv6 
+suite des protocoles internet 
+modèle OSI 
+fournisseur d'accès à Internet 
+hébergeur Internet 
+Internet2 
+Intranet 
+Application 
+Courrier électronique 
+World Wide Web 
+Messagerie instantanée 
+Messagerie fax 
+Poste à poste 
+Visioconférence 
+radios disponibles sur Internet 
+Utilisations d'Internet 
+Agent mobile 
+Cyberculture 
+flaming 
+hack 
+crack 
+net-sociologie 
+netiquette 
+troll 
+loi de Godwin 
+
+ Liens externes  [modifier]
+(fr) Internet et réseaux ; 
+(fr) Une histoire alternative et distrayante de l'Internet.; 
+(fr) Comprendre le fonctionnement d'internet, textes conçu pour les enfants et validé par des éducateurs; 
+(en) RFC 1000 THE REQUEST FOR COMMENTS REFERENCE GUIDE, août 1987, l'histoire des débuts d'Internet et des premiers RFC ; 
+(en) RFC 1580 (FYI 23) Guide to Network Resource Tools, mars 1994, présentation des applications d'Internet ; 
+(en) A Brief History of the Internet, par l'ISOC ; 
+(en) Internet history, histoire illustrée ; 
+(en) THINK protocols, par l'université du Texas à Austin, recherche historique ; 
+(en) Internet Pioneers, avec plusieurs biographies ; 
+(en) History of the Internet and Web, chronologie ; 
+(en) The Opte Project, cartographie d'Internet ; 
+Une adresse IP (avec IP pour Internet Protocol) est le numéro qui identifie chaque ordinateur connecté à Internet, ou plus généralement et précisément, l'interface avec le réseau de tout matériel informatique (routeur, imprimante) connecté à un réseau informatique utilisant l'Internet Protocol.
+
+Il existe des adresses IP de version 4 et de version 6. En 2007, la version 4 est la plus utilisée : elle est généralement notée avec quatre nombres compris entre 0 et 255, séparés par des points ; exemple : 212.85.150.133. Voir adresse IPv4 et adresse IPv6.
+
+Sommaire [masquer]
+1 Détermination et utilisation des adresses dans un réseau IP 
+1.1 Plus techniquement 
+2 Adresse IP et nom de domaine 
+3 Masque de sous-réseau 
+4 Principe du CIDR 
+5 Base de données des adresses IP 
+5.1 Assignation des plages d'adresses IP 
+5.2 Plages d'adresses IP spéciales 
+5.2.1 Dans le cas particulier de l'IPv4 : 
+5.3 Réservation des blocs d'adresses IP 
+6 Voir aussi 
+6.1 Liens internes 
+6.2 Liens externes 
+6.2.1 Sites généraux 
+6.3 Références 
+6.3.1 Communes 
+6.3.2 IPv6 
+6.3.3 IPv4 
+ 
+
+
+ Détermination et utilisation des adresses dans un réseau IP  [modifier]
+Dans la version 4 du protocole, l'adresse IP d'un ordinateur lui est généralement automatiquement transmise et assignée au démarrage grâce au protocole Dynamic Host Configuration Protocol (DHCP). Sinon, il est également possible de fixer l'adresse IP d'un ordinateur dans la configuration de son système d'exploitation ; des mécanismes d'autoconfiguration existent également.
+
+Dans la version 6, le principe de l'autoconfiguration est renforcé.
+
+Chaque donnée transmise par le protocole Internet est étiquetée avec deux adresses IP pour identifier l'expéditeur et le destinataire. Le réseau utilise l'adresse de destination pour transmettre la donnée. Le destinataire sait à qui répondre grâce à l'adresse IP de l'expéditeur. Chaque composant connecté au réseau doit donc posséder au moins une adresse IP pour établir des connexions.
+
+
+ Plus techniquement  [modifier]
+Dans chaque trame envoyée à l'aide du protocole IP, l'en-tête spécifie le couple (adresse IP du destinataire, adresse IP de l'émetteur) afin de permettre au protocole de routage de router la trame correctement et à la machine destinataire de connaître l'origine des informations qu'elle reçoit, donc d'y répondre si besoin est.
+
+Une ou plusieurs adresses IP peuvent être assignées à un hôte. Cette assignation pourra se faire soit manuellement (notamment en IPv4) , soit automatiquement par le biais d'un protocole adéquat (comme DHCP ou RARP ou en IPv6).
+
+L'adresse IP est principalement utilisée pour acheminer les données jusqu'au réseau où se trouve la machine de destination, ensuite, dans le cas d'IPv4, c'est la table ARP de la dernière passerelle qui est sollicitée pour convertir l'adresse IP en adresse MAC.
+
+
+ Adresse IP et nom de domaine  [modifier]
+La plupart des adresses IP peuvent être converties en un nom de domaine et inversement. Le nom de domaine est plus facilement lisible pour les humains : fr.wikipedia.org est le nom de domaine correspondant à 212.85.150.133. Il s'agit du système de résolution de noms.
+
+
+ Masque de sous-réseau  [modifier]
+Le masque de sous-réseau permet de savoir quelle partie d'une adresse IP correspond à la partie numéro de réseau et laquelle correspond à la partie numéro de l'hôte.
+
+Les principes sont les mêmes en IP version 4, et en version 6. Cependant, les pratiques ne sont pas les mêmes. La notation CIDR est systématiquement utilisée.
+
+Un masque a la même longueur qu'une adresse IP. Il est constitué d'une suite de chiffres 1 terminée par (éventuellement) des chiffres 0 :
+
+                     1                   2                   3   
+ 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|1 1 1 1 1 1 1 1|1 1 1 1 1 1 1 1|1 1 1 1 1 1 1 1|1 0 0 0 0 0 0 0| masque 255.255.255.128
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+Article détaillé : Adresse IPv4. 
+Pour calculer la partie sous-réseau d'une adresse IP, on effectue une opération logique bit à bit entre l'adresse et le masque. Pour calculer l'adresse de l'hôte, on effectue une opération bit à bit entre le complément à un du masque et l'adresse.
+
+Autrement dit : il suffit de conserver les bits de l'adresse là où les bits du masque sont à 1 (un certain nombre de bits en partant de la gauche de l'adresse). La partie numéro d'hôte est contenue dans les bits qui restent (les plus à droite).
+
+
+ Principe du CIDR  [modifier]
+Le Classless Inter-Domain Routing, abrégé CIDR, a été mis au point afin (principalement) de diminuer la taille de la table de routage contenue dans les routeurs. Ce but est atteint en agrégeant plusieurs entrées de cette table en une seule.
+
+Ce système s'applique notamment à IPv4.
+
+La norme de routage CIDR impose également aux administrateurs de routeurs la règle de l'agrégation maximum des sous-réseaux qui sont routés ensembles avec la même politique, dans les annonces de routage envoyées en bordure de leur système autonome de routage (AS) avec un protocole de publication de routages tel que BGP4 ou GGP.
+
+
+ Base de données des adresses IP  [modifier]
+
+ Assignation des plages d'adresses IP  [modifier]
+L'IANA (depuis 2005, une division de l'ICANN) définit l'usage autorisé des différentes plages d'adresses IPv4, en segmentant l'espace en 256 blocs de taille /8 numérotés de 0/8 à 255/8 .
+
+L'article adresse IPv4 traite en détail ce sujet, dans le cas de l'IPv4.
+
+La diffusion d'une trame IP est une opération coûteuse sur un réseau local étendu et devrait rester réservée uniquement pour les services de configuration des interfaces réseau, ou pour la découverte des autres hôtes d'un même segment supportant un service donné, lorsque cette liste d'hôtes ne peut être connue par un autre moyen.
+
+En particulier, des trames IP émises en diffusion sont utilisées au démarrage d'une interface réseau IP dans le mode de configuration automatique, pour la recherche de serveurs DHCP permettant l'autoconfiguration de cette interface et des services qui lui sont associés.
+
+L'IANA définit aussi les espaces d'adresse IPv6 disponibles à la réservation.
+
+
+ Plages d'adresses IP spéciales  [modifier]
+L'adresse 127.0.0.1 (0:0:0:0:0:0:0:1 ou ::1 en version 6) dénote l'adresse de bouclage (localhost - la machine elle-même). 
+L'adresse 0.0.0.0 (0:0:0:0:0:0:0:0 ou :: en version 6) est illégale en tant qu'adresse de destination, mais elle peut être utilisée localement dans une application pour indiquer n'importe quelle interface réseau. 
+Les autres adresses dans le réseau 127.0.0.0/8 sont considérées comme locales, de même que celles du réseau 0.0.0.0/8. 
+L'adresse spéciale 255.255.255.255 est une adresse de diffusion. 
+La première adresse d'un réseau spécifie le réseau lui-même, la dernière est une adresse de diffusion (broadcast). 
+Certaines adresses ne sont pas (ou tout du moins ne devraient pas être) routées sur Internet : elles sont réservées à un usage local (au sein d'une organisation, où là elles peuvent être routées); en IPv6, c'est en particulier les cas des adresses fe80::/64. De plus certaines adresses ne devraient pas être routées sur Internet, ni même de façon privée au delà d'un même segment de liaison, où ces adresses sont utilisables uniquement comme adresses de configuration automatique par défaut des interfaces d'hôtes (en cas d'absence de configuration manuelle explicite et de non-détection d'autres systèmes de configuration comme DHCP) :
+
+
+ Dans le cas particulier de l'IPv4 :  [modifier]
+En-tête Réseaux Diffusion Sous-Réseaux Classe Type Norme 
+10/8 10.0.0.0 10.255.255.255 1 A Réseaux privés urn:ietf:rfc:1918 
+172.16/12 172.16.0.0 172.31.255.255 16 B 
+192.168/16 192.168.0.0 192.168.255.255 256 C 
+169.254/16 169.254.0.0 169.254.255.255 1 B Configuration à la volée urn:ietf:rfc:3927 
+
+Pour plus d'information sur les autres plages d'adresses IPv4 normalement non routables et interdites sur Internet car non réservées pour cet usage, on consultera la page Bogon IPs du site CompleteWhois (en).
+
+
+ Réservation des blocs d'adresses IP  [modifier]
+Article détaillé : Réservation des blocs d'adresses IP. 
+Les adresses IP Unicast sont distribuées par l'IANA aux registres Internet Régionaux (Regional Internet Registries, RIR). Les RIRs gèrent les ressources d'adressage IPv4 et IPv6 dans leur région.
+
+Il est possible d'interroger les bases de données des RIRs pour savoir à qui est allouée une adresse IP. Si le serveur interrogé ne contient pas la réponse, il donnera l'adresse du RIR à interroger. Ces requêtes se font grâce à la commande whois ou bien via les sites Web des LIR (rubrique « whois »).
+
+Les RIRs se sont regroupées pour former la NRO (Number Ressource Organization) afin de coordonner leurs activités ou projets communs et mieux défendre leurs intérêts auprès de l'ICANN (l'IANA), mais aussi auprès des organismes normalisateurs (notamment l'IETF ou l'ISOC).
+
+
+ Voir aussi  [modifier]
+
+ Liens internes  [modifier]
+Adresse IPv4 
+Adresse IPv6 
+Internet Protocol 
+Broadcast 
+Usurpation d'adresse IP 
+Usurpation d'adresse ARP 
+Les réseaux TCP/IP : un wikilivre de la bibliothèque du département informatique. 
+
+ Liens externes  [modifier]
+
+ Sites généraux  [modifier]
+Adresse-ip.org Obtenez votre adresse IP réelle. 
+Mon-ip.com Donne votre adresse IP ainsi que votre localisation 
+Adresse IP Un site qui vous donne votre adresse IP 
+Ip Address Location Endroit de IP address 
+
+ Références  [modifier]
+Les définitions des adresses IP versions 4 et 6, la notion de classe et le CIDR sont documentés dans les Request for comments suivants (en anglais) :
+
+
+ Communes  [modifier]
+RFC 997 - Internet numbers, mars 1987 
+RFC 791 - Internet Protocol, septembre 1981 
+RFC 1519 - Classless Inter-Domain Routing (CIDR): an Address Assignment and Aggregation Strategy, septembre 1993 
+RFC 1918 - Address Allocation for Private Internets, février 1996 
+RFC 1531 - Dynamic Host Configuration Protocol, octobre 1993 
+
+ IPv6  [modifier]
+RFC 2460 - Internet Protocol, Version 6 (IPv6) Specification, décembre 1998 
+RFC 2373 - IP Version 6 Addressing Architecture, juillet 1998 
+RFC 2893 - Transition Mechanisms for IPv6 Hosts and Routers, août 2000 
+
+ IPv4  [modifier]
+RFC 3330 - Special-Use IPv4 Addresses, septembre 2002 
+RFC 903 - A Reverse Address Resolution Protocol, juin 1984 
+La liste des RIRs ainsi que la table d'allocation des adresses se trouvent sur le serveur de l'IANA [1]
+
+ Portail de l'informatique – Accédez aux articles de Wikipédia concernant l’informatique. 
+
+Récupérée de « http://fr.wikipedia.org/wiki/Adresse_IP »
+Catégories : TCP/IP • Adressage réseau • Identifiant
+Le modèle d'interconnexion en réseau des systèmes ouverts de l'ISO (Organisation internationale de normalisation) est un modèle de communications entre ordinateurs. Il décrit les fonctionnalités nécessaires à la communication et l'organisation de ces fonctions.
+
+La norme complète, de référence ISO 7498 est globalement intitulée « Modèle de référence de base pour l'interconnexion de systèmes ouverts (OSI) » et est composée de 4 parties :
+
+Le modèle de base 
+Architecture de sécurité 
+Dénomination et adressage 
+Cadre général de gestion 
+Cette version de cet article ainsi que les articles consacrés à chacune des couches du modèle se concentrent sur la partie 1, révision de 1994.
+
+Le texte de la norme proprement dit est très abstrait car il se veut applicable à de nombreux type de réseaux. Pour la rendre plus compréhensible, en plus de présenter la norme, cet article fait des liens avec les réalisations concrètes telles qu'on les trouve dans un ordinateur, c'est à dire des piles protocolaires concrètes (un "système réel" au sens de la section 4). De plus, la norme n'indique pas de mécanismes propres à assurer les fonctions définies alors que cet article le fait. Les exemples de service et surtout de protocoles sont pris dans le monde IP (probablement le plus connu mais aussi le plus éloigné de l'esprit de la norme), le monde RNIS (y compris la seconde génération, plus connue sous le nom ATM) et parfois le monde OSI (qui ne fait pas que des modèles). On notera que les combinaisons offertes par le modèle sont beaucoup plus nombreuses que celles réalisées dans des piles de protocole existantes, on ne peut donc pas donner d'exemple réel pour toutes les fonctions.
+
+Sommaire [masquer]
+1 Présentation de la norme 
+1.1 Concepts et terminologie: services, protocoles et interfaces 
+1.2 Architecture en couche 
+1.2.1 Caractérisation résumée des couches 
+1.2.2 Quelques précisions 
+1.3 Les fonctions communes 
+1.3.1 Fiabilisation des communications 
+1.3.2 Fonctions de transformation 
+2 Limitations du modèle et utilisations étendues 
+3 Le monde IP et le modèle OSI 
+4 Liens externes 
+ 
+
+
+ Présentation de la norme  [modifier]
+L'objectif de cette norme est de spécifier un cadre général pour la création de normes ultérieures cohérentes. Le modèle lui-même ne définit pas de service particulier et encore moins de protocole.
+
+
+ Concepts et terminologie: services, protocoles et interfaces  [modifier]
+Le modèle est essentiellement une architecture en couches définies et délimitées avec les notions de service, de protocole et d'interface.
+
+Un service est une description abstraite de fonctionnalités à l'aide de primitives (commandes ou évènements) telles 
+que demande de connexion ou réception de données.
+
+Un protocole est un ensemble de messages et de règles d'échanges réalisant un service. 
+Une interface ("point d'accès au service" dans la norme) est le moyen concret d'utiliser le service. Dans un programme, c'est typiquement un ensemble de fonctions de bibliothèque ou d'appels systèmes. Dans une réalisation matérielle, c'est par exemple un jeu de registres a 
+l'entrée d'un circuit.
+
+Les détails d'un service varient bien sûr d'une architecture de réseau à l'autre. La classification la plus grossière se fait selon que le service fonctionne en mode connecté ou non. Malgré cette variabilité, les fonctions communes ont des noms conventionnellement constants. Ces noms ne proviennent toutefois pas directement de ISO 7498-1.
+
+connection.request  
+est une demande de connexion sortante, i.e. à l'initiative d'une entité locale. 
+connection.indication  
+correspond à l'évènement «Une demande de connexion entrante a été reçue.». 
+connection.response  
+est l'indication d'acceptation ou de rejet de la connexion 
+connection.confirmation  
+correspond à l'évènement «La réponse du demandé a été reçue.». C'est un acquittement. 
+data.request, data.indication et data.confirm  
+sont le pendant pour les données. 
+Les données fournies à une primitive de service sont appelées (N)-SDU ou N est l'indication de la couche, son numéro dans la norme, parfois une lettre tirée du nom de la couche. Les messages d'un protocole sont appelés PDU ("protocol data unit").
+
+
+ Architecture en couche  [modifier]
+Le modèle comporte 7 couches succinctement présentées ci-dessous de bas en haut et détaillées dans leur articles respectifs. Ces couches sont parfois réparties en 2 groupes.
+
+Les 4 couches inférieures sont plutôt orientées communication et sont typiquement fournies par un système d'exploitation.
+
+Les 3 couches supérieures sont plutôt orientées application et plutôt réalisées par des bibliothèques ou un programme spécifique. Dans le monde IP, ces 3 couches sont rarement distinguées. Dans ce cas, toutes les fonctions de ces couches sont considérées comme partie intégrante du protocole applicatif.
+
+Par ailleurs, les couches basses sont normalement transparentes pour les données à transporter, alors que les couches supérieures ne le sont pas nécessairement, notamment au niveau présentation.
+
+Dans une telle architecture, une « entité » de niveau (N+1) envoie des données avec la primitive "data.request" de l'entité de niveau (N) en lui fournissant comme données un (N+1)-PDU qui sera typiquement, à son tour encapsulé dans un (N)-PDU. Coté récepteur, chaque entité analyse l'enveloppe protocole correspondant à sa couche et transmet les données à la couche supérieure sous la forme d'une primitive "data.indication".
+
+Certaines fonctions comme la détection des erreurs de transmission et leur correction, le contrôle de flux peuvent être présentes dans plusieurs couches. Ces fonctions sont décrites globalement plus loin.
+
+
+ Caractérisation résumée des couches  [modifier]
+La caractérisation donnée ici est tirée du chapitre 7 de ISO 7498-1. La description originelle donne en plus pour chaque couche les fonctions de manipulation de commandes ou de données significatives parmi celles décrites plus bas.
+
+La couche « physique » est chargée de la transmission effective des signaux entre les interlocuteurs. Son service est typiquement limité à l'émission et la réception d'un bit ou d'un train de bit continu (notamment pour les supports synchrones). 
+La couche « liaison de données » gère les communications entre 2 machines adjacentes, directement reliées entre elles par un support physique. 
+La couche « réseau » gère les communications de bout en bout, généralement entre machines : routage et adressage des paquets.(cf. note ci-dessous). 
+La couche « transport » gère les communications de bout en bout entre processus (programmes en cours d'exécution). 
+La couche « session » gère la synchronisation des échanges et les «transactions», permet l'ouverture et la fermeture de session. 
+La couche « présentation » est chargée du codage des données applicatives, précisément de la conversion entre données manipulées au niveau applicatif et chaînes d'octets effectivement transmises. 
+La couche « application » est le point d'accès aux services réseaux, elle n'a pas de service propre spécifique et entrant dans la portée de la norme. 
+Un moyen mnémotechnique pour se souvenir des 7 couches :
+
+Après Plusieurs Semaines Tout Respire La Paix
+
+
+ Quelques précisions  [modifier]
+Lorsque les services réseau et transport fonctionnent tous les deux en mode connecté, il n'y a pas toujours de distinction claire entre ces deux services. Il y a toutefois deux cas ou cela est très simple :
+
+Si le service réseau n'autorise qu'une seule connexion entre 2 machines : dans ce cas, les connexions de niveau transport sont nécessairement multiplexées sur une connexion de niveau réseau et la distinction est nette. 
+Les services des 2 couches relatifs à la correction des erreurs sont différents : Ces fonctions peuvent n'être présentes que dans une seule des 2 couches. 
+
+ Les fonctions communes  [modifier]
+
+ Fiabilisation des communications  [modifier]
+L'un des rôles majeurs des couches 2 à 4, i.e. présent dans nombre de piles protocolaires, est la construction d'une connexion exempte d'erreurs de transmission. Cela signifie que les données transmises sont reçues sans corruption, perte, réordonnancement et duplication. Cela implique qu'au moins une couche, et en pratique plusieurs, fasse de la détection d'erreur, de la correction d'erreur ou de la retransmission de données et du contrôle de flux.
+
+Détection d'erreurs  
+repérage des PDU dont au moins un bit a changé de valeur lors du transfert. 
+Correction des erreurs  
+Compensation des erreurs soit par correction des données à l'aide de code correcteurs d'erreurs ou par destruction du PDU erroné et demande de retransmission. 
+Contrôle de flux  
+Synchronisation des communications destinée à empêcher qu'un interlocuteur reçoive plus de PDU qu'il ne peut en traiter. 
+Les contrôles de flux des couches 2 et 3 peuvent sembler redondant, mais ce n'est pas nécessairement le cas. En effet, le contrôle de flux au niveau 2 garantit l'asservissement seulement sur une ligne. Mais si une machine est dotée de plusieurs interfaces, c'est le cas notamment de tous les routeurs, et qu'il n'y a pas de contrôle de flux sur au moins une des interfaces, il y a un risque de saturation dans l'entité de niveau réseau. Ce cas se présente en particulier dans les réseaux X.25 où le contrôle de flux est une option, négociée à l'ouverture de la connexion.
+
+
+ Fonctions de transformation  [modifier]
+En plus de la structure en couche, le modèle définit aussi une série de mécanismes standard de manipulation de commandes ou de données, utilisées pour la réalisation d'un service. Cette section définit les plus courantes. Ces transformations sont décrites par paire d'opérations inverses l'une de l'autre.
+
+Multiplexage et démultiplexage de connexion  
+Utilisation d'une connexion de niveau N pour transporter les PDU de plusieurs connexions de niveau N+1. Symétriquement, démultiplexer consiste à séparer les (N+1)-PDU entrants par connexion. Par exemple, ce mécanisme est prévu dans les réseaux ATM par la «couche» AAL 3/4. 
+Éclatement et recombinaison  
+opérations similaires dans lesquelles les (N+1)-PDU dont répartis sur plusieurs connexion de niveau N. Cela est utilisé en particulier par les utilisateurs d'accès RNIS pour augmenter le débit disponible. 
+Segmentation et réassemblage  
+Lorsque le service fourni par la couche (N) fixe une limite de taille sur les données trop petite par rapport au service de la couche (N+1), la couche (N+1) découpe les (N+1)-SDU en plusieurs fragments correspondant chacun à un (N+1)-PDU avant envoi. À la réception, la couche (N+1) concatène les fragments pour retrouver le (N+1)-SDU initial. Cela est massivement utilisé dans les réseaux ATM et dans SSL/TLS. Pour IP, cette fonction est traditionnellement appelée «fragmentation». 
+
+ Limitations du modèle et utilisations étendues  [modifier]
+Cette section illustre quelques cas ou une architecture réseau ne peut entrer complètement dans la cadre du modèle OSI.
+
+Le modèle prévoit que dans une pile concrète, il y ait un et un seul protocole par couche. Il y a toutefois des cas ou cela est quasi-impossible, en particulier lors de l'interconnexion de réseaux hétérogènes, c'est à dire utilisant des jeux de protocole différents. Par exemple, un tunnel simple permet de relier 2 réseaux homogènes en traitant un réseau d'un autre type comme une connexion point à point. C'est cette technique qui est utilisée pour relier temporairement une machine isolée à Internet (hors lignes xDSL): Un modem gère une connexion téléphonique entre 2 machines distantes, donc une connexion de niveau 3 dans la pile RNIS, et l'utilise pour transmettre des trames PPP, protocole de niveau 2 alors que dans une pile canonique, cela serait des PDU de niveau transport (4).
+
+Il y a aussi des situations où 2 protocoles de même niveau sont utilisés simultanément car la combinaison du service fourni et du service attendu de la couche inférieure l'exige. Ainsi, dans le monde IP, les protocoles SSL et TCP fournissent tous deux un service de communication point à point entre processus mais le seul protocole standard réalisant le service attendu par SSL pour fonctionner n'est fourni que par TCP. On est donc obligé de superposer SSL sur TCP.
+
+
+Dans certaines architectures réseau, le service offert aux machines d'extrémité n'est pas suffisant pour satisfaire les besoins internes au réseau. Par exemple, dans un réseau ATM, le service réseau est en mode connecté. Il faut donc une pile protocolaire capable de transporter la signalisation (les messages de gestion des connexion) mais le service offert par cette pile n'est pas accessible aux machines d'extrémité. Pour modéliser cela, on superpose au découpage «horizontal» en couche, un découpage «vertical» en «plan» dans lequel les piles protocolaires sont indépendantes. Ainsi, un modèle de réseau ATM est constitué de 3 plans: le plan usager pour les données ordinaires, le plan de contrôle pour le transport de la signalisation et un plan de gestion pour la supervision interne au réseau. Les réseaux téléphoniques (réseaux fixes RNIS et réseaux UMTS) ont aussi un découpage en plan similaire.
+
+
+ Le monde IP et le modèle OSI  [modifier]
+S'il y a bien une correspondance grossière entre les protocoles de la pile IP et les couches du modèle, on ne peut pas considérer que la pile IP est vraiment compatible avec le modèle. En particulier, la séparation des couches dans la pile IP est nettement plus approximative. En voici 2 illustrations.
+
+Pour être conforme au modèle, un protocole d'une pile ne doit pas dépendre des protocoles des autres couches, mais uniquement du service fourni. A titre d'exemple de non-conformité, considérons la détection des erreurs dans une pile IP. Les 2 protocoles TCP et UDP ont dans leur en-tête une somme de contrôle pour la détection des erreurs. Le calcul de cette somme fait intervenir une partie de l'en-tête IP. Les protocoles TCP et UDP ne sont donc pas indépendants de IP. Cela se remarque notamment au fait que lors de passage de IP version 4 à IP version 6, il faut redéfinir la façon de calculer ces somme de contrôle alors que les protocoles eux-même n'ont pas réellement changé.
+
+Lorsqu'un "datagramme" UDP, protocole de niveau transport en principe, arrive à une adresse (paire <adresse IP, numéro de port>) alors qu'il n'a pas de processus destinataire, l'erreur est signalée à l'émetteur en lui envoyant un paquet ICMP indiquant «port inaccessible». Or ICMP est en principe un protocole de niveau réseau. La machine recevant ce paquet doit donc examiner la partie données de ce paquet pour déterminer le processus devant recevoir la notification d'erreur. Différence de protocole et perte de transparence des données sont 2 cas de mauvaise séparation des couches. Notons à cette occasion que TCP a en revanche un mécanisme normal pour cette situation: la levée de l'indicateur RST dans le message d'erreur.
+
+
+ Liens externes  [modifier]
+(en) ISO : http://standards.iso.org/ittf/PubliclyAvailableStandards/s020269_ISO_IEC_7498-1_1994(E).zip Le texte de la norme, partie 1 seulement, en PDF compressé au format ZIP 
+(en) OSI : http://www.acm.org/sigs/sigcomm/standards/iso_stds/OSI_MODEL/ Texte brut extrait des parties 1 et 3 de la norme 
+(en) OSI :http://www.cs.wcu.edu/~holliday/cware/Stack/indexStack.html Une illustration de l'encapsulation protocolaire et de la segmentation 
+(fr) Comparaison entre le modèle OSI et le modèle TCP/IP 
+
+Le World Wide Web, communément appelé le Web, parfois la Toile ou le WWW, littéralement la « toile (d'araignée)[1] mondiale », est un système hypertexte public fonctionnant sur Internet et qui permet de consulter, avec un navigateur, des pages mises en ligne dans des sites. L'image de la toile vient des hyperliens qui lient les pages Web entre elles.
+
+Le Web n'est qu'une des applications d'Internet, avec le courrier électronique, la messagerie instantanée, Usenet, etc. Le Web a été inventé plusieurs années après Internet, mais c'est le Web qui a rendu les médias grand public attentifs à Internet. Depuis, le Web est fréquemment confondu avec Internet ; en particulier, le mot Toile est souvent utilisé de manière très ambiguë.
+
+Sommaire [masquer]
+1 Terminologie 
+1.1 Termes désignant le World Wide Web 
+1.2 Termes rattachés au Web 
+2 Architecture 
+2.1 Modèle mathématique 
+2.2 Exploration du Web 
+2.2.1 Web profond 
+2.3 Serveurs publics 
+2.4 Intranets et webs privés 
+2.5 Archivage 
+3 Types de ressource 
+3.1 Documents HTML 
+3.2 Multimédia 
+3.3 Images 
+3.4 Scripts 
+3.5 Styles 
+3.6 Autres 
+4 Conception 
+4.1 Universalité 
+4.2 Décentralisation 
+5 Technologies 
+5.1 Pré-existantes 
+5.2 Spécifiques 
+5.3 Actuelles 
+6 Historique 
+6.1 Chronologie 
+7 Voir aussi 
+7.1 Articles liés 
+7.1.1 Concepts généraux 
+7.1.2 Concepts du Web 
+7.1.3 Technologies du Web 
+7.1.4 Logiciels serveurs 
+7.1.5 Logiciels clients 
+7.1.6 Acteurs 
+7.1.7 Applications 
+7.2 Liens externes 
+7.3 Notes et références 
+ 
+
+
+ Terminologie  [modifier]
+
+ Termes désignant le World Wide Web  [modifier]
+Le World Wide Web est et a été désigné par de nombreux noms et abréviations synonymes : WorldWideWeb, World Wide Web, World-wide Web, Web, WWW, W3, Toile d'araignée mondiale, Toile mondiale, Toile.
+
+Le nom du projet originel était WorldWideWeb[2]. Les mots ont été rapidement séparés en World Wide Web pour améliorer la lisibilité. Le nom World-Wide Web a également été utilisé par les inventeurs du Web, mais le nom désormais préconisé par le World Wide Web Consortium sépare les trois mots sans trait d'union[3]. Bien que « mondial » s'écrive world-wide ou worldwide en anglais, l'orthographe World Wide Web et l'abréviation Web sont maintenant bien établis.
+
+En inventant le Web, Tim Berners-Lee avait aussi pensé à d'autres noms, comme Information Mesh (maillage d'informations), Mine of Information ou encore The Information Mine (la mine d'informations, dont le sigle serait Tim).
+
+Le sigle WWW a été largement utilisé pour abréger World Wide Web avant que l'abréviation Web ne prenne le pas. La prononciation laborieuse en français comme en anglais de WWW a sans doute précipité son déclin. Les lettres www restent cependant très utilisées dans les adresses Web et quelques autres usages formels ou techniques, bien que cela ne réponde à aucune contrainte technique. Dans la seconde moitié des années 1990, alors que les réseaux étaient engorgés par la popularité grandissante du Web, une blague répandue prétendait que WWW signifiait World Wide Wait, soit « attente mondiale ». WWW est parfois abrégé en W3, abréviation qu'on retrouve dans le sigle W3C du World Wide Web Consortium.
+
+Pour écrire « le Web », l'usage de la minuscule (« le web ») est de plus en plus courant. L'Office québécois de la langue française préconise la majuscule[4], le Journal officiel français préconise « la toile d'araignée mondiale »[5]. Cet article fait la distinction entre « le Web » et « un web », aussi la majuscule est toujours utilisée pour désigner le Web.
+
+
+ Termes rattachés au Web  [modifier]
+La terminologie propre au Web contient plusieurs dizaines de termes. Ce chapitre expose ceux qui sont utilisés dans cet article.
+
+L'expression en ligne signifie « connecté à un réseau », en l'occurrence le réseau informatique Internet. Cette expression n'est pas propre au Web, on la retrouve à propos du téléphone.
+
+Un hôte est un ordinateur en ligne. Chaque hôte d'Internet est identifié par une adresse IP à laquelle correspondent zéro, un ou plusieurs noms d'hôte. Cette terminologie n'est pas propre au Web, mais à Internet.
+
+Une ressource du Web est une entité informatique (texte, image, forum Usenet, boîte aux lettres électronique, etc.) accessible indépendamment d'autres ressources. Une ressource en accès public est librement accessible depuis Internet. Une ressource locale est présente sur l'ordinateur utilisé, par opposition à une ressource distante (ou en ligne), accessible à travers un réseau.
+
+On ne peut accéder à une ressource distante qu'en respectant un protocole de communication. Les fonctionnalités de chaque protocole varient : réception, envoi, voire échange continu d'informations.
+
+HTTP (pour HyperText Transfer Protocol) est le protocole de communication communément utilisé pour transférer les ressources du Web. HTTPS est la variante sécurisée de ce protocole.
+
+Une URL (pour Uniform Resource Locator) pointe sur une ressource. C'est une chaîne de caractères permettant d'indiquer un protocole de communication et un emplacement pour toute ressource du Web.
+
+Un hyperlien (ou lien) est un élément dans une ressource associé à une URL. Les hyperliens du Web sont orientés : ils permettent d'aller d'une source à une destination. Seule la ressource à la source contient les données définissant l'hyperlien, la ressource de destination n'en porte aucune trace. Il existe deux types d'hyperlien : ceux du premier type doivent être activés pour accéder à la destination ; ceux du second causent un accès automatique à la destination.
+
+HTML (pour HyperText Markup Language) est un langage informatique permettant de décrire le contenu d'un document (titres, paragraphes, disposition des images, etc.) et d'y inclure des hyperliens. Un document HTML est un document décrit avec le langage HTML. Les documents HTML sont les ressources les plus consultées du Web.
+
+Dans un mode de communication client-serveur, un serveur est un hôte sur lequel fonctionne un logiciel serveur auquel peuvent se connecter des logiciels clients fonctionnant sur des hôtes clients.
+
+Un serveur Web est un hôte sur lequel fonctionne un serveur HTTP (ou serveur Web). Un serveur Web héberge les ressources qu'il dessert.
+
+Un navigateur Web est un logiciel client HTTP conçu pour accéder aux ressources du Web. Sa fonction de base est de permettre la consultation des documents HTML disponibles sur les serveurs HTTP. Le support d'autres types de ressource et d'autres protocoles de communication dépend du navigateur considéré.
+
+Une page Web (ou page) est un document destiné à être consulté avec un navigateur Web. Une page Web est toujours constituée d'une ressource centrale (généralement un document HTML) et d'éventuelles ressources liées automatiquement accédées (typiquement des images).
+
+Un éditeur HTML (ou éditeur Web) est un logiciel conçu pour faciliter l'écriture de documents HTML et de pages Web en général.
+
+Un site Web (ou site) est un ensemble de pages Web et d'éventuelles autres ressources, liées dans une structure cohérente, publiées par un propriétaire (une entreprise, une administration, une association, un particulier, etc.) et hébergées sur un ou plusieurs serveurs Web.
+
+Visiter un site Web signifie « consulter ses pages ». Le terme visite vient du fait que l'on consulte généralement plusieurs pages d'un site, comme on visite les pièces d'un bâtiment. La visite est menée par un utilisateur (ou visiteur ou internaute). La mesure d'audience est obtenue en copiant le code en javascript d’un lien vers le site d'un prestataire spécialisé suivant la technique du marqueur à distance.
+
+Une adresse Web est une URL de page Web, généralement écrite sous une forme simplifiée limitée à un nom d'hôte. Une adresse de site Web est en fait l'adresse d'une page du site prévue pour accueillir les visiteurs.
+
+Un hébergeur Web est une entreprise de services informatiques hébergeant (mettant en ligne) sur ses serveurs Web les ressources constituant les sites Web de ses clients.
+
+Une agence Web est une entreprise de services informatiques réalisant des sites Web pour ses clients.
+
+L'expression surfer sur le Web signifie « consulter le Web ». Elle a été inventée pour mettre l'accent sur le fait que consulter le Web consiste à suivre de nombreux hyperliens de page en page. Elle est principalement utilisée par les médias ; elle n'appartient pas au vocabulaire technique.
+
+Un annuaire Web est un site Web répertoriant des sites Web.
+
+Un portail Web est un site Web tentant de regrouper la plus large palette d'informations et de services possibles dans un site Web. Certains portails sont thématiques.
+
+Un service Web est une technologie client-serveur basée sur les protocoles du Web.
+
+
+ Architecture  [modifier]
+
+ Modèle mathématique  [modifier]
+Le World Wide Web, en tant qu'ensemble de ressources hypertextes, est modélisable en graphe orienté avec les ressources pour sommets et les hyperliens pour arêtes. Du fait que le graphe est orienté, certaines ressources peuvent constituer des puits (ou des cul-de-sac, moins formellement) : il n'existe aucun chemin vers le reste du Web. À l'inverse, certaines ressources peuvent constituer des sources : il n'existe aucun chemin depuis le reste du Web.
+
+Techniquement, rien ne distingue le World Wide Web d'un quelconque autre web utilisant les mêmes technologies ; d'ailleurs d'innombrables webs privés existent. Dans la pratique, on considère qu'une page d'un site Web populaire, comme un annuaire Web, fait partie du Web. Le Web peut alors être défini comme étant l'ensemble des ressources et des hyperliens que l'on peut récursivement découvrir à partir de cette page, ce qui exclut les sources et les webs privés.
+
+
+ Exploration du Web  [modifier]
+L'exploration récursive du Web à partir de ressources bien choisies est la méthode de base des robots d'indexation des moteurs de recherche. Dans la pratique, plusieurs catégories de ressources découvertes sont souvent ignorées :
+
+les ressources sans accès public, notamment les pages personnelles, administratives ou payantes, protégées par un mot de passe ; 
+les ressources appartenant à des systèmes distincts et souvent plus anciens que le Web (courrier électronique, Usenet, sites FTP), voire simplement les ressources non servies par un serveur HTTP ou HTTPS ; 
+les ressources de format de données non supportés ; 
+les ressources listées dans un fichier d'exclusion des robots ; 
+les ressources vers lesquels les hyperliens sont créés dynamiquement en réponse aux interrogations des visiteurs. 
+En 2004, les moteurs de recherche indexent environ 4 milliards de ressources.
+
+
+ Web profond  [modifier]
+Article détaillé : Web profond. 
+Le « Web profond » ou « Web invisible » est la partie du Web qui n'est pas explorée par les robots d'indexation et donc introuvable avec les moteurs de recherche généralistes. Des études indiquent que la partie invisible du Web représente plus de 99% du Web. Le Web profond est notamment fait des ressources dans un format de donnée incompatible avec les moteurs de recherche, des ressources contenues dans des sites Web si grands que les robots d'indexation renoncent à les indexer entièrement et des ressources qui n'ont pas d'adresse connue. Ces dernières ressources proviennent généralement de bases de données et sont servies en réponse aux requêtes entrées par les visiteurs.
+
+
+ Serveurs publics  [modifier]
+L'exploration récursive n'est pas le seul moyen utilisé pour indexer le Web et mesurer sa taille. L'autre solution consiste à mesurer l'infrastructure informatique connectée à Internet pour héberger des sites Web. Au lieu de suivre des hyperliens, cette méthode consiste à utiliser les noms de domaine enregistrés dans le Domain Name System et essayer de se connecter à tous les serveurs Web potentiels. C'est notamment la méthode utilisée par la société Netcraft, qui publie régulièrement les résultats de ses explorations, dont les mesures de popularité des serveurs HTTP. Cette mesure porte plus sur l'utilisation des technologies du Web que sur le Web lui-même. Elle permet notamment de trouver des sites publics qui ne sont pas liés au World Wide Web.
+
+
+ Intranets et webs privés  [modifier]
+Un web disponible sur un intranet est privé. Il est soit totalement séparé du Web, soit une source du Web. Il est une source lorsque l'intranet est relié à Internet et qu'un hyperlien du web pointe sur une ressource du Web. Les liens depuis le Web sont en revanche impossibles car par définition un intranet n'offre pas d'accès public.
+
+Une source peut aussi se trouver sur Internet. En ce cas, elle constitue un web virtuellement privé, car le public ne peut pas le découvrir en suivant des hyperliens.
+
+
+ Archivage  [modifier]
+Article détaillé : Archivage du Web. 
+Le Web change constamment : les ressources ne cessent d'être créées, modifiées et supprimées. Il existe quelques initiatives d'archive du Web dont le but est de permettre de retrouver ce que contenait un site à une date donnée. Le projet Internet Archive est l'un d'eux.
+
+
+ Types de ressource  [modifier]
+Les divers types de ressource du Web ont des usages assez distincts :
+
+les ressources constituant les pages Web : documents HTML, images JPEG ou PNG ou GIF, scripts JavaScript, feuilles de style CSS, sons, animations ; 
+les ressources accessibles depuis une page Web mais consultables avec une interface particulière : flux audio, flux vidéo ; 
+les ressources conçues pour être consultées séparément : documents (PDF, PostScript, Word, etc), fichier texte, images de tout types, morceaux de musique, vidéo, fichiers à sauvegarder ; 
+les ressources appartenant à des systèmes bien distincts du Web : forums Usenet, boîtes aux lettres électronique, fichiers locaux. 
+
+ Documents HTML  [modifier]
+ 
+une page WebLe document HTML est la principale ressource d'une page Web, celle qui contient les hyperliens, qui contient et structure le texte, qui lie et dispose les ressources multimédias. Un document HTML contient uniquement du texte : le texte consulté, le texte en langage HTML plus d'éventuels autres langages de script ou de style.
+
+La présentation de documents HTML est la principale fonctionnalité d'un navigateur Web. HTML laisse au navigateur le soin d'exploiter au mieux les capacités de l'ordinateur pour présenter les ressources. Typiquement, la police de caractère, la longueur des lignes de texte, les couleurs, etc, doivent être adaptées au périphérique de sortie (écran, imprimante, etc).
+
+
+ Multimédia  [modifier]
+Les éléments multimédias proviennent toujours de ressources indépendantes du document HTML. Les documents HTML contiennent des hyperliens pointant sur les ressources multimédias, qui peuvent donc être éparpillées sur Internet. Les éléments multimédias liés sont automatiquement transférés pour présenter une page Web.
+
+Seul l'usage des images et des petites animations est standardisé. Le support du son, de la vidéo, d'espaces tridimensionnels ou d'autres éléments multimédias repose encore sur des technologies non standardisées. De nombreux navigateurs Web proposent la possibilité de greffer des logiciels (plugin) pour étendre leurs fonctionnalités, notamment le support de types de média non standard.
+
+Les flux (audio, vidéo) nécessitent un protocole de communication au fonctionnement différent de HTTP. C'est une des raisons pour lesquelles ce type de ressource nécessite souvent un plugin et est mal intégré aux pages Web.
+
+
+ Images  [modifier]
+Ce chapitre concerne les images intégrées aux pages Web.
+
+L'usage du format de données JPEG est indiqué pour les images naturelles, principalement les photographies.
+
+L'usage du format de données PNG est indiqué pour les images synthétiques (logos, éléments graphiques). Il est aussi indiqué pour les images naturelles, mais uniquement lorsque la qualité prime totalement sur la durée du transfert.
+
+L'usage du format de données GIF est indiqué pour les petites animations. Pour les images synthétiques, la popularité ancienne de GIF le fait souvent préférer à PNG. Cependant, GIF souffre de quelques désavantages, notamment la limitation du nombre de couleurs et un degré de compression généralement moindre. En outre une controverse a entouré l'usage de GIF de 1994 à 2004 car Unisys a fait valoir un brevet couvrant la méthode de compression.
+
+L'usage d'images de format de données XBM est obsolète.
+
+
+ Scripts  [modifier]
+Un langage de script permet d'écrire le texte d'un programme directement exécuté par un logiciel. Dans le cadre du Web, un script est exécuté par un navigateur Web et programme des actions répondant à l'usage que le visiteur fait de la page Web consultée. Un script peut être intégré au document HTML ou provenir d'une ressource liée. Le premier langage de script du Web fut JavaScript, développé par Netscape. Ensuite Microsoft a développé une variante concurrente sous le nom de JScript. Finalement, la norme ECMAScript a été proposée pour la syntaxe du langage, et les normes DOM pour l'interface avec les documents.
+
+
+ Styles  [modifier]
+Le langage CSS a été développé pour gérer en détail la présentation des documents HTML. Le texte en langage CSS peut être intégré au document HTML ou provenir de ressources liées, les feuilles de style. Cette séparation permet une gestion séparée de l'information (contenue dans des documents HTML) et de sa présentation (contenue dans des feuilles de style). On parle aussi de « séparation du fond et de la forme ».
+
+
+ Autres  [modifier]
+La gestion des autres types de ressource dépend des logiciels installés sur l'hôte client et de leurs réglages.
+
+Lorsque le logiciel correspondant est disponible, les documents et images de tout types sont généralement automatiquement présentés, selon des modalités (fenêtrage, dialogues) dépendant du navigateur Web et du logiciel gérant le type. Lorsque le type de la ressource n'est pas géré, il est généralement possible de la sauver dans un fichier local.
+
+Pour gérer les ressources de systèmes différents du Web comme le courrier électronique, les navigateurs font habituellement appel à des logiciels séparés. Si aucun logiciel ne gère un type de ressource, un simple message d'erreur l'indique.
+
+
+ Conception  [modifier]
+
+ Universalité  [modifier]
+Le Web a été conçu pour être accessible avec les équipements informatiques les plus divers : station de travail, terminal informatique en mode texte, ordinateur personnel, PDA, etc. Cette universalité d'accès dépend en premier lieu de l'universalité des protocoles Internet. En second lieu, elle dépend de la flexibilité de présentation des pages Web, offerte par HTML. En outre, HTTP offre aux navigateurs la possibilité de négocier le type de chaque ressource. Enfin, CSS permet de proposer différentes présentations, sélectionnées pour leur adéquation avec l'équipement utilisé.
+
+L'accessibilité du Web pour les individus handicapés est aussi l'objet d'attentions particulières comme la Web Accessibility Initiative.
+
+
+ Décentralisation  [modifier]
+Les technologies du Web n'imposent pas d'organisation entre les pages Web, ni a fortiori entre les sites Web. Toute page du Web peut contenir un hyperlien vers toute autre ressource accessible d'Internet. L'établissement d'un hyperlien ne requiert absolument aucune action du côté de la ressource pointée. Il n'y a pas de registre centralisé d'hyperliens, de pages ou de sites. Le seul registre utilisé est celui du DNS, c'est une base de donnée distribuée qui répertorie des hôtes et est utile à tous les systèmes basés sur Internet.
+
+Cette conception décentralisée devait favoriser, et a favorisé, une augmentation rapide de la taille du Web. Elle a aussi favorisé l'essor de sites spécialisés dans les informations sur les autres sites : les annuaires et les moteurs de recherche. Sans ces sites, la recherche d'information dans le Web serait extrêmement laborieuse. La démarche inverse, le portail Web, tente de concentrer un maximum d'informations et de services dans un seul site.
+
+Une faiblesse de la décentralisation est le manque de suivi lorsqu'une ressource est déplacée ou supprimée : les hyperliens qui la pointaient se retrouvent cassés. Et cela n'est visible qu'en activant l'hyperlien, le résultat le plus courant étant le message d'erreur 404.
+
+
+ Technologies  [modifier]
+
+ Pré-existantes  [modifier]
+Le Web repose sur les technologies d'Internet, notamment TCP/IP pour assurer le transfert des données, DNS pour convertir les noms d'hôte en adresses IP et MIME pour indiquer le type des données. Les formats d'image numérique GIF et JPEG ont été développé indépendamment.
+
+
+ Spécifiques  [modifier]
+Trois technologies ont dû être développées pour le World Wide Web :
+
+les URL pour pouvoir identifier toute ressource dans un hyperlien ; 
+le langage HTML pour écrire des pages Web contenant des hyperliens ; 
+le protocole de communication HTTP utilisé entre les navigateurs et les serveurs Web, qui permet d'indiquer le type MIME des ressources transférées. 
+Ces premières technologies ont été normalisées comme les autres technologies d'Internet : en utilisant le processus des Request for Comments. Cela a donné le RFC 1738 pour les URL, le RFC 1866 pour HTML 2.0 et le RFC 1945 pour HTTP/1.0.
+
+Le World Wide Web Consortium (W3C) a été fondé en 1994 pour développer et promouvoir les nouveaux standards du Web. Son rôle est notamment de veiller à l'universalité des nouvelles technologies. Des technologies ont également été développées par des entreprises privées.
+
+
+ Actuelles  [modifier]
+Les principaux standards actuels sont :
+
+XML 1.0 développé pour donner aux langages de balises, dont HTML, une syntaxe plus simple que SGML ; 
+HTML 4.01 basé sur SGML, et XHTML 1.0 basés sur XML ; 
+le RFC 2396 (Uniform Resource Identifiers), qui recouvre les URL ; 
+le RFC 2616 (HTTP/1.1) ; 
+les feuilles de styles en cascade CSS level 1 et level 2 ; 
+les modèles de document DOM level 1 et level 2 ; 
+le langage de script JavaScript pour manipuler les documents ; 
+les formats d'image numérique PNG, JPEG et GIF. 
+
+ Historique  [modifier]
+Tim Berners-Lee travaille comme informaticien à l'Organisation européenne pour la recherche nucléaire (CERN) lorsqu’il propose, en 1989, de créer un système hypertexte distribué sur le réseau informatique pour que les collaborateurs puissent partager les informations au sein du CERN.[6] Cette même année, les responsables du réseau du CERN décident d'utiliser le protocole de communication TCP/IP et le CERN ouvre sa première connexion extérieure avec Internet.[7]
+
+L’année suivante, l’ingénieur système Robert Cailliau se joint au projet d'hypertexte au CERN, immédiatement convaincu de son intérêt, et se consacre énergiquement à sa promotion.[8] Tim Berners-Lee et Robert Cailliau sont reconnus comme les deux personnes à l'origine du World Wide Web.
+
+Jusqu'en 1993, le Web est essentiellement développé sous l'impulsion de Tim Berners-Lee et Robert Cailliau. Les choses changent avec l'apparition de NCSA Mosaic, un navigateur Web développé par Eric Bina et Marc Andreessen au National Center for Supercomputing Applications (NCSA), dans l'Illinois. NCSA Mosaic jette les bases de l'interface graphique des navigateurs modernes et cause un accroissement exponentiel de la popularité du Web. Le NCSA produit également le NCSA HTTPd, un serveur HTTP qui évoluera en Apache HTTP Server, le serveur HTTP le plus utilisé depuis 1996.
+
+En 1994, Netscape Communications Corporation est fondée avec une bonne partie de l'équipe de développement de NCSA Mosaic. Sorti fin 1994, Netscape Navigator supplante NCSA Mosaic en quelques mois.
+
+En 1995, Microsoft essaie de concurrencer Internet avec The Microsoft Network (MSN) et échoue. Fin 1995, après la sortie de Windows 95 sans le moindre navigateur Web préinstallé, Microsoft lance avec Internet Explorer la guerre des navigateurs contre Netscape Navigator.
+
+
+ Chronologie  [modifier]
+Les premières années de cet historique sont largement basées sur A Little History of the World Wide Web (Une petite histoire du World Wide Web).
+
+1989 
+Tim Berners-Lee, engagé au CERN à Genève en 1984 pour travailler sur l'acquisition et le traitement des données,[9] propose de développer un système hypertexte organisé en web, afin d'améliorer la diffusion des informations internes : Information Management: A Proposal.[6] 
+1990  
+Le premier serveur Web, un NeXTcubeRobert Cailliau rejoint le projet et collabore à la révision de la proposition : WorldWideWeb: Proposal for a HyperText Project.[2] 
+Étendue : Le premier serveur Web est nxoc01.cern.ch ; la première page Web est http://nxoc01.cern.ch/hypertext/WWW/TheProject.html ; la plus ancienne page conservée date du 13 novembre. 
+Logiciels : Le premier navigateur, appelé WorldWideWeb (plus tard rebaptisé Nexus) est développé en Objective C sur NeXT [1]. En plus d'être un navigateur, WorldWideWeb est un éditeur Web. Le navigateur mode texte line-mode est développé en langage C pour être portable sur les nombreux modèles d'ordinateurs et simples terminaux de l'époque. 
+Technologies : Les trois technologies à la base du Web, URL, HTML et HTTP, sont à l'œuvre. Sur NeXT, des feuilles de style simples sont également utilisées, ce qui ne sera plus le cas jusqu'à l'apparition des Cascading Style Sheets. 
+1991 
+Le 6 août, Tim Berners-Lee rend le projet WorldWideWeb public dans un message sur Usenet [2]. 
+Étendue : premier serveur Web hors d'Europe au SLAC ; passerelle avec WAIS [3]. 
+Logiciels : fichiers développés au CERN disponibles par FTP. 
+1992 
+Le World Wide Web est promu sur le World Wide Web [4]. 
+Étendue : 26 sites Web « raisonnablement fiables » [5]. 
+Logiciels : navigateurs Erwise [6], ViolaWWW [7] ; serveur NCSA HTTPd. 
+1993 
+Le 30 avril, le CERN met les logiciels du World Wide Web dans le domaine public [8]. À la fin de l'année, les médias grand public remarquent Internet et le WWW. 
+Étendue : 130 sites Web en juin, 623 en décembre [9] ; l'usage croît d'un rythme annuel de 341 634 %. 
+Logiciels : Apparitions des navigateurs NCSA Mosaic et Lynx. Disponible d'abord sur X Window, puis sur Windows et MacOS, Mosaic cause un phénoménal accroissement de la popularité du Web. 
+Technologies : images dans les pages Web (Mosaic 0.10) ; formulaires interactifs (Mosaic 2.0pre5). 
+1994 
+Étendue : 2738 sites en juin, 10 022 en décembre. 
+Sites : Yahoo! créé par deux étudiants ; apparition de la publicité sur HotWired. 
+Logiciels : Netscape Navigator 1.0. 
+Standards : fondation du World Wide Web Consortium ; RFC 1738 (Uniform Resource Locators). 
+1995 
+Microsoft crée MSN pour concurrencer Internet et le Web, puis change d'avis et lance la guerre des navigateurs. 
+Étendue : 23 500 sites en juin (18 957 en août selon la première mesure de Netcraft [10]). 
+Logiciels : serveur HTTP Apache ; Microsoft Internet Explorer 1.0 et 2.0. 
+Sites : moteur de recherche AltaVista. 
+Technologies : formatage tabulaire (Netscape Navigator 1.1b1), documents multi-cadres (Netscape Navigator 2.0b1), Java, JavaScript (Netscape Navigator 2.0b3), PHP. 
+Standards : RFC 1866 (HTML 2.0). 
+1996 
+Étendue : 100 000 sites en janvier, environ 230 000 en juin. 
+Logiciels : Netscape Navigator 2.0 et 3.0 ; Internet Explorer 3.0 ; Opera 2.1. 
+Standards : RFC 1945 (HTTP/1.0) ; CSS level 1. 
+1997 
+Étendue : plus de 1 000 000 sites en avril selon Netcraft. 
+Logiciels : Netscape Navigator 4.0 ; Internet Explorer 4.0. 
+Standards : HTML 3.2 ; HTML 4.0. 
+1998 
+America Online rachète Netscape qui a perdu la guerre des navigateurs pour 4 milliards US$. 
+Étendue : plus de 2 000 000 sites en mars. 
+Logiciels : Netscape Navigator 4.5 ; projet Mozilla. 
+Sites : Google. 
+Standards : XML 1.0 ; CSS level 2 ; DOM level 1. 
+1999 
+Étendue : plus de 4 000 000 de sites en janvier, plus de 7 400 000 en août. 
+Logiciels : Internet Explorer 5.0. 
+Standards : HTML 4.01 ; RFC 2616 (HTTP/1.1). 
+2000 
+Étendue : 11 161 854 sites en février, 19 823 296 en août selon Netcraft [11]. 
+Standards : XHTML™ 1.0. 
+2001 
+Étendue : 27 585 719 sites en janvier, 30 775 624 en août. 
+Logiciels : Internet Explorer 6. 
+Sites : Wikipedia. 
+2002 
+Étendue : 36 689 008 sites en janvier, 35 991 815 en août. 
+Logiciels : Mozilla 1.0. 
+2003 
+Étendue : 35 863 952 sites en février, 42 807 275 en août. 
+Logiciels : Safari. 
+2004 
+Le concept de Web 2.0 apparaît. 
+Étendue : 46 067 743 sites en janvier, 53 341 867 en août. 
+Standards : création du WHATwg. 
+Logiciels : Mozilla Firefox 1.0. 
+2005 
+Étendue : 59 100 880 sites en février, 70 392 567 en août 
+Logiciels : Mozilla Firefox 1.5. 
+2006 
+Étendue : 76 184 000 sites en février, 92 615 362 en août. 
+Logiciels : Internet Explorer 7, Mozilla Firefox 2.0. 
+2007 
+Étendue : 108 810 358 sites en février. 
+
+ Voir aussi  [modifier]
+    Le Wiktionnaire possède une entrée pour « web ».
+ 
+
+ Articles liés  [modifier]
+
+ Concepts généraux  [modifier]
+[ Internet | hypertexte | hyperlien | multimédia | e-commerce ]
+
+
+ Concepts du Web  [modifier]
+[ agence Web | hébergeur Web | serveur Web | adresse Web | site Web | annuaire Web | portail Web | page Web | accessibilité du Web | Web sémantique | Web 2.0 | Web profond ]
+
+
+ Technologies du Web  [modifier]
+[ URL | URI | HTTP | HTML | SGML | XHTML | XML | CSS | JavaScript | ActionScript | DOM | dynamic HTML | Standards du Web ]
+
+
+ Logiciels serveurs  [modifier]
+[ serveur HTTP | NCSA HTTPd | Apache HTTP Server | serveur proxy | moteur de recherche ]
+
+
+ Logiciels clients  [modifier]
+[ éditeur HTML | navigateur Web | liste de navigateurs Web | robot d'indexation | guerre des navigateurs ]
+
+
+ Acteurs  [modifier]
+[ Tim Berners-Lee | Robert Cailliau | CERN | NCSA | IETF | World Wide Web Consortium | Netscape Communications Corporation | Microsoft | America Online ]
+
+
+ Applications  [modifier]
+[ gestion des connaissances | système de gestion de contenu | Wiki | Blog | Webmail | Web conférence ]
+
+
+ Liens externes  [modifier]
+(en) A Little History of the World Wide Web 
+(en) (fr) info.cern.ch, rétrospective historique du CERN 
+(en) Webology 
+(fr) Journées francophones de la Toile, 2003 
+(fr) [12] 
+
+ Notes et références  [modifier]
+? L'image de l'araignée est parfois utilisée par les anglophones, on l'a retrouve ainsi dans l'expression web spider pour le robot d'indexation. 
+? 2,0 2,1 WorldWideWeb: Proposal for a HyperText Project, T. Berners-Lee/CN, R. Cailliau/ECP, 12 novembre 1990 
+? Frequently asked questions by the Press - Tim BL - Spelling of WWW 
+? Vocabulaire d'Internet - Banque de terminologie du Québec - World Wide Web 
+? Journal officiel du 16 mars 1999 - Vocabulaire de l'informatique et de l'internet 
+? 6,0 6,1 Tim Berners-Lee, Information Management: A Proposal, CERN, mars 1989 
+? James Gillies et Robert Cailliau, How the Web was Born, Oxford University Press, 2000, ISBN 0-19-286207-3, p. 87 
+? Tim Berners-Lee, Weaving the Web, Texere, 2000, ISBN 1-58799-018-0, p. 27 
+? Tim Berners-Lee, Weaving the Web, Texere, 2000, ISBN 1-58799-018-0, p. 15 
+
+
+
+ Portail de l'informatique – Accédez aux articles de Wikipédia concernant l’informatique. 
+AJAX, ou Asynchronous JavaScript And XML (« XML et Javascript asynchrones »), est un acronyme désignant une méthode informatique de développement d'applications Web.
+
+À l'image de DHTML ou de LAMP, AJAX n'est pas une technologie en elle-même, mais un terme qui évoque l'utilisation conjointe d'un ensemble de technologies couramment utilisées sur le Web :
+
+HTML (ou XHTML) pour la structure sémantique des informations ; 
+CSS pour la présentation des informations ; 
+DOM et JavaScript pour afficher et interagir dynamiquement avec l'information présentée ; 
+l'objet XMLHttpRequest pour échanger et manipuler les données de manière asynchrone avec le serveur Web. 
+XML et XSLT 
+En alternative au couple XML/XSLT, les applications AJAX peuvent utiliser d'autres technologies : le HTML préformaté, les fichiers texte plats, JSON, etc.
+
+Les applications AJAX peuvent être utilisées au sein des navigateurs Web qui supportent les technologies décrites précédemment. Parmi eux, on trouve Mozilla, Firefox, Internet Explorer, Konqueror, Safari ou encore Opera. Toutefois, ce dernier ne supporte pas les transformations XSLT nativement pour les versions antérieures à la 9.0[1].
+
+Sommaire [masquer]
+1 Histoire 
+2 Comparaison avec les applications Web traditionnelles 
+3 Approches côté serveur 
+4 Avantages et inconvénients 
+5 Avenir d'Ajax 
+6 Notes & références 
+7 Voir aussi 
+7.1 Articles connexes 
+7.2 Liens externes 
+ 
+
+
+ Histoire  [modifier]
+Le terme AJAX a été introduit par Jesse James Garrett, le 18 février 2005, dans un article sur le site Web Adaptive Path[2]. Depuis, il a rapidement gagné en popularité.
+
+Il est important de noter que les éléments qui le composent et leur utilisation pour générer des interactions asynchrones sont antérieurs.
+
+En 2001, l'objet XMLHttp, apparue avec la bibliothèque MSXML, point de départ de cette technique, fut développé à l'origine par Microsoft pour Internet Explorer 5 en tant qu'objet ActiveX, puis intégré en tant qu'objet navigateur natif nommé XMLHttpRequest par Mozilla, ce qui permit aux autres navigateurs de l'intégrer car ActiveX n'est utilisé que par Internet Explorer.
+
+
+ Comparaison avec les applications Web traditionnelles  [modifier]
+Les applications Web permettent aux utilisateurs d'effectuer des choix (suivre un lien, remplir et valider un formulaire). Une requête est alors envoyée au serveur HTTP, qui agit en fonction de l'action et des données reçues, et renvoie une nouvelle page. Ce fonctionnement consomme inutilement une partie de la bande passante, une grande partie du code (X)HTML étant commune aux différentes pages de l'application. Et parce qu'une requête au serveur HTTP doit être réalisée à chaque interaction avec l'application, le temps de réponse de l'application dépend fortement du temps de réponse du serveur HTTP. Cela conduit à des interfaces utilisateurs plus lentes que leurs équivalents natives. Les navigateurs actuels mettent les éléments communs en cache, donc le chargement de pages nouvelles n'oblige pas le serveur à redonner les mêmes éléments à chaque fois.
+
+Les applications utilisant les techniques AJAX quant à elles peuvent envoyer des requêtes au serveur HTTP pour récupérer uniquement les données nécessaires en utilisant la requête HTTP XMLHttpRequest, et en utilisant la puissance des feuilles de style (CSS) ainsi que le langage Javascript côté client pour interpréter la réponse du serveur HTTP. Les applications sont alors plus réactives, la quantité de données échangées entre le navigateur et le serveur HTTP étant fortement réduite. Le temps de traitement de la requête côté serveur est également légèrement réduit, une partie du traitement étant réalisé sur l'ordinateur d'où provient la requête.
+
+En contrepartie, le chargement de la première page peut être pénalisé si l'application utilise une bibliothèque AJAX volumineuse (certains frameworks pèsent plus de 500 ko !)...
+
+
+ Approches côté serveur  [modifier]
+Un des points critiques dans la programmation avec AJAX est de déterminer l'architecture client/serveur. En théorie, AJAX fonctionne indépendamment du serveur. En pratique, la technologie côté serveur choisie a un impact significatif sur les choix de programmation à disposition.
+
+Java fournit une technologie à maturité avec un support des threads et un important soutien de la communauté Open Source. 
+Ruby, et spécialement Ruby on Rails, en tire un fort potentiel de productivité. 
+PHP possède aussi un fort soutien de la communauté Open Source, notamment la version 5 plus performante sur la gestion du XML en natif. 
+Perl propose notamment Catalyst. 
+Python est un langage de scripting complet et largement utilisé mais moins que Java ou PHP sur les serveurs (Google l'utilise largement). 
+.NET 2.0 de Microsoft développe un framework pour Asp.Net (Microsoft Asp.Net Ajax). 
+Morfik WebOS AppsBuilder de MORFIK est un EDI complet pour des applications AJAX avec un 'designer' visuel et le choix du langage de programmation (Pascal,Basic,Java,C#). 
+
+ Avantages et inconvénients  [modifier]
+L'avantage de cette méthode est la vitesse à laquelle une application AJAX répond aux actions de l'utilisateur, dont les actions sont traitées (en partie au moins) localement par le navigateur.
+
+L'utilisateur d'applications AJAX doit autoriser l'exécution de code Javascript par son navigateur, ce qui peut laisser craindre des problèmes de sécurité. Avec les versions d'Internet Explorer 5 ou 6 pour Windows, il doit aussi autoriser les ActiveX car le composant XMLHTTP n'y est pas natif comme dans ses concurrents (Firefox, Safari, Opera, etc.) ou la version 7. Utilisant des techniques apparentées au HTML dynamique, les applications AJAX doivent être testées sur chaque navigateur, en raison du non respect des normes officielles.
+
+Un autre inconvénient que l'on peut avancer est la question du référencement puisque les robots d'indexation ne sont pas en mesure d'indexer les contenus engendrés dynamiquement.
+
+Enfin, en modifiant le contexte de navigation sans que l'utilisateur n'en soit nécessairement averti (en fonction de son mode d'accès au Web), AJAX pose de nombreuses questions d'accessibilité. C'est le cas notamment pour les utilisateurs de lecteurs d'écran ou de dispositifs d'agrandissement (loupes virtuelles).
+
+
+ Avenir d'Ajax  [modifier]
+IBM a créé Open AJAX Initiative, un groupe de promotion de cette technologie avec des partenaires tels que 24SevenOffice, Adobe Systems, BEA Systems, Borland, the Dojo Foundation, Eclipse Foundation, Google, Ilog, Yahoo!, Laszlo Systems, Mozilla Corporation, Novell, Openwave Systems, SAP, Oracle, Red Hat, Tibco, Zend et Zimbra.[3].
+
+Le premier résultat de cette initiative est l'AJAX Toolkit Framework[4], un projet qui vise à proposer des outils pour le développement d'applications AJAX dans l'outil de développement Eclipse. Ce projet s'appuie entre autre sur la contribution initiale d'IBM et divers frameworks AJAX open source (tels que Dojo ou Rico).
+
+La fondation Eclipse propose également un outil pour le développement d'applications web basées sur le framework Eclipse, sous le nom de RAP (Rich AJAX Platform). Les applications ainsi construites pourront être déployées côté serveur et seront accessibles par un navigateur web via une génération de code utilisant les principes d'AJAX.
+
+Du coté de Microsoft, un framework est en cours de développement, facilitant la mise en place de site ajax. Ce framework est gratuit.
+
+En parallèle est développé une ASP.NET Ajax Control Toolkit, qui offre de nombreux contrôles « prêts à l’emploi » pour les développeurs utilisant Visual Studio 2005. On y trouve actuellement une trentaine de contrôles mais Microsoft en prévoit 50 à 100, tous fournis avec leur source. Il existe aussi un tutoriel sur le site pour créer ses propres contrôles Toolkit qui utilisent la technologie Ajax .Net.
+
+De plus, on a vu récemment arriver le design pattern "Comet", qui propose des solutions pour effectuer du "push" de données grâce à Ajax.
+
+
+ Notes & références  [modifier]
+? http://www.opera.com/docs/specs 
+? (en) L'article de Jesse James Garrett qui a lancé le nom Ajax (traduction (fr)) 
+? http://www.openajax.org 
+? Description du projet hébergé par eclipse.org 
+
+ Voir aussi  [modifier]
+
+ Articles connexes  [modifier]
+XMLHttpRequest 
+JavaScript 
+Cadre d'Application AJAX 
+Conception de sites Web 
+
+ Liens externes  [modifier]
+Catégorie Asynchronous JavaScript and XML de l'annuaire dmoz. 
+(fr) Cours et Tutoriel Ajax 
+(fr) Le forum Ajax : Forum d'entraide des développeurs francophones sur Ajax 
+(fr) Apprendre Ajax : Tutoriel avec exemples d'utilisation get, post, text, XML. 

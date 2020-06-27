@@ -1,0 +1,23 @@
+<?php
+//include class ZendInstaller
+include ("ZendInstaller_class.php");
+
+/*your application name*/
+$app_name = "zend_app";
+
+/* Define the path to the library directory in your Downloaded Zend Framework distribution. You can download it at http://framework.zend.com/download */
+$ZendLibrary_Path = "../Zend/library";
+
+/*Default config.ini*/
+$adapter = "PDO_MYSQL";
+$db_host = "localhost";
+$db_user = "db-user";
+$db_pass = "db-pass";
+$db_name = "db-name";
+
+
+/*INSTALLER*/
+$installer = new ZendInstaller ($app_name, $ZendLibrary_Path, $adapter, $db_host, $db_user, $db_pass, $db_name);
+
+?>
+

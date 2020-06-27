@@ -1,0 +1,130 @@
+﻿---- EN --------------------------------------------------------------------------------------------------------------------------------
+
+Digital-Human is a two-layer model that simulates the behavior of the human body in its surrounding environment.
+Lets define and add new body organs and environmental components.
+Digital-Human is a set of classes based on a Observer patern, you can use to build a model of man and the environment surrounding it.
+Human model responds to changes in environmental parameters. A body may also generate events that affect the environment. This model is bidirectional.
+
+A set of classes allows for the extension of the body by adding new elements/organs. Each element is an appropriate class that represents a new organ. The Authority responds to external stimuli and introduces a method catchEnviroment (EnviromentElement $element), which should support provided to it an element of the environment.
+
+Example Class body is Ear. Each such class should inherit from the class element, and must implement the interface IObserver.
+
+A set of classes allows for the extension of the layer of the environment. Part of the environment is a class which should include a method responsible for the conduct of the environmental component. It should inherit from class EnviromentElement. An example of a class of environment is sound element, which contains a method emitSound ().
+
+By default, Digital-Human consists of a head, eyes, ears, nose and mouth. Each of them responds to stimuli from the environment (eg ear responds to sound), and emits the same thing for the environment (mouth emit sound).
+
+How to add new body organ (Nose)
+--------------------------------
+1.) Create new class
+
+	class Nose extends Element implements IObserver  {
+
+	}
+
+2) Create method is responsible for responding to changes in the environment
+
+	public function catchEnviroment(EnviromentElement $element) {
+		if($element instanceof Smell) {
+			echo '<br />NOSE: Smell received: "'.$element->smellKind.'"'.'Volume: '.$element->volume;
+		}
+	}
+
+3) In main program code block (here: index.php) 
+
+	$enviroment = new Enviroment();
+	$human = new DefaultBody($enviroment);
+	$nose = new Nose();
+	$human->addBodyElement($nose);
+
+By default, the components of the environment are such as sound, light, smell. Emit any of them can cause the body's response to it.
+
+
+Adding a component of the environment (Smell)
+---------------------------------------------
+
+1) Create new class:
+
+	class Smell extends EnviromentElement {
+		public $smellKind = '';
+		public $volume = 10;
+	}
+
+2) Create a method that will emit smell
+
+	public function emitSmell($smellKind, $volume = 10) {
+		$this->smellKind = $smellKind;
+		$this->volume = $volume;
+		$this->notifyEnviroment(); //!!important
+	}
+
+3) In main program code block (here: index.php) 
+
+	$envSmell = new Smell($enviroment);
+	$envSmell->emitSmell('Rose', 3);
+	
+It's all have fun! :)
+
+
+
+
+
+----- PL --------------------------------------------------------------------------------------------------------------------------------
+
+Digital-Human jest modelem dwuwarstwowym symulującym zachowanie organizmu człowieka w otaczającym go środowisku. Pozwala defniować i dodawać nowe organy i elementy środowiska.
+Digital-Human jest zestawem klas bazującym na wzorcu obserwator, za pomocą którego można zbudować model człowieka i środowiska go otaczającego.
+Model człowieka reaguje na zmiany parametrów środowiska. Człowiek również może generować zdarzenia mające wpływ na środowisko. Jest to model dwukierunkowy.
+
+Zestaw klas pozwala na rozbudowę organizmu/ciała poprzez dodawanie nowych elementów. Każdy element jest odpowiednią klasą reprezentującą nowy organ. Organ reaguje na bodźce zewnętrzne implementując metodę catchEnviroment(EnviromentElement $element), która powinna obsługiwać dostarczony jej element środowiska.
+Przykładowa klasa organu to Ear. Każda taka klasa powinna dziedziczyć z klasy Element i musi implementować interfejs IObserver.
+
+Zestaw klas pozwala na rozbudowę warstwy środowiska. Elementem środowiska jest jest klasa, która powinna zawierać metody odpowiadające za zachowanie danego składnika środowiska. Powinna dziedziczyć po klasie EnviromentElement. Przykładowa klasa elementu środowiska to Sound, która zawiera metodę emitSound().
+
+Domyślnie DH składa się z głowy, oczu, uszu, nosa i ust. Każdy z nich reaguje na bodźce pochodzące ze środowiska (np ucho reaguje na dźwięk) lub sama emitują coś do środowiska (usta emitują dźwięk)
+
+Dodanie organu np: Nose
+1) Utworzyć nową klasę: 
+
+	class Nose extends Element implements IObserver  {
+
+	}
+
+2) Utworzyć metodę odpowiedzialną za reakcję na zmiany w środowisku:
+
+	public function catchEnviroment(EnviromentElement $element) {
+		if($element instanceof Smell) {
+			echo '<br />NOSE: Smell received: "'.$element->smellKind.'"'.'Volume: '.$element->volume;
+		}
+	}
+
+3) W głównym bloku kodu (tutaj: index.php) 
+
+	$enviroment = new Enviroment();
+	$human = new DefaultBody($enviroment);
+	$nose = new Nose();
+	$human->addBodyElement($nose);
+
+
+W zestawie istnieją takie składniki środowiska jak: dźwięk, światło, zapach. Wyemitowanie któregoś z nich może spowodować reakcję elementu organizmu
+
+Dodanie składnika środowiska np smell:
+1) Utworzyć nową klasę:
+
+	class Smell extends EnviromentElement {
+		public $smellKind = '';
+		public $volume = 10;
+	}
+
+2) Utworzyć metodę, która będzie emitowała zapach
+
+	public function emitSmell($smellKind, $volume = 10) {
+		$this->smellKind = $smellKind;
+		$this->volume = $volume;
+		$this->notifyEnviroment(); //!!important
+	}
+
+3) W głównym bloku kodu (u nas index.php)
+
+	$envSmell = new Smell($enviroment);
+	$envSmell->emitSmell('Rose', 3);
+
+Miłej zabawy :)

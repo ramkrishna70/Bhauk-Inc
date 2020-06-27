@@ -1,0 +1,31 @@
+/**
+ * Ajax Login Module v1.0
+ *
+ * Ajax Login Module is a simple AJAX login page that is very easy to 
+ * plug into your existing php application with no need for further configuration and coding.
+ *
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @copyright     Copyright 2009, Christopher M. Natan
+ * @link          http://phpstring.co.cc/phpclasses/modules/ajax-login-module/
+ * @version       $Revision$
+ * @modifiedby    $LastChangedBy$
+ * @lastmodified  $Date$
+ * Email : chris.natan@gmail.com 
+ */
+ 
+STEP 1:
+- Download and extract ajax-login-module-year-month-day.zip
+STEP 2:
+- Locate ajax-login-module-year-month-day folder and then rename as "login" folder and copy to your apache webroot directory or subdirectory
+STEP 3:
+- Locate the config.php file and open it with Dreamweaver, wordpard or your favorite php editor.
+STEP 4:
+- In config.php input your MySQL configuration and save it.
+STEP 5:
+- Finally, run this module by typing the url address into your web browser. 
+  example  http://localhost/login
+  OR
+  if it is under "members" directory, type http://localhost/member/login
+  OR
+  if it is under deeper subdirectories, type http://localhost/members/users/selected/login

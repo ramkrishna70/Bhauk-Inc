@@ -1,0 +1,375 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD><TITLE>as_snipercaptcha: Pure HTML (no GD) bar chart drawing class</TITLE>
+<META http-equiv="Content-Type" Content="text/html; charset=windows-1251">
+<STYLE TYPE="text/css">
+<!--
+body     { font-family:arial,helvetica;font-size:12px; }
+pre { font-family: verdana,arial; font-size:11px; color:#0000FF;
+      background-color: #E8E8FF; border: 1px solid #C0C0E0; padding-left:6px;
+}
+td   { font-family:arial,helvetica;font-size:12px;}
+tr.odd   { background-color: #F0F0F8; color:#000000; }
+tr.even  { background-color: #E0E0F0; color:#000000; }
+h4       { background-color: #E0E0F0; color:#000000;
+           text-align: left; }
+h5       { background-color: #E0E0F0; color:#000000;
+           text-align: center; }
+.capnormal {font-size:11pt; color:#202020; background-color:#A0A0E0;
+        border: 1px solid #9090C0; width:12px;
+}
+td.captcha_cell { border: 1px solid #9090C0; background-color:#E0E0F8;
+  text-align:center; font-size:4px;
+}
+td.captcha_cellmo { border: 1px solid #9090C0; background-color:#B0B0E8;
+  text-align:center; font-size:4px;
+}
+
+-->
+</STYLE>
+
+</head>
+<BODY>
+
+<!-- DOC BEGIN -->
+
+<H3>as_snipercaptcha: CSS/DHTML (без GD-библиотек) CAPTCHA класс</H3>
+
+as_snipercaptcha.php содержит PHP класс (CSniperCaptcha) для распространенной задачи, известной под абревиатурой CAPTCHA -
+защиты интерактивных сайтов и форм от спам-роботов.
+<br />
+
+В отличие от большинства аналогичных CAPTCHA - движков, здесь не используются графические библиотеки генерации изображений (типа GD)
+и не создается картинок с искаженными буквами и цифрами для распознавания человеком
+(подобных классов в Сети достаточно).
+<br />
+
+<script language="Javascript">
+var curbar = 0;
+function clkNext() {
+  curbar +=20;
+  if(curbar>100) curbar=0;
+  document.getElementById('caprogress').style.width = ''+curbar+'%';
+  return false;
+}
+</script>
+<table width="100%"><tr>
+<td>
+
+<div id='cpholder' style='background-color:#C0C0FF; border: 1px solid #A0A0A8;'>
+<table border='0' cellspacing='1' cellpadding='0' id='captchaTable'><tr>
+  <td id='vul11' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='ybp12' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='idv13' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='rks14' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='pqw15' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='iuc16' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='qwn17' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='zol18' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  </tr><tr>
+  <td id='dft21' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='gmw22' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='qno23' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='gjm24' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='lpy25' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='cih26' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='dme27' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='odn28' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  </tr><tr>
+  <td id='xrj31' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='apa32' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='qsw33' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='xxj34' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='jps35' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='xji36' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='hws37' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='jpo38' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  </tr><tr>
+  <td colspan='8' onClick='return clkNext()'  class='captcha_cell' style='text-align:left'><img id='caprogress' src='cap_progress.png' width='1' height='8' />
+  </td></tr></table></div>
+</td>
+
+<td width="99%" valign=top>
+Основная идея проста : пользователь (посетитель сайта) не вводит увиденные буквы/цифры в специально отведенное INPUT - поле,
+вместо этого он видит на экране таблицу (сетку) из нескольких строк и столбцов, где одна из ячеек "подсвечена" специальной картинкой-указателем.
+Он щелкает по этой ячейке мышью, в ответ указатель переходит на другую ячейку. Т.е. "кодовое слово" в нашем случае состоит из
+верной последовательности выбранных ячеек.
+В ответ на каждое нажатие (клик) мыши браузер отправляет ответ (ID ячейки) на сервер с помощью AJAX-запроса,
+дожидается ответа, в котором содержатся координаты следующей цели, в которую надо "попасть".
+
+Когда вся последовательность выполнена, с сервера приходит ответ о том, пройден или нет тест на "человечность" пользователя.
+При желании Вы можете соответствующим Javascript-кодом обработать ответ и выполнить определенные действия на форме клиента.
+</td>
+</table>
+
+<br>
+<H4>Установка as_snipercaptcha</H4>
+<ol>
+  <li>
+  Скачав дистрибутивный zip-файл, распакуйте его в любую папку.
+  В заголовках скриптов, которые будут использовать наш класс, не забудьте вписать
+  <br /><b>require_once('as_snipercaptcha.php')</b>;
+  <br />Указывать ли путь к файлу, как всегда зависит от того, куда Вы скопируете модуль.
+  <br />Если на Вашем сайте уже используется фреймворк jQuery, рекомендуется использовать jquery-версию класса -
+  <b>as_snipercaptcha_j.php</b>. Необходимость в файле as_jsfunclib.js в этом случае отпадает. К тому же jQuery-версия класса
+  может обладать лучшей совместимостью с разными браузерами.
+  </li>
+  <li>
+  Перенесите/скопируйте файлы изображений (*.png, *.gif) в Вашу основную папку "images" на сайте, и "путь" к папке
+  задайте в константе IMGPATH (либо просто положите файлы в один каталог с Вашим скриптом) :
+  <br /><b>define('IMGPATH','allimages/');</b>
+  <br />Файл <b>captchasight.png</b> - это "маркер", которым помечается очередная ячейка выбора.
+  <b>cap_progress.png</b> нужен для отрисовки столбика "термометра", показывающего прогресс процедуры проверки.<br />
+
+  </li>
+  <li>
+  Для формирования AJAX-запросов нам понадобится библиотека функций as_jsfunclib.js.
+  Поэтому скопируйте/перенесите этот файл в свою папку с js-скриптами либо в текущую папку.
+  Если файл будет в другой папке, не забудьте указать путь в методе DrawRefs() (см.ниже)
+  </li>
+  <li>
+  Стили, используемые при отрисовке решетки, вынесены в отдельный файл as_captchastyles.css - оставьте его
+  в рабочей папке или перенесите в свою папку для стилей - в этом случае укажите путь к ней при вызове метода
+  DrawRefs() (см.ниже).
+  </li>
+
+</ol>
+<br />
+
+<H4>Использование класса CSniperCaptcha</H4>
+
+CSniperCaptcha генерирует небольшую HTML таблицу (или "решетку"), которая может содержать переменное число строк,столбцов,
+а также переменную ширину-высоту одной ячейки.
+Эти размерности могут быть жестко заданы Вами при вызове конструктора класса.
+Если их не задать, эти значения будут выбраны случайным образом из диапазонов 3...6 строк и 4...10 колонок.
+<br />Случайный выбор призван затруднить обход CAPTCHA-защиты возможным спам-роботом или другим модулем "распознавания".
+Вот как все работает :
+<ol>
+ <li>
+ Когда сетка для CAPTCHA движка готова и выведена браузером на экран, вычисляются ее координаты и посылаются на сервер
+ с помощью AJAX-вызова.
+ </li>
+ <li>
+ Получив эти координаты, сервер начинает последовательность проверки: он поочередно выбирает (случайным образом) следующую
+ ячейку, которая должна быть "кликнута" пользователем, и посылает ее вычисленные координаты в ответе клиенту.
+ Координаты вычисляются исходя из переданного положения решетки, ее размерности и ширины-высоты одной ячейки.
+ </li>
+ <li>
+ Клиент, получив координаты очередной ячейки, передвигает DOM-элемент "Image" в указанное место и ожидает щелчка мышью.
+ </li>
+ <li>Посетитель сайта щелкает по указанной ячейке, ее id отправляется на сервер.
+ </li>
+ <li>Когда все NN шагов выбора сделаны, и сервер получает последний ответ, он проверяет корректность ответов
+ и запоминает результат в наборе сессионных переменных, а также отправляет клиенту в последнем ответе.
+ </li>
+</ol>
+
+Если Вы подготовите свои Javascript-функции для обоих случаев (CAPTCHA-тест пройден, провален),
+их имена можно передать в класс, и тогда они будут выполнены соответственно при успешном или "проваленном" тесте.
+Например, можно показать изначально скрытые поля ввода текста, или разблокировать кнопки и др.элементы ввода.
+Функции будут вызваны сразу по получении ответа от сервера на последний выбор ячейки "проверочной" решетки.
+
+<p>
+Приведем простейший пример работы с классом. (Решетка для CAPTCHA-теста будет сгенерирована со случайным числом строк
+и столбцов, и размером ячейки).
+<pre>
+require_once('as_snipercaptcha.php');
+
+$captcha = new CSniperCaptcha();
+// вывести основной HTML код, включая начальные теги формы - &lt;FORM ...&gt; и необходимые поля ввода
+
+CSniperCaptcha::DrawRefs(); // вывожу ссылки на используемые CSS и js файлы
+$captcha-&gt;Draw(); // отображается опросная решетка
+
+//... теперь вывести кнопку SUBMIT и закрывающие теги формы &lt;/FORM&gt;
+
+$captcha-&gt;DrawJsCode(); // выводятся сопутствующие javascript-функции
+
+// остальной HTML код ...
+</pre>
+
+<h4>CSniperCaptcha - список методов</h4>
+
+<li><b>CSniperCaptcha($codelen=4, $submitid='', $jscode_success='',$jscode_fail='', $reinit=false)</b> - конструктор класса.</li>
+<br /><br />Параметры:
+<ul>
+<li><b>$codelen</b> число "кликов" в последовательности проверки (длина кодового слова)</li>
+<li><b>$submitid</b> идентификатор (id) кнопки "submit". Если параметр передан в конструктор, эта кнопка получит состояние "разблокирована"
+при успешном окончании проверки. Понятно, что в этом случае надо не забыть вывести у кнопки начальный атрибут DISABLED.
+</li>
+<li><b>$jscode_success</b> - Javascript код (обычно имя функции со скобками "()" ), который должен быть выполнен
+ при успешном прохождении теста, ДО нажатия кнопки submit и отправки формы на сервер.
+</li>
+<li><b>$jscode_fail</b> - Javascript код (обычно имя функции со скобками "()" ), который должен быть выполнен
+ при непройденном тесте, ДО нажатия кнопки submit и отправки формы на сервер.
+</li>
+
+<li><b>$reinit</b> - <b>1</b> (цлое число, или true) или Javascript код. Любой непустой параметр включает вывод картинки-ссылки,
+  по нажатию которой captcha сбрасывается в начальное состояние, и ползователь может повторить процесс валидации.
+  <br />Если в параметре передать строку, CSniperCaptcha интерпретирует ее как javascript код, который будет дополнительно выполнен
+  при сбросе "капчи" (например, если нужно убрать строку о проваленном captcha-тесте).<br />
+  В качестве картинки "сброс" используется файл "captcha_init.gif", включенный в дистрибутив (меняйте под свою цветовую схему сайта).
+  Дополнительный текст приглашения к "сбросу" может быть задан в глобальном ассоциативном массиве, <b>$sitestrings['captcha_init']</b>.
+</li>
+
+</ul>
+
+<li><b>SetServerScript($uri)</b> - этот метод задает имя (URI) серверного скрипта, выполняющего проверку CAPTCHA теста.
+По умолчанию весь обмен во время проверки ведется с тем же скриптом, который вывел форму.
+</li>
+<br /><br />Параметры:
+<ul>
+<li><b>$uri</b> - имя файла скрипта на сервере, который будет обрабатывать AJAX запросы от клиента и посылать ответы
+</li>
+</ul>
+
+<li><b>DrawRefs($csspath='',$jspath='')</b> - метод формирует и выводит  &lt;STYLE&gt; и &lt;SCRIPT&gt; теги
+   со ссылками на файлы captcha_styles.css и as_jsfunclib.js, используемые в классе (входят в дистрибутив).
+   Если Вы перенесете все стили из прилагаемого файла captcha_styles.css в централизованный набор, используемый на всем сайте,
+   и потому не хотите выводить ссылку на css, передайте <b>false</b> в параметр $csspath.
+   Аналогично - для $jspath.
+   <br /><br />Параметры:
+   <ul>
+   <li><b>$csspath</b> - путь к файлу captcha_styles.css</li>
+   <li><b>$jspath</b> - путь к файлу as_jsfunclib.js</li>
+   </ul>
+</li>
+<li><b>SetBufferedOutput($buffered=true)</b> - задает режим "буферизованного" вывода, при котором весь сгенерированный
+  HTML код не идет в поток клиенту. Вместо этого все методы (Draw(), DrawJsCode(), DrawRefs())
+  возвращают соответствующий HTML код.
+  <br />Это необходимо, когда разработчик сначала собирает всю HTML страницу в памяти, и только потом выводит
+  ее в поток клиенту.
+  <br /><br />Параметр $buffered - необязательное значение режима вывода, (логическое true|false или целое).
+  По умолчанию true. False (или 0) задает режим "небуферизованного вывода".
+</li>
+
+<li><b>Draw($width=0, $height=0, $cellsize=0, $tovar=0)</b> - метод формирует (и выводит) HTML код CAPTCHA-решетки.</li>
+
+<br /><br />Параметры:
+<ul>
+<li><b>$width</b> - Число колонок в решетке. Если ноль, выбирается случайным образом в диапазоне 4-10</li>
+<li><b>$height</b> - Число строк в решетке. Если ноль, выбирается случайным образом в диапазоне 3-6</li>
+<li><b>$cellsize</b> - размер (в пикселах) одной ячейки. Если ноль, выбирается случайным образом в диапазоне 10-17.<br />
+ <b>Замечание:</b> не задавайте слишком маленький размер ячейки. Чтобы "подсветить" ячейку, подлежащую выбору,
+ поверх нее выводится картинка-маркер, имеющая размер 7x7 точек. Если она полностью накроет ячейку таблицы, "щелчок" по ней станет
+ невозможным, и пользователь никогда не пройдет теста !
+</li>
+<li><b>$tovar</b> : по умолчанию HTML код немедленно выводится в поток клиенту. Если нужно отложить вывод (сделать это позже самостоятельно),
+передайте непустое значение параметра $tovar. В этом случае вместо немедленного вывода метод Draw() вернет сгенерированный код.
+Рекомендуется пользоваться методом SetBufferedOutput() - он включает буфекризованный ввод для ВСЕХ методов.
+</li>
+</ul>
+
+<li><b>DrawJsCode($autostart=1)</b> - этот метод выводит Javascript-скрипты необходимые для работы класса.
+Вызывать это метод нужно после вывода формы с кодом CAPTCHA (т.е. после вывода кода, сгенерированного методом Draw()).
+Исключение составляет случай "отложенного" старта процедуры проверки (см. параметры)
+<br /><br />Параметры:
+<ul>
+  <li><b>$autostart</b> :
+  По умолчанию сразу будет вызвана внутренняя функция, стартующая процесс проверки кода - SendCaptchaChecking().
+  <br />Если нужно стартовать его позже (например, предварительно вывести еще какой-либо HTML-код, и только после полной его загрузки клиенту -
+  для этого можно занести вызов SendCaptchaChecking() в свойство onLoad документа),
+  вызывайте этот метод с нулевым (false или 0) параметром:
+  <br /> <b>$captcha-&gt;DrawJsCode(0);</b>
+  </li>
+</ul>
+
+<h4>Полный пример использования</h4>
+
+Мы будем выводить решетку CAPTCHA со случайными размерами.
+Длина кодового слова - 5 (пользователь должен будет последовательно выбрать 5 ячеек из решетки).
+Когда проверка закончится, кнопка отправки SUBMIT должна бвть автоматически разблокирована.
+<br />(Заметьте, что мы выводим ее с начальным тегом DISABLED).
+
+<pre>
+require_once('as_snipercaptcha.php');
+
+$captcha = new CSniperCaptcha(5, 'btn_submit'); // here SESSION is started, so NO HTML output before this !
+
+// т.к. этот же скрипт принимает данные по нажатию SUBMIT, здесь же включаем блок обработки формы:
+if(!empty($_POST)) {
+  if($captcha-&gt;CheckPassed()){
+     // process user data (publish to the database etc.
+     PublishNewMessage(); // Your function that does a job
+     echo "Спасибо, Ваше сообщение добавлено !";
+  }
+  else {
+     echo "Вы робот, до свидания";
+  }
+  exit;
+}
+
+CSniperCaptcha::DrawRefs(); // вывожу ссылки на CSS и js файлы
+// выводим HTML код, стартующий FORM тег
+// и все поля ввода (TEXTAREA и др.) без кнопки 'submit'
+echo "Отправка сообщения";
+$self = $_SERVER['PHP_SELF'];
+
+CSniperCaptcha::DrawRefs('my_css/','my_js/'); // вывожу ссылки на используемые CSS и js файлы
+
+echo "&lt;FORM action='$self' method='POST' name='myform'&gt;";
+echo "&lt;TEXTAREA name='messagetext' style='width:100%; height:120px'&gt;&lt;/TEXTAREA&gt;&lt;br /&gt;";
+
+$captcha-&gt;Draw();
+
+echo "&lt;input type='SUBMIT' id='btn_submit' name='btn_submit' value='Submit message' DISABLED /&gt;
+echo "&lt;/FORM&gt;";
+$captcha-&gt;DrawJsCode();
+//... вывод остального HTML кода
+
+</pre>
+
+Вы можете использовать AJAX (XmlHTTPRequest) для получения от клиента данных с формы
+(данные отправляются, и выводится результат без полной перерисовки всего экрана),
+Ваш серверный backend php скрипт до обработки данных должен проверить,
+прошел ли пользователь тест CAPTCHA :
+
+<pre>
+// backend for processinbg posted data
+require_once('as_snipercaptcha.php');
+$captcha = new CSniperCaptcha();
+if($captcha-&gt;CheckPassed()) {
+   PublushFormData($_POST); // здесь данные заносятся в базу и т.д.
+   echo "Спасибо, сообщение сохранено"; // ajax response will go to the client
+}
+else echo "Ошибка, тест CAPTCHA не пройден";
+
+</pre>
+
+<H4>История (версии)</H4>
+
+<h5>1.03.007 (10.12.2008)</h5>
+<ul>
+  <li>Добавлен модуль, использующий jQuery, <b>as_snipercaptcha_j.php</b>
+  </li>
+  <li>некоторые улучшения кода
+  </li>
+</ul>
+
+<h5>1.03.006 (03.12.2008)</h5>
+<ul>
+  <li>Запросы пользователей: когда меняются размеры окна (или юзер изменяет размер букв в Mozilla FF, нажимая CTRL+, CTRL-),
+  captcha автоматически выполняет ре-инициализацию с подстройкой под новые координаты капча-решетки.
+  </li>
+  <li>Новый параметр в конструкторе, $reinit, включающий фичу "сброса" самим пользователем.
+  </li>
+</ul>
+
+<h5>1.02.004 (10.05.2008)</h5>
+<ul>
+  <li>Исправлена проблема совместимости с FireFox (возникала при наличии в теге &lt;!DOCTYPE...&gt; ссылки на DTD файл)
+  </li>
+</ul>
+
+<h5>1.0.001 (28.02.2008)</h5>
+<ul>
+  <li>Первый релиз.
+  </li>
+</ul>
+
+<!-- DOC END -->
+<br />
+<hr>
+<div align=center><font size=-2>Copyright &copy; Alexander Selifonov, <a href="http://as-works.narod.ru">as-works.narod.ru</a>
+</font></div>
+</HTML></BODY>

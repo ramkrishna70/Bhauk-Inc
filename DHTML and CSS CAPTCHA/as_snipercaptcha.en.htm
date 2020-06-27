@@ -1,0 +1,374 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head><title>as_snipercaptcha: Pure HTML (no GD) bar chart drawing class</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body     { font-family:verdana,arial,helvetica;font-size:12px; }
+pre { font-family: verdana,arial; font-size:11px; color:#0000FF;
+      background-color: #E8E8FF; border: 1px solid #C0C0E0; padding-left:6px;
+}
+td   { font-family:arial,helvetica;font-size:12px;}
+tr.odd   { background-color: #F0F0F8; color:#000000; }
+tr.even  { background-color: #E0E0F0; color:#000000; }
+h4       { background-color: #E0E0F0; color:#000000;
+           text-align: left; }
+h5       { background-color: #E0E0F0; color:#000000;
+           text-align: center; }
+.capnormal {font-size:11pt; color:#202020; background-color:#A0A0E0;
+        border: 1px solid #9090C0; width:12px;
+}
+td.captcha_cell { border: 1px solid #9090C0; background-color:#E0E0F8;
+  text-align:center; font-size:4px;
+}
+td.captcha_cellmo { border: 1px solid #9090C0; background-color:#B0B0E8;
+  text-align:center; font-size:4px;
+}
+
+-->
+</style>
+
+</head>
+<body>
+<!-- DOC BEGIN -->
+
+<H3>as_snipercaptcha: Pure CSS/DHTML (no GD) CAPTCHA engine class</H3>
+
+as_snipercaptcha.php contains a PHP class (CSniperCaptcha) for well known CAPTCHA task -
+protecting interactive WEB sites from SPAM bot attacks.
+<br />
+
+Unlike majority of CAPTCHA engines, this class does not use graphics libraries
+and does not create distorted alpha-numeric images to recognize (there're already handreds of a such classes).
+<br />
+<script language="Javascript">
+var curbar = 0;
+function clkNext() {
+  curbar +=20;
+  if(curbar>100) curbar=0;
+  document.getElementById('caprogress').style.width = ''+curbar+'%';
+  return false;
+}
+</script>
+<table width="100%"><tr>
+<td>
+
+<div id='cpholder' style='background-color:#C0C0FF; border: 1px solid #A0A0A8;'>
+<table border='0' cellspacing='1' cellpadding='0' id='captchaTable'><tr>
+  <td id='vul11' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='ybp12' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='idv13' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='rks14' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='pqw15' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='iuc16' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='qwn17' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='zol18' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  </tr><tr>
+  <td id='dft21' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='gmw22' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='qno23' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='gjm24' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='lpy25' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='cih26' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='dme27' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='odn28' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  </tr><tr>
+  <td id='xrj31' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='apa32' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='qsw33' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='xxj34' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='jps35' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='xji36' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='hws37' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  <td id='jpo38' onClick='return clkNext()'  class='captcha_cell' style='cursor:hand' onMouseOver='this.className="captcha_cellmo"' onMouseOut='this.className="captcha_cell"'><img src='empty.gif' width=12 height=12/></td>
+  </tr><tr>
+  <td colspan='8' onClick='return clkNext()'  class='captcha_cell' style='text-align:left'><img id='caprogress' src='cap_progress.png' width='1' height='8' />
+  </td></tr></table></div>
+</td>
+
+<td width="99%" valign=top>
+The main idea is simple : user doesn't enter generated digits into a text INPUT field,
+instead he (she) points and clicks color-marked cells in the CAPTCHA grid,
+and his browser sends results to the server through AJAX calls and receives
+commands for the next click, until all checking sequence is done.
+Testing results return into the client after the last click.
+So Your JavaScript code can do some nesessary job in case of passed (or failed) CAPTCHA test.
+</td>
+</table>
+
+<p>Here is an installation and using instruction for as_snipercaptcha class.
+
+<br>
+<H4>Installing as_snipercaptcha</H4>
+<ol>
+  <li>
+  Download distributive zip file and unzip it into temporary folder.
+  If you will use CAPTCHA engine from more than one page, place as_snipercaptcha.php file into one of
+  folders listed in your PHP.ini "include_path" variable. Otherwise, just place it
+  in the folder with your main script.
+  <br />If You use jQuery framework in Your project, it's recommended to use jQuery-aware class version - <b>as_snipercaptcha_j.php</b>,
+  so there is no need to include as_jsfunclib.js in that case. JQuery version of a class is more compact and might be more
+  cross-browser compatible.
+
+  </li>
+  <li>
+  Move or copy image files (*.png,*.gif) from distributive to Your <b>Image</b> folder,
+  or into the folder where Your PHP pages resides.
+  (You'll need to set relative path to this folder in the defined IMGPATH constant if it's not a current dir)
+  <br /><b>define('IMGPATH','allimages/');</b>
+  <br />File <b>captchasight.png</b> is a "marker" that CSniperCaptcha uses to point a cell.
+  <b>cap_progress.png</b> is used to show a progress bar of a testing process.<br />
+
+  </li>
+  <li>
+  Make sure that as_jsfunclib.js file located in the current directory, or place it into Your "javascript" repository folder
+  (in that case You'll need to pass it in DrawRefs() method).
+  <br />This javascript function set is used to make XmlHttpRequest object.
+  </li>
+
+</ol>
+<br />
+
+<H4>Using CSniperCaptcha class</H4>
+<p>
+
+CSniperCaptcha generates small HTML table (let's call it "grid") that may contain variable number of rows and columns.
+These dimensions can be set by You, or randomly generated by the class (if not passed). Grid cell size is also variable, that can be passed
+or random-generated. Random generation is recommended if You want more protect from CAPTCHA cracking algorhytms.
+How this works :
+<ol>
+ <li>
+ When CAPTCHA grid is ready and rendered in the browser, AJAX request sends it's absolute position (x and y coords)
+ to the server.
+ </li>
+ <li>
+ Then server starts a checking sequence: it randomly chooses cell number, computes it's absolute coordinates (based on base position and dimensions of a grid),
+ and sends them to the client in AJAX response.
+ </li>
+ <li>
+ Client receives these coordinates and moves special image marker to the specified position.
+ </li>
+ <li>Site visitor must point marked cell with a mouse and click on it. OnClick function sends the selected grid cell "id"
+ to the server.
+ </li>
+ <li>When all NN clicks done, server script checks matching of strings and sends 'yes' or 'no' to the client. Besides, it stores
+ checking result in $_SESSION variable.
+ </li>
+</ol>
+
+If You wrote Your Javascript functions for 'success' and/or 'fail' cases, they can be fired after checking.
+For example, You can make visible or enabled some additional FORM elements if CAPTCHA test passed,
+or hide them in the case of fail. All these actions will be done immediately after the last user mouse click (on CAPTCHA grid),
+before the user press 'submit' button.
+<br />
+So You can even disable 'PUBLISH' button, to prevent sending form to the server.
+
+<p>
+Here is a simple example. (CAPTCHA grid will be drawn with random dimensions and cell height/width)
+<pre>
+require_once('as_snipercaptcha.php');
+
+$captcha = new CSniperCaptcha();
+
+CSniperCaptcha::DrawRefs(); // draw links to the CSS and js files used by the class
+// draw the main HTML code, beginning FORM tag and
+// all form fields You need (TEXTAREA etc.) without 'submit' button
+
+$captcha-&gt;Draw();
+
+//... Now You can draw a submit button and &lt;/FORM&gt; ending tag
+
+$captcha-&gt;DrawJsCode();
+
+// the rest of Your HTML code here ...
+</pre>
+
+<h4>CSniperCaptcha methods</h4>
+
+<li><b>CSniperCaptcha($codelen=4, $submitid='', $jscode_success='',$jscode_fail='', $reinit=false)</b> - class constructor.</li>
+<br /><br />Parameters:
+<ul>
+<li><b>$codelen</b> is a number of "user clicks" (code word length)</li>
+<li><b>$submitid</b> is a "submit" button id. If this id passed to the constructor, this button becomes enabled after the last user grid-click,
+  when server returns to client "OK" flag. So, if You pass this id, Your HTML code should draw this button initially disabled.
+</li>
+<li><b>$jscode_success</b> - Javascript code (usually function name with "()" ) that must be fired after successful finished CAPTCHA checking,
+  before posting form data.
+</li>
+<li><b>$jscode_fail</b> - Javascript code (usually function name with "()" ) that must be fired after failed CAPTCHA checking,
+  before posting form data.
+</li>
+<li><b>$reinit</b> - <b>1</b> (integer value) or Javascript code. Passed any non-empty parameter means that You want "re-init" image and prompt be echoed.
+  This "button" will fire re-initialization function, after wich user can start again the captcha process.
+  Any non-empty parameter value turns ON this feature. If You pass a string, CSniperCaptcha will treat it as javascript code that must be
+  fired when re-init link is pressed.<br />
+  Re-init image is "captcha_init.gif", it's included in distributive. You can change it to meet Your site color scheme.
+  "Re-init" prompt text displayed after the image may be set in the global associative array, <b>$sitestrings['captcha_init']</b>.
+</li>
+</ul>
+
+<li><b>SetServerScript($uri)</b> - call this method if You place CAPTCHA backend-functionality into a separated script file.</li>
+<br /><br />Parameters:
+<ul>
+<li><b>$uri</b> - filename of a backend script, that will receive client AJAX calls and send responses during CAPTCHA checking process.
+</li>
+</ul>
+ <li><b>DrawRefs($csspath='',$jspath='')</b> - call this method when You're ready to echo &lt;STYLE&gt; and &lt;SCRIPT&gt; tags
+   that refers to the css file captcha_styles.css and javascript file as_jsfunclib.js, used by the class.
+   If You insert all css styles from captcha_styles.css to Your own css that contain ALL styles used in Your site,
+   and therefore You don't need to make a STYLE reference, just pass <b>false</b> as $csspath to this method.
+   The same is true for $jspath.
+   <br /><br />Parameters:
+   <ul>
+   <li><b>$csspath</b> - relative path to the file captcha_styles.css</li>
+   <li><b>$jspath</b> - relative path to the file as_jsfunclib.js</li>
+   </ul>
+</li>
+<li><b>SetBufferedOutput($buffered=true)</b> - set "buffered" mode, so from this moment
+  all HTML code is not echoed directly to clinet stream,
+  and all methods (Draw(), DrawJsCode(), DrawRefs()) return respective HTML code instead of echoing it.
+  It is needed when PHP developer builds all HTML in memory, and outputs it at the end of program.
+  <br /><br />Parameter - optional boolean or integer value. True by default. False or zero means "NON BUFFERED".
+</li>
+<li><b>Draw($width=0, $height=0, $cellsize=0, $tovar=0)</b> - this method draws HTML code of a CAPTCHA grid anf progress bar.
+<br /><br />Parameters:
+<ul>
+<li><b>$width</b> - Number of columns in a grid. If zero, number is random-generated in a range 4-10</li>
+<li><b>$height</b> - Number of rows in a grid. If zero, number is random-generated in a range 3-6</li>
+<li><b>$cellsize</b> - one cell width and height, in pixels. If zero, number is random-generated in a range 10-17.
+  One note: don't make the cell size too small. To mark a cell "to be clicked", a special image (sniper sight)
+  is positioned over the cell, so if the image fully overlaps it, clicking on the cell will be impossible,
+  and user will never pass the test !
+</li>
+<li><b>$tovar</b> : by default HTML code for a grid is instantly echoed. If You want to do it later, just pass non-empty $tovar value.
+In that case Draw() returns generated HTML code.
+Using SetBufferedOutput() method is recommended - it turns buffered mode for ALL methods.
+</li>
+</ul>
+
+<li><b>DrawJsCode($autostart=1)</b> - this method draws client-side Javascript code needed for CAPTCHA processing.
+You have to call it AFTER printing the grid (i.e. after Draw() call), unless You pass false in $autostart parameter.
+
+<br /><br />Parameters:
+<ul>
+  <li><b>$autostart</b> :
+  By default internal javascript function SendCaptchaChecking() will be called, to start client-server data exchange.
+  <br />If You want to start it later (for example, by adding SendCaptchaChecking() to "onLoad" document property),
+  call this method with zero (false) parameter:
+  <br /> <b>$captcha-&gt;DrawJsCode(0);</b>
+  </li>
+</ul>
+
+<h4>Using example</h4>
+
+We want to draw CAPTCHA grid with random columns, rows and cell width/height.
+User must click correctly 5 times on marked cells.
+When checking sequence is done and user passed the test, the "SUBMIT" button will be enabled.
+<br />Note that submit button is drawn with initial DISABLED tag.
+<pre>
+require_once('as_snipercaptcha.php');
+
+$captcha = new CSniperCaptcha(5, 'btn_submit'); // here SESSION is started, so NO HTML output before this !
+
+// As the same script receives the POSTed form data, We have to check if test passed, and publish data to the SQL...
+if(!empty($_POST)) {
+  if($captcha-&gt;CheckPassed()){
+     // process user data (publish to the database etc.
+     PublishNewMessage(); // Your function that does a job
+     echo "Thanks, Your message published !";
+  }
+  else {
+     echo "You are a bot, go away";
+  }
+  exit;
+}
+
+// print the main HTML code, beginning FORM tag and
+// all form fields You need (TEXTAREA etc.) without 'submit' button
+echo "submit new message";
+$self = $_SERVER['PHP_SELF'];
+
+DrawRefs(); // draw links to the CSS and js files used by the class
+
+
+echo "&lt;FORM action='$self' method='POST' name='myform'&gt;";
+echo "&lt;TEXTAREA name='messagetext' style='width:100%; height:120px'&gt;&lt;/TEXTAREA&gt;&lt;br /&gt;";
+
+$captcha-&gt;Draw();
+
+echo "&lt;input type='SUBMIT' id='btn_submit' name='btn_submit' value='Submit message' DISABLED /&gt;
+echo "&lt;/FORM&gt;";
+$captcha-&gt;DrawJsCode();
+//... print the rest of HTML code, including ending &lt;/BODY&gt;, &lt;/HTML&gt; tags
+
+</pre>
+
+If You use AJAX (XmlHTTPRequest) to send FORM data (data will be posted to the server without whole html page redrawing),
+Your backend php script (that receives data from the client) must check $captcha-&gt;CheckPassed() result,
+and handle data only if true returned. Here is a simple backend script example:
+
+<pre>
+// backend for processing posted data
+require_once('as_snipercaptcha.php');
+$captcha = new CSniperCaptcha();
+if($captcha-&gt;CheckPassed()) {
+   PublushFormData($_POST); // processing posted data function...
+   echo "thanks, your message added"; // ajax response will go to the client
+}
+else echo "Error, CAPTCHA test not passed";
+
+</pre>
+
+<H4>Change Log</H4>
+
+<h5>1.03.007 (10.12.2008)</h5>
+<ul>
+  <li>Added PHP module version for using with jQuery (recommended if You use jQuery on your site), <b>as_snipercaptcha_j.php</b>
+  </li>
+  <li>Some code polishing
+  </li>
+</ul>
+
+<h5>1.03.006 (03.12.2008)</h5>
+<ul>
+  <li>User request: When some window resizing occures (Mozilla FF users change scale by pressing CTRL/+, CTRL/-), captcha is re-initializated automatically,
+  to fix coordinates shifting.
+  </li>
+  <li>Added parameter $reinit to class constructor, that enables captcha engine 're-initialization' by user.
+  </li>
+</ul>
+
+<h5>1.02.004 (10.05.2008)</h5>
+<ul>
+  <li>Compatibility problem fixed (may occure on Mozilla Firefox, when the &lt;!DOCTYPE...&gt; tag contains ULR to DTD file)
+  </li>
+</ul>
+
+<h5>1.02.003 (22.04.2008)</h5>
+<ul>
+  <li>Method SetBufferedOutput() added, that sets "buffered" HTML code output into retrurn var.
+  </li>
+  <li>Some code polishing
+  </li>
+</ul>
+
+<h5>1.01.002 (22.04.2008)</h5>
+<ul>
+  <li>Method SetBufferedOutput() added, that sets "buffered" HTML code output into retrurn var.
+  </li>
+  <li>Some code polishing
+  </li>
+</ul>
+
+<h5>1.0.001 (28.02.2008)</h5>
+<ul>
+  <li>First publication.
+  </li>
+</ul>
+
+<!-- DOC END -->
+<br />
+<hr>
+<div align=center><font size=-2>Copyright &copy; Alexander Selifonov, <a href="http://as-works.narod.ru">as-works.narod.ru</a>
+</font></div>
+</html></body>

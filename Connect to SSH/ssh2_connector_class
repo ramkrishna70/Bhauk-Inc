@@ -1,0 +1,145 @@
+<?php
+
+define("SSH_IP", "127.0.0.1");
+define("SSH_PORT", "22");
+define("SSH_USER", "someuser");
+define("SSH_PASS", "somepass");
+define("SSH_IS_SET_FP", true); // true if set fingerprint
+define("SSH_FINGER_PRINT", "123adfes54e5451254d587");
+
+/**
+* @package ssh modul class
+* @author $Author: Lukas Mestan $
+* @version $Id: class_ssh2.php,v 0.1.5 2008/12/12 15:58:15 Lukas Mestan Exp $
+* @since v.0.1.5
+* @copyright (c) Lukas Mestan
+*/
+class SSH2_Connect
+{
+    /**
+    * Condition for command
+    * @var string
+    * @access private
+    */
+    private $con=NULL;
+    
+    /**
+    * Shell script to execute
+    * @var string
+    * @access public
+    */
+    public $script="";
+    
+    /**
+    * Array list of negotiated
+    * @var array
+    * @access public
+    */
+    public $info=array();
+    
+    /**
+    * Destructor
+    * @access public
+    * @return void
+    */
+    function __destruct() {
+                if(function_exists('ssh2_disconnect')){
+                    ssh2_disconnect($this->con);
+                }else{
+                    @fclose($this->con);
+                    unset($this->con);
+                }
+              return NULL;
+    }
+    
+    /**
+    * Constructor - Conect to ssh
+    * @access public
+    * @return bool
+    */
+    function __construct(){
+            if(!function_exists("ssh2_connect")){
+                throw new Exception("ERROR: Function ssh2_connect not exist");
+            }
+            if(!($this->con = ssh2_connect(SSH_IP, SSH_PORT))){
+              throw new Exception("ERROR: Invalid connect to ssh");
+            }else{
+                  if(SSH_IS_SET_FP){
+                                          $fingerprint = ssh2_fingerprint($this->con, SSH2_FINGERPRINT_MD5 | SSH2_FINGERPRINT_HEX);
+                      if($fingerprint != SSH_FINGER_PRINT){
+                          throw new Exception("ERROR: Invalid hostkey hash");
+                      }
+                  }
+                  if(!ssh2_auth_password($this->con, SSH_USER, SSH_PASS)){
+                       throw new Exception("ERROR: Invalid authentification");
+                  }else{
+                         return true;
+                    }
+                }
+    }
+    
+    /**
+    * Returns list of negotiated methods. 
+    * @access public
+    * @return array
+    */
+    public function GetSSHInfo(){
+        $this->info = ssh2_methods_negotiated($this->con);
+        return $this->info;
+    }
+    
+    /**
+    * Send File via ssh
+    * @access public
+    * @param string $from
+    * @param string $to
+    * @param string $chmod
+    * @return bool
+    */
+    public function SendFile($from,$to,$chmod="0644"){
+        if(ssh2_scp_send($this->con, $from, $to, $chmod)){
+            return true;
+        }else{
+            throw new Exception("ERROR: Could not send file");
+        }
+    }
+    
+    /**
+    * Recive File via ssh
+    * @access public
+    * @param string $from
+    * @param string $to
+    * @return bool
+    */
+    public function ReciveFile($from,$to){
+        if(ssh2_scp_recv($this->con, $from, $to)){
+            return true;
+        }else{
+            throw new Exception("ERROR: Could not recive file");
+        }
+    }
+
+    /**
+    * Execute shell script (without output)
+    * @param string $script
+    * @access public
+    * @return bool
+    */
+    public function SSH_Start_Script($script,$setnull=true){
+            $this->script =& strval($script);
+            if($this->script==""){
+                throw new Exception("ERROR: Parameters script is empty");
+            }
+            if($this->SSH_to_Connect()){
+                if(!($stream = ssh2_exec($this->con, $this->script.($setnull?" > /dev/null 2>&1":"")))){
+                    throw new Exception("ERROR in ssh2_exec");
+                }else{
+                    return true;
+                }
+            }else{
+                throw new Exception("ERROR: Invalid connect to ssh");
+            }
+    }
+}
+
+?> 

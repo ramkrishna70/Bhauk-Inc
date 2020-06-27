@@ -1,0 +1,43 @@
+
+
+
+/* Example 1: Using the default ip addresses list(ip_default_list.ini)    */
+// ------------------------------
+  require "IpAuth/IpAuth.php";
+  
+  if (TRUE == IpAuth::check_permissions_for_IP("10.208.1.66"))
+  	echo "Allowed";
+  else
+  	echo "Not Allowed";
+
+
+  	
+/* Example 2: Using other IP addresses list */
+//------------------------------
+  require "IpAuth/IpAuth.php";
+  
+  if (TRUE == IpAuth::check_permissions_for_IP("10.208.1.66", "my_ip_list.ini"))
+  	echo "Allowed";
+  else
+  	echo "Not Allowed";
+  	
+  	
+ 
+/* Example 3: A real example. Redirecting based on the IP address of the visitor   */
+// ------------------------------
+  require "IpAuth/IpAuth.php";
+  
+  if (TRUE == IpAuth::check_permissions_for_IP($_SERVER['REMOTE_ADDR']))
+  {
+  	
+  	/* Redirecting to the main page */
+  	
+  }
+  else
+  {
+  	
+	/* Redirecting to the ip address not allowed page */
+  	
+  }
+
+

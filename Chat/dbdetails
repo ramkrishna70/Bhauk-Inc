@@ -1,0 +1,29 @@
+The database tables descriptions are as follows.
+
+1) db table "chat" description.
+
++-----------+--------------+------+-----+---------------------+----------------+
+| Field     | Type         | Null | Key | Default             | Extra          |
++-----------+--------------+------+-----+---------------------+----------------+
+| __id      | int(4)       |      | PRI | NULL                | auto_increment |
+| sesId     | varchar(128) |      |     |                     |                |
+| user      | varchar(64)  |      |     |                     |                |
+| room_name | varchar(128) |      |     | Main Room           |                |
+| __login   | datetime     |      |     | 0000-00-00 00:00:00 |                |
+| __logout  | datetime     |      |     | 0000-00-00 00:00:00 |                |
+| ip        | varchar(15)  |      |     | 000.000.000.000     |                |
++-----------+--------------+------+-----+---------------------+----------------+
+
+2) db table "rooms" description
+
++-------------+--------------+------+-----+-----------------+----------------+
+| Field       | Type         | Null | Key | Default         | Extra          |
++-------------+--------------+------+-----+-----------------+----------------+
+| __id        | int(4)       |      | PRI | NULL            | auto_increment |
+| room_name   | varchar(128) |      |     | Main Room       |                |
+| creator     | varchar(64)  |      |     |                 |                |
+| no_of_users | int(3)       |      |     | 0               |                |
+| ip          | varchar(15)  |      |     | 000.000.000.000 |                |
+| status      | tinyint(1)   |      |     | 0               |                |
++-------------+--------------+------+-----+-----------------+----------------+
+

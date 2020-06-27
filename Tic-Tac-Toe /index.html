@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>Tic-Tac-Toe</title>
+	<script type="text/javascript" src="libs/jquery-1.4.2.js"></script>
+	<script type="text/javascript" src="libs/raphael-min.js"></script>
+	<script type="text/javascript" src="libs/TicTacToe.js"></script>
+	<script type="text/javascript" src="libs/Position.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('#debug').ajaxStart(function(){
+			$(this).html('Thinking...');
+		}).ajaxStop(function(){
+			$(this).html('Done');
+		});
+		
+		//Second parameter can be passed to TicTacToe constructor to change default properties:
+		//e.g. var ttt = new TicTacToe('board', {size:600, stroke_width: 4});
+		var ttt = new TicTacToe('board');
+		if (Const.TURN == Const.COM) {
+			ttt.post();
+		}else{
+			$('#debug').html('It is your turn. Please start the game!');
+		}
+	});
+	
+	</script>
+	<style type="text/css">
+	html, body{
+		padding: 0;
+		text-align: center;	
+	}
+	#board, #debug{
+		margin: 10px auto;
+	}
+	</style>
+</head>
+<body>
+	<div id="debug" style="height: 40px; width 100%; background-color: #FFF;text-align:center; font-size:20pt;padding:10px"></div>
+	<div id="board"></div>
+</body>
+</html>

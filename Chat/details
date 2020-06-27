@@ -1,0 +1,23 @@
+
+        chat.php class is a chat program which can be used for communication between different users. This class will not use sockets for its communication. This uses MySQL database for the chatters data and rooms data and the chat messages will be outputted to a flat file.
+        
+        By default this class assumes "test" as its database. If any other database is needed replace the define statements as ...
+          define("ROOMS_DB", "MYOWN.rooms");
+          define("CHAT_DB", "MYOWN.chat");
+
+        By default there will be one room called "MainRoom". Whenever a new room is created, a flat file will be created with the given name and whatever the messages sent will be feeded to this file. The class assumes "/tmp" as the directory for creating rooms, so all the rooms will be created under this directory.
+
+        This class will not perform any authentication checks for regisred users and anybody can log into the system. 
+
+        When a user logs in with a unique handle ( user id ) all the available rooms list, chatters list, chat messages and the input box for sending messages will be presented to the user.
+
+        The usage of this class is given in the following php files namely index.php, chatMain.php, showRooms.php, chatDisplay.php, showUsers.php, chatMsg.php. 
+        1) index.php : Calls login page
+        2) chatMain.php : Splits window into frames and calls respective files
+        3) showRooms.php : Shows Rooms list
+        4) chatDisplay.php : Displays Messages
+        5) showUsers.php : Shows users list
+        6) chatMsg.php : Shows the form for sending messages
+
+        The content will get refreshed after every few seconds to grab the new messages. The refreshing rate can be changed depending on the requirement.
+

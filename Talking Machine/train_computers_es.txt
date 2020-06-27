@@ -1,0 +1,1251 @@
+Internet es una red mundial de computadoras con un conjunto de protocolos, el más destacado, el TCP/IP. Aparece por primera vez en 1969, cuando ARPAnet establece su primera conexión entre tres universidades en California y una en Utah. También se usa el término Internet como sustantivo común y por tanto en minúsculas para designar a cualquier red de redes que use las mismas tecnologías que Internet, independientemente de su extensión o de que sea pública o privada.
+
+Cuando se dice red de redes se hace referencia a que es una red formada por la interconexión de otras redes menores.
+
+Al contrario de lo que se piensa comúnmente, Internet no es sinónimo de World Wide Web (WWW). Ésta es parte de Internet, siendo la World Wide Web uno de los muchos servicios ofertados en la red Internet. La Web es un sistema de información mucho más reciente, desarrollado inicialmente por Tim Berners Lee en 1989. El WWW utiliza el Internet como medio de transmisión.
+
+Algunos de los servicios disponibles en Internet aparte de la Web son el acceso remoto a otras máquinas (SSH y telnet), transferencia de archivos (FTP), correo electrónico (SMTP), boletines electrónicos (news o grupos de noticias), conversaciones en línea (IRC y chats), mensajería instantánea, transmisión de archivos (P2P, P2M, Descarga Directa), etc.
+
+El género de la palabra Internet es ambiguo según el Diccionario de la Real Academia Española. Es común escuchar hablar de "el Internet" o "la Internet". Algunas personas abogan por "la Internet", pues Internet es una red y el género de la palabra es femenino. El artículo se utiliza como calco del inglés, the Internet, sin embargo, tampoco es necesario en castellano.
+
+Tabla de contenidos [ocultar]
+1 Historia 
+2 Internet y sociedad 
+2.1 Ocio 
+2.2 Internet y su evolución 
+2.3 Trabajo 
+2.4 Censura 
+3 Tecnología de Internet 
+4 Acceso a Internet 
+4.1 Nombres de dominio 
+5 Véase también 
+6 Enlaces externos 
+ 
+
+
+[editar] Historia
+Artículo principal: Historia de Internet
+1969, DARPA comienza a planificar la creación de una red que conecte computadores en caso de una eventual guerra atómica que incomunique a los humanos sobre la tierra, con fines principalmente de defensa.
+
+1972, se realizó la Primera demostración pública de ARPANET, una nueva Red de comunicaciones financiada por la DARPA que funcionaba de forma distribuida sobre la red telefónica conmutada. El éxito de ésta nueva arquitectura sirvió para que, en 1973, la DARPA iniciara un programa de investigación sobre posibles técnicas para interconectar redes (orientadas al tráfico de paquetes) de distintas clases. Para éste fin, desarrollaron nuevos protocolos de comunicaciones que permitiesen este intercambio de información de forma "transparente" para las computadoras conectadas. De la filosofía del proyecto surgió el nombre de "Internet", que se aplicó al sistema de redes interconectadas mediante los protocolos TCP e IP.
+
+1983, el 1 de enero, ARPANET cambió el protocolo NCP por TCP/IP. Ese mismo año, se creó el IAB con el fin de estandarizar el protocolo TCP/IP y de proporcionar recursos de investigación a Internet. Por otra parte, se centró la función de asignación de identificadores en la IANA que, más tarde, delegó parte de sus funciones en el Internet registry que, a su vez, proporciona servicios a los DNS.
+
+1986, la NSF comenzó el desarrollo de NSFNET que se convirtió en la principal Red en árbol de Internet, complementada después con las redes NSINET y ESNET, todas ellas en Estados Unidos. Paralelamente, otras redes troncales en Europa, tanto públicas como comerciales, junto con las americanas formaban el esqueleto básico ("backbone") de Internet.
+
+1989, con la integración de los protocolos OSI en la arquitectura de Internet, se inició la tendencia actual de permitir no sólo la interconexión de redes de estructuras dispares, sino también la de facilitar el uso de distintos protocolos de comunicaciones.
+
+En el CERN de Ginebra, un grupo de Físicos encabezado por Tim Berners-Lee, crearon el lenguaje HTML, basado en el SGML. En 1990 el mismo equipo construyó el primer cliente Web, llamado WorldWideWeb (WWW), y el primer servidor web.
+
+2006, el 3 de enero, Internet alcanzó los mil cien millones de usuarios. Se prevé que en diez años, la cantidad de navegantes de la Red aumentará a 2.000 millones.
+
+En julio de 1961 Leonard Kleinrock publicó desde el MIT el primer documento sobre la teoría de conmutación de paquetes. Kleinrock convenció a Lawrence Roberts de la factibilidad teórica de las comunicaciones vía paquetes en lugar de circuitos, lo cual resultó ser un gran avance en el camino hacia el trabajo informático en red. El otro paso fundamental fue hacer dialogar a los ordenadores entre sí. Para explorar este terreno, en 1965, Roberts conectó una computadora TX2 en Massachusetts con un Q-32 en California a través de una línea telefónica conmutada de baja velocidad, creando así la primera (aunque reducida) red de computadoras de área amplia jamás construida. En los EE.UU. se estaba buscando una forma de mantener las comunicaciones vitales del país en el posible caso de una Guerra Nuclear. Este hecho marcó profundamente su evolución, ya que aún ahora los rasgos fundamentales del proyecto se hallan presentes en lo que hoy conocemos como Internet.
+
+
+[editar] Internet y sociedad
+ 
+Sitios de internet por países.Internet tiene un impacto profundo en el trabajo, el ocio y el conocimiento. Gracias a la web, millones de personas tienen acceso fácil e inmediato a una cantidad extensa y diversa de información en línea. Un ejemplo de esto es el desarrollo y la distribución de colaboración del software de Free/Libre/Open-Source (SEDA) por ejemplo GNU, Linux, Mozilla y OpenOffice.org.
+
+Comparado a las enciclopedias y a las bibliotecas tradicionales, la web ha permitido una descentralización repentina y extrema de la información y de los datos. Algunas compañías e individuos han adoptado el uso de los weblogs, que se utilizan en gran parte como diarios actualizables. Algunas organizaciones comerciales animan a su personal para incorporar sus áreas de especialización en sus sitios, con la esperanza de que impresionen a los visitantes con conocimiento experto e información libre.
+
+Internet ha llegado a gran parte de los hogares y de las empresas de los países ricos, en este aspecto se ha abierto una brecha digital con los países pobres, en los cuales la penetración de Internet y las nuevas tecnologías es muy limitada para las personas.
+
+Desde una perspectiva cultural del conocimiento, internet ha sido una ventaja y una responsabilidad. Para la gente que está interesada en otras culturas proporciona una cantidad significativa de información y de una interactividad que sería inasequible de otra manera.
+
+
+[editar] Ocio
+ 
+Acceso Público a InternetLa pornografía y la industria de los videojuegos representan buena parte del ocio en la WWW y proporcionan a menudo una fuente significativa del rédito de publicidad para otros sitios de la red. Muchos gobiernos han procurado sin éxito poner restricciones en el uso de ambas industrias en Internet. Una área principal del ocio en el Internet es el sistema Multijugador.
+
+Muchos utilizan el Internet para descargar música, películas y otros trabajos. Hay fuentes pagadas y gratuitas para todo esto, usando los servidores centralizados y distribuidos, las tecnologías de P2P. Otros utilizan la red para tener acceso a las noticias y el estado del tiempo.
+
+La mensajería instantánea o chat y el E-mail son algunos de los servicios de uso más extendido.
+
+
+[editar] Internet y su evolución
+Antes, Internet nos servía para un objetivo claro. Navegábamos en Internet para algo muy concreto.
+
+Ahora, quizás también, pero sin duda alguna, hoy nos podemos perder por el inmenso abanico de posibilidades que nos brinda la Red. Hoy en día, la sensación que nos produce Internet es un ruido, interferencias, un explosivo cúmulo de ideas distintas, de personas diferentes, de pensamientos distintos, de tantas y tantas posibilidades que para una mente exceda in extremis.
+
+El crecimiento, o más bien, la incorporación de tantas personas a la Red, hace que las calles de lo que en principio era una pequeña ciudad llamada Internet se conviertan en todo un planeta extremadamente conectado entre sí, entre todos sus miembros.
+
+El hecho de que Internet haya aumentado tanto implica una mayor cantidad de relaciones entre personas, pero unas relaciones virtuales. Así, ahora sabemos que nos relacionamos más virtualmente y menos personalmente, sabiendo este hecho, y relacionándolo con la felicidad originada por las relaciones personales, podemos concluir que cuando una persona tenga una necesidad de conocimiento popular, conocimiento no escrito en libros, recurrirá a la fuente más fiable, más acorde a su necesidad y más accesible que le sea posible. Como ahora, esta fuente es posible en Internet, dicha persona preferirá prescindir del obligado protocolo que hay que cumplir a la hora de acercarse a alguien personalmente para obtener dicha información, y por ello, por elegir no establcer una relación personal sino virtual, sólo por ese motivo, disminuirán las relaciones personales con respecto al pasado más inmediato. Este hecho, lejos de ser perjudicial para la especie humana, para la supervivencia, que es para lo que estamos hechos, lejos de obstruir, implica la existencia de un medio capaz de albergar soluciones para problemas que antes eran mucho más difíciles de resolver.
+
+Como toda gran revolución, Internet augura una nueva era de diferentes métodos de resolución de problemas, creados a partir de soluciones anteriores. Internet produce la sensación que todos hemos sentido alguna vez, produce la esperanza que necesitamos cuando queremos conseguir algo. Produce un despertar de intenciones que jamás antes la tecnología había logrado en la población mundial. Genera una sensación de cercanía, de empatía, de comprensión, y a la vez, de confusión, de discusión, de lucha, y de guerras, que no queda otra que afirmar que Internet es Humana, Internet es como la vida misma.
+
+
+[editar] Trabajo
+Con la aparición del Internet y de las conexiones de alta velocidad disponibles al público, el Internet ha alterado de manera significativa la manera de trabajar de millones de personas. Al contrario que con la jornada laboral tradicional de 9 a 5 donde los empleados se desplazan al lugar de trabajo, internet ha permitido mayor flexibilidad en términos del horario y de localización.
+
+Un experto contable que se sienta en el país puede revisar los libros de otra compañía en otro país, en un servidor situado en un tercer país que sea mantenido remotamente por los especialistas en un cuarto.
+
+Internet y sobre todo los blogs han dado a los trabajadores un foro en el cual expresar sus opiniones sobre sus empleos, jefes y compañeros, creando una cantidad masiva de información y de datos sobre el trabajo que está siendo recogido actualmente por el proyecto de Worklifewizard.org, por el colegio de abogados de Harvard y el programa de Worklife.
+
+Internet ha impulsado el fenómeno de la Globalización y junto con la llamada desmaterialización de la economía ha dado lugar al nacimiento de una Nueva Economía caracterizada por la utilización de la red en todos los procesos de incremento de valor de la empresa.
+
+
+[editar] Censura
+Una de sus mayores ventajas, o inconvenientes, es la dificultad de su control de forma global.
+
+Algunos gobiernos, de naciones tales como Irán y la República Popular de China, restringen el que personas de sus países puedan ver ciertos contenidos de Internet, políticos y religiosos, considerados contrarios a sus criterios. La censura se hace, a veces, mediante filtros controlados por el gobierno, apoyados en leyes o motivos culturales, castigando la propagación de estos contenidos. Sin embargo, muchos usuarios de Internet pueden burlar estos filtros, pues la mayoría del contenido de Internet está disponible en todo el mundo, sin importar donde se esté, siempre y cuando se tengan la habilidad y los medios técnicos de conectar y editar.
+
+
+[editar] Tecnología de Internet
+
+[editar] Acceso a Internet
+Accesos a Internet 
+Módem 
+RDSI: 
+DSL • ADSL • ADSL2 • ADSL2+ • SDSL • IDSL • HDSL • SHDSL • VDSL •
+
+VDSL2 
+Cablemódem 
+Wi-Fi 
+Satélite 
+Fibra óptica 
+PLC 
+LMDS 
+Telefonía móvil: 
+GSM • GPRS • UMTS •
+
+HSDPA 
+FTTH 
+Banda estrecha 
+Banda ancha 
+Internet incluye aproximadamente 5000 redes en todo el mundo y más de 100 protocolos distintos basados en TCP/IP, que se configura como el protocolo de la red. Los servicios disponibles en la red mundial de PC, han avanzado mucho gracias a las nuevas tecnologías de transmisión de alta velocidad, como DSL y Wireless, se ha logrado unir a las personas con videoconferencia, ver imágenes por satélite (ver tu casa desde el cielo), observar el mundo por webcams, hacer llamadas telefónicas gratuitas, o disfrutar de un juego multijugador en 3D, un buen libro PDF, o álbumes y películas para descargar.
+
+El método de acceso a internet vigente hace algunos años, la telefonía básica, ha venido siendo sustituida gradualmente por conexiones más veloces y estables, entre ellas el ADSL, Cable Módems, o el RDSI. También han aparecido formas de acceso a través de la red eléctrica, e incluso por satélite (generalmente, sólo para descarga, aunque existe la posibilidad de doble vía, utilizando el protócolo DVB-RS).
+
+Internet también está disponible en muchos lugares públicos tales como bibliotecas, hoteles o cibercafés. Una nueva forma de acceder sin necesidad de un puesto fijo son las redes inalámbricas, hoy presentes en aeropuertos, universidades o poblaciones enteras.
+
+Esta sección es un esbozo. Usted puede ayudar a expandir esta sección.
+
+[editar] Nombres de dominio
+Artículo principal: Dominio de Internet
+La Corporación de Internet para los Nombres y los Números Asignados (ICANN) es la autoridad que coordina la asignación de identificadores únicos en Internet, incluyendo nombres de dominio, direcciones de Protocolos de Internet, números del puerto del protocolo y de parámetros. Un nombre global unificado (es decir, un sistema de nombres exclusivos para sostener cada dominio) es esencial para que la Internet funcione.
+
+El ICANN tiene su sede en California, supervisado por una Junta Directiva Internacional con comunidades técnicas, comerciales, académicas y ONG. El gobierno de los Estados Unidos continúa teniendo un papel privilegiado en cambios aprobados en el Domain Name System. Como Internet es una red distribuida que abarca muchas redes voluntariamente interconectadas, Internet, como tal, no tiene ningún cuerpo que lo gobierne.
+
+
+[editar] Véase también
+Intranet 
+Estructura de Internet 
+Extranet 
+Oficina virtual 
+Hipermedia 
+Hora Internet 
+Internet2, proyecto para crear nuevos protocolos y aplicaciones que mejoren el rendimiento de Internet 
+Nueva Economía 
+Precaciones recomendables al usar el correo electrónico 
+Privacidad en Internet 
+Protocolo de red 
+Red de computadoras 
+Seguridad en Internet 
+Web semántica 
+Web 2.0 
+
+[editar] Enlaces externos
+ Commons alberga contenido multimedia sobre Internet.Commons 
+Wikcionario
+
+ Wikcionario tiene una entrada sobre Internet. 
+Obtenido de "http://es.wikipedia.org/wiki/Internet"
+Categorías: Internet | Redes informáticas | Gestión del Conocimiento
+
+Internet no es una red centralizada ni está regida por un organismo. Su estructura se parece a una tela de araña en la cual unas redes de conectan con otras sin una jerarquía aparente.
+
+Tabla de contenidos [ocultar]
+1 Las direcciones en Internet 
+2 El flujo de información en Internet 
+3 El funcionamiento del correo electrónico 
+4 Los servidores FTP 
+ 
+
+
+[editar] Las direcciones en Internet
+En Internet emplea distintas direcciones para identificar máquinas, usuarios o archivos.
+
+Internet emplea direcciones numéricas para identificar las computadoras: las direcciones IP. Están formadas por cuatro números, de 0 a 255, separados por puntos. Un servidor puede identificarse, por ejemplo, con la dirección IP 212.125.17.4 Como es más sencillo recordar nombre, las direcciones se <<traducen>> a nombres. Los trozos <<traducidos>> se denominan dominios y subdominios. 
+Para identificar a usuarios se emplean las direcciones de correo electrónico, que tienen el siguiente formato: 
+usuario@servidor_de_correo 
+Por último, para identificar los archivos se emplean las direcciones URL. Una dirección URL tiene la forma: 
+http://nombre_de_empresa.com/abc.htm 
+Siendo http:// el protocolo, nombre_de_empresa.com el dominio junto con la dirección IP de la máquina y abc.htm la localización del archivo dentro de la máquina.
+
+
+[editar] El flujo de información en Internet
+La arquitectura cliente-servidor
+
+El procedimiento empleado para intercambiar información en Internet sigue el modelo cliente-servidor.
+
+Los servidoresson computadoras donde se almacenan datos. 
+El cliente es la computadora que realiza la petición al servidor para que este le muestre alguno de los archivos almacenados. 
+Los paquetes de información
+
+En Internet la información se transmite en pequeños trozos llamados paquetes. Lo importante es la reconstrucción del mensaje emitido en el destino, no el camino seguido por cada paquete.
+
+Si se destruye un nodo de la red, los paquetes encontrarán caminos alternativos. Este procedimiento no es el más eficiente, pero resiste bien las averías de una parte de la red.
+
+Protocolo TCP/IP
+
+Para intercambiar información entre computadores es necesario desarrollar técnicas que regulen la transmisión de paquetes.
+
+Dicho conjunto de normas se denomina protocolo. Hacia 1973 aparecieron los protocolos TCP e IP, utilizados ahora para controlar el flujo de datos en Internet.
+
+El protocolo TCP se encarga de fragmentar el mensaje emitido en paquetes de origen. En el destino se encarga de reorganizar los paquetes para formar de nuevo el mensaje. 
+El protocolo IP direcciona los paqutes. Esto hace posible que los distintos paquetes que forman un mensaje pueden viajar por caminos diferentes hasta llegar al destino. 
+La unión de varias redes (ARPANET y otras) en Estados Unidos, en 1983, siguiendo el protocolo TCP/IP, puede ser considerada como el nacimiento de Internet (Interconnected Networks)
+
+
+
+
+
+[editar] El funcionamiento del correo electrónico
+Los primeros mensajes de correo electrónico solo incluían texto, luego se intercambiaron mensajes con archivos y en la actualidad es posible enviar un mensaje en formato HTML.
+
+Cuando un usuario envía un correo, el mensaje se dirige hasta el buzón de correo de su proveedor de Internet. 
+Luego ese lo almacena y lo reenvía al servidor de correo del destinatario, donde se guarda. 
+Y cuando el destinatario solicita sus mensajes, el servidor de correo del proveedor los envía. 
+Todo esto se realiza en un período de tiempo breve. Pocos minutos bastan para que llegue el mensaje hasta su destino.
+
+Protocolos del correo electrónico
+
+El protocolo SMTP (Simple Mail Transfer Protocol) permite el envío (correo saliente) desde el cliente hacia el buzón del servicio de correo. 
+El protocolo POP (Post Office Protocol) permite recibir mensajes de correo hacia el cliente (se almacena en el disco duro del destinatario). 
+El protocolo IMAP (Internet Message Access Protocol) permite gestionar el correo entrante sin eliminarlo del buzón del servidor. Sirve, por ejemplo, para buscar solo los mensajes que incluyan una determinada palabra en el apartado asunto. 
+
+[editar] Los servidores FTP
+El protocolo FTP (File Transfer Protocol) permite transferir archivos vía Internet. Aunque el correo electrónico, por ejemplo, es un servicio que también permite intercambiar archivos, no es la herramienta más adecuada, sobre todo cuando queremos transmitir o enviar archivos de gran tamaño.
+
+El servicio FTP también funciona con la estructura cliente-servido. Los archivos se almacenan en el servidor y cada cliente solicita o envía los archivos manipulandao el servidor como si de una unidad local se tratase: se pueden copiar archivos, carpetas, cambiar el nombre de los mismos en el servidor, etc. Generalmente, un archivo del tipo Index.txt o COntenidos.txt muestra información sobre el tipo de archivos que se encuentran en una carpeta.
+
+En ocasiones, solo podemos manipular los archivos si tenemos permiso (habitualmente es necesario un nombre de usuario y una clave para acceder a determinados servidores FTP], pero existen servidores FTP de dominio público; no es necesario estar registrado o darse de alta para acceder a sus archivos: son los servidores FTP anónimos. En muchos de estos servidores el acceso es, sin embargo, restringido: no podemos borrar archivos, cambiarlos de nombre, etc. Así se consigue mantener en orden el servidor y evitar que alguien intencionadamente o por error, borre algún archivo o carpeta. Podemos decir que estos servidores FTP son de <<solo lectura>>.
+
+Muchas universidades disponen de servidores FTP donde colocan todos aquellos archivos de dominio público para que el acceso a los mismo sea ágil. Además en un servidor FTP no se necesita una persona que realice el envío solicitado por un cliente; es el propio cliente el que gestiona el intercambio de archivos desde su computadora.
+
+La dirección de Internet de un servidor FTP tiene un formato parecido al siguiente.
+
+ftp://ftpe.servidor_de_archivos_ftp.com 
+Obtenido de "http://es.wikipedia.org/wiki/Estructura_de_Internet"
+Categorías: Informática | Internet
+Protocolo de red o también Protocolo de Comunicación es el conjunto de reglas que especifican el intercambio de datos u órdenes durante la comunicación entre las entidades que forman parte de una red.
+
+Tabla de contenidos [ocultar]
+1 Introducción 
+1.1 Propiedades Típicas 
+2 Estandarización 
+3 Niveles de abstracción 
+4 Ejemplos de Protocolos 
+ 
+
+
+[editar] Introducción
+En Informática y Telecomunicaciones, un protocolo es una convención, o estándar, o acuerdo entre partes que regula la conexión, la comunicación y la transferencia de datos entre dos sistemas. En su forma más simple, un protocolo se puede definir como las reglas que gobiernan la semántica (significado de lo que se comunica), la sintaxis (forma en que se expresa) y la sincronización (quién y cuándo transmite) de la comunicación.
+
+Los protocolos pueden estar implementados bien en hardware (tarjetas de red), software (drivers), o una combinación de ambos.
+
+
+[editar] Propiedades Típicas
+Al hablar de protocolos no se puede generalizar, debido a la gran amplitud de campos que cubren, tanto en propósito, como en especificidad. No obstante, la mayoría de los protocolos especifican una o más de las siguientes propiedades:
+
+Detección de la conexión física sobre la que se realiza la conexión (cableada o sin cables) 
+Pasos necesarios para comenzar a comunicarse (Handshaking) 
+Negociación de las características de la conexión. 
+Cómo se inicia y cómo termina un mensaje. 
+Formato de los mensajes. 
+Qué hacer con los mensajes erróneos o corruptos (corrección de errores) 
+Cómo detectar la pérdida inesperada de la conexión, y qué hacer en ese caso. 
+Terminación de la sesión de conexión. 
+Estrategias para asegurar la seguridad (autenticación, cifrado). 
+
+[editar] Estandarización
+Los protocolos que son implementados en sistemas de comunicación que tienen un amplio impacto, suelen convertirse en estándares, debido a que la comunicación e intercambio de información (datos) es un factor fundamental en numerosos sistemas, y para asegurar tal comunicación se vuelve necesario copiar el diseño y funcionamiento a partir del ejemplo pre-existente. Esto ocurre tanto de manera informal como deliberada.
+
+Existen consorcios empresariales, que tienen como propósito precisamente el de proponer recomendaciones de estándares que se deben respetar para asegurar la interoperabilidad de los productos.
+
+Ejemplos de lo anterior son la IEEE que propone varios estándares para redes físicas, y la W3C (World Wide Web Consortium) que gestiona la definición aceptada sobre HTTP
+
+
+[editar] Niveles de abstracción
+En el campo de las redes informáticas, los protocolos se pueden dividir en varias categorías, una de las clasificaciones más estudiadas es la OSI.
+
+Se ha sugerido que este artículo o sección sea fusionado con Modelo OSI. (Discusión).
+
+Según la clasificación OSI, la comunicación de varios dispositivos ETD se puede estudiar dividiéndola en 7 niveles, que son expuestos desde su nivel más alto hasta el más bajo:
+
+Nivel Nombre Categoría 
+Capa 7 Nivel de aplicación Aplicación 
+Capa 6 Nivel de presentación 
+Capa 5 Nivel de sesión 
+Capa 4 Nivel de transporte 
+Capa 3 Nivel de red Transporte
+de datos 
+Capa 2 Nivel de enlace de datos 
+Capa 1 Nivel físico 
+
+A su vez, esos 7 niveles se pueden subdividir en dos categorías, las capas superiores y las capas inferiores. Las 4 capas superiores trabajan con problemas particulares a las aplicaciones, y las 3 capas inferiores se encargan de los problemas pertinentes al transporte de los datos.
+
+
+Otra clasificación, más práctica y la apropiada para TCP IP, podría ser esta:
+
+Nivel 
+Capa de Aplicación 
+Capa de Transporte 
+Capa de Red 
+Capa de Enlace de Datos 
+Capa Física 
+
+Los protocolos de cada capa tienen una interfaz bien definida. Una capa generalmente se comunica con la capa inmediata inferior, la inmediata superior, y la capa del mismo nivel en otros computadores de la red. Esta división de los protocolos ofrece abstracción en la comunicación.
+
+Una aplicación (capa nivel 7) por ejemplo, solo necesita conocer como comunicarse con la capa 6 que le sigue, y con otra aplicación en otro computador (capa 7). No necesita conocer nada entre las capas de la 1 y la 5. Así, un navegador web (HTTP, capa 7) puede utilizar una conexión Ethernet o PPP (capa 2) para acceder a la Internet, sin que sea necesario cualquier tratamiento para los protocolos de este nivel más bajo. De la misma forma, un router sólo necesita de las informaciones del nivel de red para enrutar paquetes, sin que importe si los datos en tránsito pertenecen a una imagen para un navegador web, un archivo transferido vía FTP o un mensaje de correo electrónico.
+
+
+[editar] Ejemplos de Protocolos
+Capa 1: Nivel físico 
+Cable coaxial, Cable de fibra óptica, Cable de par trenzado, Microondas, Radio, RS-232. 
+Capa 2: Nivel de enlace de datos 
+Ethernet, Fast Ethernet, Gigabit Ethernet, Token Ring, FDDI, ATM, HDLC. 
+Capa 3: Nivel de red 
+ARP, RARP, IP (IPv4, IPv6), X.25, ICMP, IGMP, NetBEUI, IPX, Appletalk. 
+Capa 4: Nivel de transporte 
+TCP, UDP, SPX. 
+Capa 5: Nivel de sesión 
+NetBIOS, RPC, SSL. 
+Capa 6: Nivel de presentación 
+ASN.1. 
+Capa 7: Nivel de aplicación 
+SNMP, SMTP, NNTP, FTP, SSH, HTTP, SMB/CIFS, NFS, Telnet, IRC, ICQ, POP3, IMAP. 
+Obtenido de "http://es.wikipedia.org/wiki/Protocolo_de_red"
+Categorías: Wikipedia:Fusionar | Protocolos de red | Modelo OSI
+
+Una red de computadoras (también llamada red de ordenadores o red informática) es un conjunto de computadoras y/o dispositivos conectados por enlaces de un medio físico (medios guiados) ó inalámbricos (medios no guiados) y que comparten información (archivos), recursos (CD-ROM, impresoras, etc.) y servicios (e-mail, chat, juegos), etc.
+
+
+
+
+Tabla de contenidos [ocultar]
+1 Redes según la direccionalidad de los datos (tipos de transmisión) 
+2 Protocolos de redes 
+3 Categorías 
+4 Tecnologías y protocolos de redes 
+5 Véase también 
+5.1 Estándares de redes 
+6 Enlaces externos 
+ 
+
+
+[editar] Redes según la direccionalidad de los datos (tipos de transmisión)
+simplex unidireccionales, un ETD transmite y otro recibe 
+half-duplex bidireccionales, pero sólo uno transmite por vez 
+full-duplex' ambos pueden transmitir y recibir a la vez una misma información 
+
+[editar] Protocolos de redes
+Artículo principal: Protocolo de red
+
+[editar] Categorías
+Por localización: 
+Red de área personal (PAN) 
+Red de área local (LAN) 
+Red de área metropolitana (MAN) 
+Red de área amplia (WAN) 
+Por relación funcional: 
+cliente-servidor 
+igual-a-igual (p2p) 
+Por estructura: 
+Red OSI o Modelo OSI 
+Red TCP/IP 
+Por Topología de red: 
+red de bus 
+red de estrella 
+red de anillo 
+red alambrada 
+red de bus-estrella 
+red Mesh 
+
+[editar] Tecnologías y protocolos de redes
+ 
+Red Token Ring.AppleTalk 
+ATM 
+Bluetooth 
+DECnet 
+Ethernet 
+FDDI 
+Frame Relay 
+HIPPI 
+PPP 
+HDLC 
+FidoNet 
+DECnet 
+
+[editar] Véase también
+Bridges 
+Router 
+
+[editar] Estándares de redes
+IEEE 802.3 estándar para Ethernet 
+IEEE 802.5, estándar para Token Ring 
+IEEE 802.11, estándar para Wi-Fi 
+IEEE 802.15, estándar para Bluetooth 
+Modelo OSI de la ISO 
+Red tipo TCP/IP 
+
+[editar] Enlaces externos
+Los primeros enlaces externos se caracterizaron por realizarse entre equipos que utilizaban idénticos sistemas operativos soportados por similar hardware y empleaban líneas de transmisión exclusivas para enlazar sólo dos elementos de la red.
+
+El modelo de referencia de Interconexión de Sistemas Abiertos (OSI, Open System Interconection) lanzado en 1984 fue el modelo de red descriptivo creado por ISO.
+
+Tabla de contenidos [ocultar]
+1 Historia 
+2 Modelo de referencia OSI 
+3 Capa Física (Capa 1) 
+3.1 Codificación de la señal 
+3.2 Topología y medios compartidos 
+3.3 Equipos adicionales 
+4 Capa de enlace de datos (Capa 2) 
+5 Capa de red (Capa 3) 
+6 Capa de transporte (Capa 4) 
+7 Capa de sesión (Capa 5) 
+8 Capa de presentación (Capa 6) 
+9 Capa de aplicación (Capa 7) 
+10 Unidades de datos 
+11 Transmisión de los datos 
+12 Formato de los datos 
+13 Operaciones sobre los datos 
+14 Véase también 
+15 Enlaces externos 
+ 
+
+
+[editar] Historia
+En sus inicios, el desarrollo de redes sucedió con desorden en muchos sentidos. A principios de la década de 1980 se produjo un enorme crecimiento en la cantidad y el tamaño de las redes. A medida que las empresas tomaron conciencia de las ventajas de usar tecnología de networking, las redes se agregaban o expandían a casi la misma velocidad a la que se introducían las nuevas tecnologías de red.
+
+Para mediados de la década de 1980, estas empresas comenzaron a sufrir las consecuencias de la rápida expansión. De la misma forma en que las personas que no hablan un mismo idioma tienen dificultades para comunicarse, las redes que utilizaban diferentes especificaciones e implementaciones tenían dificultades para intercambiar información. El mismo problema surgía con las empresas que desarrollaban tecnologías de networking privadas o propietarias. "Propietario" significa que una sola empresa o un pequeño grupo de empresas controla todo uso de la tecnología. Las tecnologías de networking que respetaban reglas propietarias en forma estricta no podían comunicarse con tecnologías que usaban reglas propietarias diferentes.
+
+Para enfrentar el problema de incompatibilidad de redes, la Organización Internacional para la Estandarización (ISO) investigó modelos de networking como la red de Digital Equipment Corporation (DECnet), la Arquitectura de Sistemas de Red (SNA) y TCP/IP a fin de encontrar un conjunto de reglas aplicables de forma general a todas las redes. Con base en esta investigación, la ISO desarrolló un modelo de red que ayuda a los fabricantes a crear redes que sean compatibles con otras redes.
+
+
+[editar] Modelo de referencia OSI
+Siguiendo el esquema de este modelo se crearon numerosos protocolos, por ejemplo X.25, que durante muchos años ocuparon el centro de la escena de las comunicaciones informáticas. El advenimiento de protocolos más flexibles donde las capas no están tan demarcadas y la correspondencia con los niveles no era tan clara puso a este esquema en un segundo plano. Sin embargo sigue siendo muy usado en la enseñanza como una manera de mostrar como puede estructurarse una "pila" de protocolos de comunicaciones (sin importar su poca correspondencia con la realidad).
+
+El modelo en sí mismo no puede ser considerado una arquitectura, ya que no especifica el protocolo que debe ser usado en cada capa, sino que suele hablarse de modelo de referencia. Este modelo está dividido en siete capas:
+
+
+[editar] Capa Física (Capa 1)
+La Capa Física del modelo de referencia OSI es la que se encarga de las conexiones físicas de la computadora hacia la red, tanto en lo que se refiere al medio físico (medios guiados: cable coaxial, cable de par trenzado, fibra óptica y otros tipos de cables; medios no guiado: radio, infrarrojos, microondas, láser y otras redes inalámbricas); características del medio (p.e. tipo de cable o calidad del mismo; tipo de conectores normalizados o en su caso tipo de antena; etc.) y la forma en la que se transmite la información (codificación de señal, niveles de tensión/intensidad de corriente eléctrica, modulación, tasa binaria, etc.)
+
+Es la encargada de transmitir los bits de información a través del medio utilizado para la transmisión. Se ocupa de las propiedades físicas y características eléctricas de los diversos componentes; de la velocidad de transmisión, si esta es uni o bidireccional (simplex, dúplex o full-duplex). También de aspectos mecánicos de las conexiones y terminales, incluyendo la interpretación de las señales eléctricas/electromagnéticas.
+
+Se encarga de transformar una trama de datos proveniente del nivel de enlace en una señal adecuada al medio físico utilizado en la transmisión. Estos impulsos pueden ser eléctricos (transmisión por cable); o electromagnéticos. Estos últimos, dependiendo de la frecuencia /longitud de onda de la señal pueden ser ópticos, de micro-ondas o de radio. Cuando actúa en modo recepción el trabajo es inverso; se encarga de transformar la señal transmitida en tramas de datos binarios que serán entregados al nivel de enlace.
+
+Sus principales funciones se pueden resumir como:
+
+Definir el medio o medios físicos por los que va a viajar la comunicación: cable de pares trenzados (o no, como en RS232/EIA232), coaxial, guías de onda, aire, fibra óptica. 
+Definir las características materiales (componentes y conectores mecánicos) y eléctricas (niveles de tensión) que se van a usar en la transmisión de los datos por los medios físicos. 
+Definir las características funcionales de la interfaz (establecimiento, mantenimiento y liberación del enlace físico). 
+Transmitir el flujo de bits a través del medio. 
+Manejar las señales eléctricas/electromagnéticas 
+Especificar cables, conectores y componentes de interfaz con el medio de transmisión, polos en un enchufe, etc. 
+Garantizar la conexión (aunque no la fiabilidad de ésta). 
+
+[editar] Codificación de la señal
+El nivel físico recibe una trama binaria que debe convertir a una señal eléctrica, electro magnética, óptica u otra dependiendo del medio, de tal forma que a pesar de la degradación que pueda sufrir en el medio de transmisión vuelva a ser interpretable correctamente en el receptor.
+
+En el caso más sencillo el medio es directamente digital, como en el caso de las fibras ópticas, dado que por ellas se transmiten pulsos de luz.
+
+Cuando el medio no es digital hay que codificar la señal, en los casos más sencillos la codificación puede ser por pulsos de tensión (PCM o Pulse Code Modulatión) (por ejemplo 5 V para los "unos" y 0 V para los "ceros"), es lo que se llaman codificación unipolar NRZ. Otros medios se codifican mediante presencia o ausencia de corriente. En general estas codificaciones son muy simples y no apuran bien la capacidad de medio. Cuando se quiere sacar más partido al medio se usan técnicas de modulación más complejas, y suelen ser muy dependientes de las características del medio concreto.
+
+En los casos más complejos, como suelen ser las comunicaciones inalámbricas, se pueden dar modulaciones muy sofisticadas, este es el caso de los estándares Wi-Fi, con técnicas de modulación complejas de espectro ensanchado
+
+
+[editar] Topología y medios compartidos
+Indirectamente el tipo de conexión que se haga en la capa física puede influir en el diseño de la capa de Enlace. Atendiendo al número de equipos que comparten un medio hay dos posibilidades:
+
+Conexiones punto a punto: que se establecen entre dos equipos y que no admiten ser compartidas por terceros 
+Conexiones multipunto: en las que dos o más equipos pueden usar el medio. 
+Así por ejemplo la fibra óptica no permite fácilmente conexiones multipunto (sin embargo, véase FDDI) y por el contrario las conexiones inalámbricas son inherentemente multipunto (sin embargo, véanse los enlaces infrarrojos). Hay topologías como el anillo, que permiten conectar muchas máquinas a partir de una serie de conexiones punto a punto.
+
+
+[editar] Equipos adicionales
+A la hora de diseñar una red hay equipos adicionales que pueden funcionar a nivel físico, se trata de los repetidores, en esencia se trata de equipos que amplifican la señal, pudiendo también regenerarla. En las redes Ethernet con la opción de cableado de par trenzado (la más común hoy por hoy) se emplean unos equipos de interconexión llamados concentradores (repetidores en las redes 10Base-2) más conocidos por su nombre en inglés (hubs) que convierten una topología física en estrella en un bus lógico y que actúan exclusivamente a nivel físico, a diferencia de los conmutadores (switches) que actúan a nivel de enlace.
+
+
+[editar] Capa de enlace de datos (Capa 2)
+Artículo principal: Nivel de enlace de datos
+Cualquier medio de transmisión debe ser capaz de proporcionar una transmisión sin errores, es decir, un tránsito de datos fiable a través de un enlace físico. Debe crear y reconocer los límites de las tramas, así como resolver los problemas derivados del deterioro, pérdida o duplicidad de las tramas. También puede incluir algún mecanismo de regulación del tráfico que evite la saturación de un receptor que sea más lento que el emisor.
+
+La capa de enlace de datos se ocupa del direccionamiento físico, de la topología de la red, del acceso a la red, de la notificación de errores, de la distribución ordenada de tramas y del control del flujo.
+
+
+[editar] Capa de red (Capa 3)
+Artículo principal: Nivel de red
+El cometido de la capa de red es hacer que los datos lleguen desde el origen al destino, aún cuando ambos no estén conectados directamente. Es decir que se encarga de encontrar un camino manteniendo una tabla de enrutamiento y atravesando los equipos que sea necesario, para hacer llevar los datos al destino. Los equipos encargados de realizar este encaminamiento se denominan en castellano encaminadores, aunque es más frecuente encontrar el nombre inglés routers y, en ocasiones enrutadores.
+
+Adicionalmente la capa de red debe gestionar la congestión de red, que es el fenómeno que se produce cuando una saturación de un nodo tira abajo toda la red (similar a un atasco en un cruce importante en una ciudad grande). La PDU de la capa 3 es paquetes.
+
+
+[editar] Capa de transporte (Capa 4)
+Artículo principal: Nivel de transporte
+Su función básica es aceptar los datos enviados por las capas superiores, dividirlos en pequeñas partes si es necesario, y pasarlos a la capa de red. En el caso del modelo OSI, también se asegura que lleguen correctamente al otro lado de la comunicación. Otra característica a destacar es que debe aislar a las capas superiores de las distintas posibles implementaciones de tecnologías de red en las capas inferiores, lo que la convierte en el corazón de la comunicación. En esta capa se proveen servicios de conexión para la capa de sesión que serán utilizados finalmente por los usuarios de la red al enviar y recibir paquetes. Estos servicios estarán asociados al tipo de comunicación empleada, la cual puede ser diferente según el requerimiento que se le haga a la capa de transporte. Por ejemplo, la comunicación puede ser manejada para que los paquetes sean entregados en el orden exacto en que se enviaron, asegurando una comunicación punto a punto libre de errores, o sin tener en cuenta el orden de envío. Una de las dos modalidades debe establecerse antes de comenzar la comunicación para que una sesión determinada envíe paquetes, y ése será el tipo de servicio brindado por la capa de transporte hasta que la sesión finalice. De la explicación del funcionamiento de esta capa se desprende que no está tan encadenada a capas inferiores como en el caso de las capas 1 a 3, sino que el servicio a prestar se determina cada vez que una sesión desea establecer una comunicación. Todo el servicio que presta la capa está gestionado por las cabeceras que agrega al paquete a transmitir.
+
+Para finalizar, podemos definir a la capa de transporte como:
+
+Capa encargada de efectuar el transporte de los datos (que se encuentran dentro del paquete) de la máquina origen a la destino, independizándolo del tipo de red física que se esté utilizando. La PDU de la capa 4 se llama Segmentos.
+
+
+[editar] Capa de sesión (Capa 5)
+Esta capa ofrece varios servicios que son cruciales para la comunicación, como son: 1 Control de la sesión a establecer entre el emisor y el receptor (quién transmite, quién escucha y seguimiento de ésta). 2 Control de la concurrencia (que dos comunicaciones a la misma operación crítica no se efectúen al mismo tiempo). 3 Mantener puntos de verificación (checkpoints), que sirven para que, ante una interrupción de transmisión por cualquier causa, la misma se pueda reanudar desde el último punto de verificación en lugar de repetirla desde el principio. Por lo tanto, el servicio provisto por esta capa es la capacidad de asegurar que, dada una sesión establecida entre dos máquinas, la misma se pueda efectuar para las operaciones definidas de principio a fin, reanudándolas en caso de interrupción. En muchos casos, los servicios de la capa de sesión son parcialmente, o incluso, totalmente prescindibles.
+
+
+[editar] Capa de presentación (Capa 6)
+El objetivo de la capa de presentación es encargarse de la representación de la información, de manera que aunque distintos equipos puedan tener diferentes representaciones internas de caracteres (ASCII, Unicode, EBCDIC), números (little-endian tipo Intel, big-endian tipo Motorola), sonido o imágenes, los datos lleguen de manera reconocible.
+
+Esta capa es la primera en trabajar más el contenido de la comunicación que cómo se establece la misma. En ella se tratan aspectos tales como la semántica y la sintaxis de los datos transmitidos, ya que distintas computadoras pueden tener diferentes formas de manejarlas.
+
+Por lo tanto, podemos resumir definiendo a esta capa como la encargada de manejar las estructuras de datos abstractas y realizar las conversiones de representación de datos necesarias para la correcta interpretación de los mismos.
+
+Esta capa también permite cifrar los datos y comprimirlos.
+
+
+[editar] Capa de aplicación (Capa 7)
+Ofrece a las aplicaciones (de usuario o no) la posibilidad de acceder a los servicios de las demás capas y define los protocolos que utilizan las aplicaciones para intercambiar datos, como correo electrónico (POP y SMTP), gestores de bases de datos y servidor de ficheros (FTP). Hay tantos protocolos como aplicaciones distintas y puesto que continuamente se desarrollan nuevas aplicaciones el número de protocolos crece sin parar.
+
+Cabe aclarar que el usuario normalmente no interactúa directamente con el nivel de aplicación. Suele interactuar con programas que a su vez interactúan con el nivel de aplicación pero ocultando la complejidad subyacente. Así por ejemplo un usuario no manda una petición "HTTP/1.0 GET index.html" para conseguir una página en html, ni lee directamente el código html/xml.
+
+Entre los protocolos (refiriéndose a protocolos genéricos, no a protocolos de la capa de aplicación de OSI) más conocidos destacan:
+
+HTTP (HyperText Transfer Protocol) el protocolo bajo la www 
+FTP (File Transfer Protocol) ( FTAM, fuera de TCP/IP) transferencia de ficheros 
+SMTP (Simple Mail Transfer Protocol) (X.400 fuera de tcp/ip) envío y distribución de correo electrónico 
+POP (Post Office Protocol)/IMAP: reparto de correo al usuario final 
+SSH (Secure SHell) principalmente terminal remoto, aunque en realidad cifra casi cualquier tipo de transmisión. 
+Telnet otro terminal remoto, ha caído en desuso por su inseguridad intrínseca, ya que las claves viajan sin cifrar por la red. 
+Hay otros protocolos de nivel de aplicación que facilitan el uso y administración de la red:
+
+SNMP (Simple Network Management Protocol) 
+DNS (Domain Name System) 
+
+
+
+
+[editar] Unidades de datos
+El intercambio de información entre dos capas OSI consiste en que cada capa en el sistema fuente la agrega información de control a los datos, y cada capa en el sistema de destino analiza y remueve la información de control de los datos como sigue:
+
+
+Si un ordenador (host A) desea enviar datos a otro (host B), en primer término los datos deben empaquetarse a través de un proceso denominado encapsulamiento, es decir, a medida que los datos se desplazan a través de las capas del modelo OSI, reciben encabezados, información final y otros tipos de información.
+
+
+
+
+N-PDU (Unidad de datos de servicio)
+
+Es la información intercambiada entre entidades pares,es decir,dos entidades pertenecientes a la misma capa pero en dos sistemas diferentes, utilizando una conexión(N-1). 
+Esta compuesta por: 
+N-SDU (Unidad de datos del servicio) 
+Son los datos que se necesitan la entidades(N) para realizar funciones del servicio pedido por la entidad(N+1). 
+N-PCI (Información de control del protocolo) 
+Información intercambiada entre entidades (N) utilizando una conexión (N-1) para coordinar su operación conjunta. 
+
+
+
+N-IDU (Unidad de datos del interface)
+
+Es la información transferida entre dos niveles adyacentes,es decir, dos capas contiguas. 
+Esta compuesta por: 
+N-ICI (Información de control del interface) 
+Información intercambiada entre una entidad (N+1) y una entidad (N) para coordinar su operación conjunta. 
+Datos de Interface-(N) 
+Información transferida ente una entidad-(N+1) y una entidad-(N) y que normalmente coincide con la (N+1)-PDU. 
+
+[editar] Transmisión de los datos
+La capa de aplicación recibe el mensaje del usuario y le añade una cabecera constituyendo así la PDU de la capa de aplicación. La PDU se transfiere a la capa de aplicación del nodo destino, este elimina la cabecera y entrega el mensaje al usuario.
+
+Para ello ha sido necesario todo este proceso:
+
+1-Ahora hay que entregar la PDU a la capa de presentación para ello hay que añadirla la correspondiente cabecera ICI y transformarla así en una IDU, la cual se transmite a dicha capa.
+
+2-La capa de presentación recibe la IDU, le quita la cabecera y extrae la información, es decir, la SDU, a esta le añade su propia cabecera (PCI) constituyendo así la PDU de la capa de presentación.
+
+3- Esta PDU es transferida a su vez a la capa de sesión mediante el mismo proceso, repitiéndose así para todas las capas.
+
+4-Al llegar al nivel físico se envían los datos que son recibidos por la capa física del receptor.
+
+5-Cada capa del receptor se ocupa de extraer la cabecera, que anteriormente había añadido su capa homóloga, interpretarla y entregar la PDU a la capa superior.
+
+6-Finalmente llegará a la capa de aplicación la cual entregará el mensaje al usuario.
+
+
+
+
+[editar] Formato de los datos
+Estos datos reciben una serie de nombres y formatos específicos en función de la capa en la que se encuentren, debido a como se describió anteriormente la adhesión de una serie de encabezados e información final. Los formatos de información son los siguientes:
+
+
+APDU
+
+Unidad de datos en la Capa de aplicación.
+
+
+PPDU
+
+Unidad de datos en la Capa de presentación.
+
+
+SPDU
+
+Unidad de datos en la capa de sesión.
+
+
+TPDU
+
+Unidad de datos en la capa de transporte.
+
+
+Paquete
+
+Unidad de datos en el Nivel de red.
+
+
+Trama
+
+Unidad de datos en la capa de enlace.
+
+
+Bits
+
+Unidad de datos en la capa física.
+
+
+[editar] Operaciones sobre los datos
+En determinadas situaciones es necesario realizar una serie de operaciones sobre las PDU para facilitar su transporte, bien debido a que son demasiado grandes o bien porque son demasiado pequeñas y estaríamos desaprovechando la capacidad del enlace.
+
+
+
+
+SEGMENTACIÓN Y REENSAMBLAJE
+
+Hace corresponder a una (N)-SDU sobre varias (N)-PDU.
+
+El reensamblaje hace corresponder a varias (N)-PDUs en una (N)-SDU.
+
+
+BLOQUEO Y DESBLOQUEO
+
+El bloqueo hace corresponder varias (N)-SDUs en una (N)-PDU.
+
+El desbloqueo identifica varias (N)-SDUs que están contenidas en una (N)-PDU.
+
+
+CONCATENACIÓN Y SEPARACIÓN
+
+La concatenación es una función-(N) que realiza el nivel-(N) y que hace corresponder varias (N)-PDUs en una sola (N-1)-SDU.
+
+La separación identifica varias (N)-PDUs que están contenidas en una sola (N-1)-SDU.
+
+
+
+
+
+[editar] Véase también
+Familia de protocolos de Internet 
+
+[editar] Enlaces externos
+ISO standard 7498-1:1994 (ZIP format) 
+Cybertelecom — Layered Model of Regulation 
+OSI Reference Model — The ISO Model of Architecture for Open Systems Interconnection, Hubert Zimmermann, IEEE Transactions on Communications, vol. 28, no. 4, April 1980, pp. 425 - 432. 
+Introduction to Data Communications 
+Internetworking Basics 
+Obtenido de "http://es.wikipedia.org/wiki/Modelo_OSI"
+Categoría: Modelo OSI
+
+LAN es la abreviatura de Local Area Network (Red de Área Local o simplemente Red Local). Una red local es la interconexión de varios ordenadores y periféricos. Su extensión esta limitada físicamente a un edificio o a un entorno de unos pocos kilómetros. Su aplicación más extendida es la interconexión de ordenadores personales y estaciones de trabajo en oficinas, fábricas, etc; para compartir recursos e intercambiar datos y aplicaciones. En definitiva, permite que dos o más máquinas se comuniquen.
+
+El término red local incluye tanto el hardware como el software necesario para la interconexión de los distintos dispositivos y el tratamiento de la información.
+
+En los días anteriores a los ordenadores personales, una empresa podía tener solamente un ordenador central, accediendo los usuarios a este vía terminales de ordenador sobre un cable simple de baja velocidad. Las redes como SNA de IBM (la Arquitectura de Red de Sistemas) fueron diseñadas para unir terminales u ordenadores centrales a sitios remotos sobre líneas alquiladas. Las primeras Lan fueron creadas al final de los años 1970 y se solían crear líneas de alta velocidad para conectar grandes ordenadores centrales a un solo lugar. Muchos de los sistemas fiables creados en esta época, como Ethernet y ARCNET fueron los más populares.
+
+El crecimiento CP/M y DOS basados en el ordenador personal significaron que en un lugar físico existieran docenas o incluso cientos de ordenadores. La intención inicial de conectar estos ordenadores fue, generalmente compartir espacio de disco e impresoras láser, tales recursos eran muy caros en este tiempo. Había muchas expectativas en este tema desde el 1983 en adelante y la industria informática declaró que el siguiente año sería “El año de las Lan”.
+
+En realidad esta idea se vino abajo debido a la proliferación de las incompatibilidades de la capa física y la implantación del protocolo de red, y confusión sobre la mejor forma de compartir los recursos. Lo normal es que cada vendedor tuviera tarjeta de red, cableado, protocolo y sistema de operación de red. Con la aparición de Netware surgió una nueva solución, la cual ofrecía: soporte imparcial para los 40 o más tipos que existían de tarjetas y cables y sistemas operativos mucho más sofisticados que los que ofrecían la mayoría de los competidores. Netware dominaba el campo de las Lan de los ordenadores personales desde antes de su introducción en 1983 hasta mediados de los años 1990, cuando Microsoft introdujo Windows NT Advance Server y Windows for Workgroups.
+
+De todos los competidores a Netware, sólo Banyan VINES tenía fuerza técnica comparable, pero Banyan se ganó una base segura. Microsoft y 3Com trabajaron juntos para crear un sistema de operaciones de red simple el cual estaba formado por la base de 3Com's 3+Share, el Gestor de redes Lan de Microsoft y el Servidor de IBM. Ninguno de estos proyectos fue especialmente satisfactorio.
+
+Tabla de contenidos [ocultar]
+1 Ventajas 
+2 Características 
+3 Topología de la red 
+4 Tipos 
+4.1 Comparativa de los tipos de redes 
+5 Componentes 
+6 Véase también 
+7 Enlaces externos 
+ 
+
+
+[editar] Ventajas
+En una empresa suelen existir muchos ordenadores, los cuales necesitan de su propia impresora para imprimir informes (redundancia de hardware), los datos almacenados en uno de los equipos es muy probable que sean necesarios en otro de los equipos de la empresa por lo que será necesario copiarlos en este, pudiéndose producir desfases entre los datos de un usuario y los de otro , la ocupación de los recursos de almacenamiento en disco se multiplican (redundancia de datos), los ordenadores que trabajen con los mismos datos tendrán que tener los mismos programas para manejar dichos datos (redundancia de software) etc… La solución a estos problemas se llama red de área local. La red de área local permite compartir bases de datos (se elimina la redundancia de datos), programas (se elimina la redundancia de software) y periféricos como puede ser un módem, una tarjeta RDSI, una impresora, etc... (se elimina la redundancia de hardware); poniendo a nuestra disposición otros medios de comunicación como pueden ser el correo electrónico y el Chat. Nos permite realizar un proceso distribuido, es decir, las tareas se pueden repartir en distintos nodos y nos permite la integración de los procesos y datos de cada uno de los usuarios en un sistema de trabajo corporativo. Tener la posibilidad de centralizar información o procedimientos facilita la administración y la gestión de los equipos. Además una red de área local conlleva un importante ahorro, tanto de dinero, ya que no es preciso comprar muchos periféricos, se consume menos papel, y en una conexión a Internet se puede utilizar una única conexión telefónica compartida por varios ordenadores conectados en red; como de tiempo, ya que se logra gestión de la información y del trabajo.
+
+El objetivo principal de una red de Area Local es el de permitir la intercomunicación de ordenadores.
+
+
+[editar] Características
+Tecnología broadcast (difusión) con el medio de transmisión compartido. 
+Cableado específico instalado normalmente a propósito. 
+Capacidad de transmisión comprendida entre 1 Mbps y 1 Gbps. 
+Extensión máxima no superior a 3 km (Una FDDI puede llegar a 200 km) 
+Uso de un medio de comunicación privado. 
+La simplicidad del medio de transmisión que utiliza (cable coaxial, cables telefónicos y fibra óptica). 
+La facilidad con que se pueden efectuar cambios en el hardware y el software. 
+Gran variedad y número de dispositivos conectados. 
+Posibilidad de conexión con otras redes. 
+
+[editar] Topología de la red
+La topología de red define la estructura de una red. Una parte de la definición topológica es la topología física, que es la disposición real de los cables o medios. La otra parte es la topología lógica, que define la forma en que los hosts acceden a los medios para enviar datos. Las topologías más comúnmente usadas son las siguientes:
+
+TOPOLOGIAS FISICAS
+
+Una topología de bus usa un solo cable backbone que debe terminarse en ambos extremos. Todos los hosts se conectan directamente a este backbone. 
+La topología de anillo conecta un host con el siguiente y al último host con el primero. Esto crea un anillo físico de cable. 
+La topología en estrella conecta todos los cables con un punto central de concentración. 
+Una topología en estrella extendida conecta estrellas individuales entre sí mediante la conexión de HUBs o switches. Esta topología puede extender el alcance y la cobertura de la red. 
+Una topología jerárquica es similar a una estrella extendida. Pero en lugar de conectar los HUBs o switches entre sí, el sistema se conecta con un computador que controla el tráfico de la topología. 
+La topología de malla se implementa para proporcionar la mayor protección posible para evitar una interrupción del servicio. El uso de una topología de malla en los sistemas de control en red de una planta nuclear sería un ejemplo excelente. Como se puede observar en el gráfico, cada host tiene sus propias conexiones con los demás hosts. Aunque la Internet cuenta con múltiples rutas hacia cualquier ubicación, no adopta la topología de malla completa. 
+TOPOLOGIAS LOGICAS La topología lógica de una red es la forma en que los hosts se comunican a través del medio. Los dos tipos más comunes de topologías lógicas son broadcast y transmisión de tokens.
+
+La topología broadcast simplemente significa que cada host envía sus datos hacia todos los demás hosts del medio de red. No existe una orden que las estaciones deban seguir para utilizar la red. Es por orden de llegada, es como funciona Ethernet. 
+La topología transmisión de tokens. La transmisión de tokens controla el acceso a la red mediante la transmisión de un token electrónico a cada host de forma secuencial. Cuando un host recibe el token, ese host puede enviar datos a través de la red. Si el host no tiene ningún dato para enviar, transmite el token al siguiente host y el proceso se vuelve a repetir. Dos ejemplos de redes que utilizan la transmisión de tokens son Token Ring y la Interfaz de datos distribuida por fibra (FDDI). Arcnet es una variación de Token Ring y FDDI. Arcnet es la transmisión de tokens en una topología de bus. 
+
+[editar] Tipos
+La oferta de redes de área local es muy amplia, existiendo soluciones casi para cualquier circunstancia. Podemos seleccionar el tipo de cable, la topología e incluso el tipo de transmisión que más se adapte a nuestras necesidades. Sin embargo, de toda esta oferta las soluciones más extendidas son tres: Ethernet, Token Ring y Arcnet.
+
+
+[editar] Comparativa de los tipos de redes
+Para elegir el tipo de red que más se adapte a nuestras pretensiones, tenemos que tener en cuenta distintos factores, como son el número de estaciones, distancia máxima entre ellas, dificultad del cableado, necesidades de velocidad de respuesta o de enviar otras informaciones aparte de los datos de la red y, como no, el coste.
+
+Como referencia para los parámetros anteriores, podemos realizar una comparación de los tres tipos de redes comentados anteriormente. Para ello, supongamos que el tipo Ethernet y Arcnet se instalan con cable coaxial y Token Ring con par trenzado apantallado. En cuanto a las facilidades de instalación, Arcnet resulta ser la más fácil de instalar debido a su topología. Ethernet y Token Ring necesitan de mayor reflexión antes de proceder con su implementación.
+
+En cuanto a la velocidad, Ethernet es la más rápida, 10/100/1000 Mb/s, Arcnet funciona a 2,5 Mb/s y Token Ring a 4 Mb/s. Actualmente existe una versión de Token Ring a 16 Mb/s, pero necesita un tipo de cableado más caro.
+
+En cuanto al precio, Arcnet es la que ofrece un menor coste; por un lado porque las tarjetas que se instalan en los PC para este tipo de redes son más baratas, y por otro, porque el cableado es más asequible. Token Ring resulta ser la que tiene un precio más elevado, porque, aunque las placas de los PC son más baratas que las de la red Ethernet, sin embargo su cableado resulta ser caro, entre otras cosas porque se precisa de una MAU por cada grupo de ocho usuarios. jhonnyguille
+
+
+[editar] Componentes
+Servidor: El servidor es aquel o aquellos ordenadores que van a compartir sus recursos hardware y software con los demás equipos de la red. Sus características son potencia de cálculo, importancia de la información que almacena y conexión con recursos que se desean compartir. 
+Estación de trabajo:Los ordenadores que toman el papel de estaciones de trabajo aprovechan o tienen a su disposición los recursos que ofrece la red así como los servicios que proporcionan los Servidores a los cuales pueden acceder. 
+Gateways o pasarelas: Es un hardware y software que permite las comunicaciones entre la red local y grandes ordenadores (mainframes). El gateway adapta los protocolos de comunicación del mainframe (X25, SNA, etc.) a los de la red, y viceversa. 
+Bridges o puentes: Es un hardware y software que permite que se conecten dos redes locales entre sí. Un puente interno es el que se instala en un servidor de la red, y un puente externo es el que se hace sobre una estación de trabajo de la misma red. Los puentes también pueden ser locales o remotos. Los puentes locales son los que conectan a redes de un mismo edificio, usando tanto conexiones internas como externas. Los puentes remotos conectan redes distintas entre sí, llevando a cabo la conexión a través de redes públicas, como la red telefónica, RDSI o red de conmutación de paquetes. 
+Tarjeta de red: También se denominan NIC (Network Interface Card). Básicamente realiza la función de intermediario entre el ordenador y la red de comunicación. En ella se encuentran grabados los protocolos de comunicación de la red. La comunicación con el ordenador se realiza normalmente a través de las ranuras de expansión que éste dispone, ya sea ISA o PCMCIA. Aunque algunos equipos disponen de este adaptador integrado directamente en la placa base. 
+El medio: Constituido por el cableado y los conectores que enlazan los componentes de la red. Los medios físicos más utilizados son el cable de par trenzado, par de cable, cable coaxial y la fibra óptica (cada vez en más uso esta última). 
+Concentradores de cableado: Una LAN en bus usa solamente tarjetas de red en las estaciones y cableado coaxial para interconectarlas, además de los conectores, sin embargo este método complica el mantenimiento de la red ya que si falla alguna conexión toda la red deja de funcionar. Para impedir estos problemas las redes de área local usan concentradores de cableado para realizar las conexiones de las estaciones, en vez de distribuir las conexiones el concentrador las centraliza en un único dispositivo manteniendo indicadores luminosos de su estado e impidiendo que una de ellas pueda hacer fallar toda la red. 
+Existen dos tipos de concentradores de cableado: 
+Concentradores pasivos: Actúan como un simple concentrador cuya función principal consiste en interconectar toda la red. 
+Concentradores activos: Además de su función básica de concentrador también amplifican y regeneran las señales recibidas antes de ser enviadas. 
+Los concentradores de cableado tienen dos tipos de conexiones: para las estaciones y para unirse a otros concentradores y así aumentar el tamaño de la red. Los concentradores de cableado se clasifican dependiendo de la manera en que internamente realizan las conexiones y distribuyen los mensajes. A esta característica se le llama topología lógica. 
+Existen dos tipos principales: 
+Concentradores con topología lógica en bus (HUB): Estos dispositivos hacen que la red se comporte como un bus enviando las señales que les llegan por todas las salidas conectadas. 
+Concentradores con topología lógica en anillo (MAU): Se comportan como si la red fuera un anillo enviando la señal que les llega por un puerto al siguiente. 
+Ethernet es el nombre de una tecnología de redes de computadoras de área local (LANs) basada en tramas de datos. El nombre viene del concepto físico de ether. Ethernet define las características de cableado y señalización de nivel físico y los formatos de trama del nivel de enlace de datos del modelo OSI. Ethernet se refiere a las redes de área local y dispositivos bajo el estándar IEEE 802.3 que define el protocolo CSMA/CD, aunque actualmente se llama Ethernet a todas las redes cableadas que usen el formato de trama descrito más abajo, aunque no tenga CSMA/CD como método de acceso al medio.
+
+Tabla de contenidos [ocultar]
+1 Historia 
+2 Formato de la trama de Ethernet 
+3 Hardware comúnmente utilizado en una red Ethernet 
+4 Véase también 
+ 
+
+
+[editar] Historia
+Ethernet es la capa física más popular de la tecnología LAN usada actualmente, que fue desarrollada principalmente por la empresa XEROX. Otros tipos de LAN incluyen Token Ring 802.5, Fast Ethernet, FDDI, ATM y LocalTalk. Ethernet es popular porque permite un buen equilibrio entre velocidad, costo y facilidad de instalación. Estos puntos fuertes, combinados con la amplia aceptación en el mercado y la habilidad de soportar virtualmente todos los protocolos de red populares, hacen a Ethernet la tecnología ideal para la red de la mayoría de usuarios de la informática actual.
+
+El estándar original IEEE 802.3 estuvo basado en la especificación Ethernet 1.0 y era muy similar. El documento preliminar fue aprobado en 1983 y fue publicado oficialmente en 1985 (ANSI/IEEE Std. 802.3-1985). Desde entonces un gran número de suplementos han sido publicados para tomar ventaja de los avances tecnológicos y poder utilizar distintos medios de transmisión, así como velocidades de transferencia más altas y controles de acceso a la red adicionales.
+
+
+[editar] Formato de la trama de Ethernet
+Trama de Ethernet Preámbulo SOF Destino Origen Tipo Datos FCS 
+7 bytes 1 byte 6 bytes 6bytes 2 bytes 46 a 1500 bytes 4 bytes 
+
+Preámbulo 
+Campo de 7 bytes (56 bits) que contiene una secuencia de bits usada para sincronizar y estabilizar el medio físico antes de iniciar la transmisión de datos. El patrón del preámbulo es: 
+10101010 10101010 10101010 10101010 10101010 10101010 10101010
+Estos bits se transmiten en orden de izquieda a derecha y en la codificación Manchester representan una forma de onda periódica. 
+SOF (Start Of Frame) Inicio de Trama 
+Campo de 1 byte (8 bits) que contiene un patrón de 1 y 0 alternados, y que termina con dos 1 consecutivos. El patrón del SOF es: 10101011 . Indica que el siguiente bit será el bit más significativo del campo de dirección MAC de destino. 
+Aunque se detecte una colisión durante la emisión del preámbulo o del SOF, el emisor debe continuar enviando todos los bits de ambos hasta el fin del SOF. 
+Dirección de destino 
+Campo de 6 bytes (48 bits) que especifica la dirección MAC de tipo EUI-48 hacia la que se envía la trama. Esta dirección de destino puede ser de una estación, de un grupo multicast o la dirección de broadcast de la red. Cada estación examina este campo para determinar si debe aceptar el paquete. 
+Dirección de origen 
+Campo de 6 bytes (48 bits) que especifica la dirección MAC de tipo EUI-48 desde la que se envía la trama. La estación que deba aceptar el paquete conoce a través de este campo la dirección de la estación origen con la cual intercambiar datos. 
+Tipo 
+Campo de 2 bytes (16 bits) que identifica el protocolo de red de alto nivel asociado con el paquete, o en su defecto la longitud del campo de datos. Es interpretado en la capa de enlace de datos. 
+Datos 
+Campo de 46 a 1500 Bytes de longitud. Cada Byte contiene una secuencia arbitraria de valores. El campo de datos es la información recibida del nivel de red (la carga útil). Este campo, también incluye los H3 y H4 (cabeceras de los niveles 3 y 4), provenientes de niveles superiores. 
+FCS (Frame Check Sequence - Secuencia de Verificación de Trama) 
+Campo de 32 bits (4 bytes) que contiene un valor de verificación CRC (control de redundancia cíclica). Este CRC se calcula por el emisor sobre todo el contenido de la trama, y se vuelve a calcular por el receptor para compararlo con el recibido y verificar la integridad de la trama, 
+
+[editar] Hardware comúnmente utilizado en una red Ethernet
+Los elementos en una red Ethernet son los nodos de red y el medio de interconexión. Dichos nodos de red se pueden clasificar en dos grandes grupos: Equipo Terminal de Datos (DTE) y Equipo de Comunicación de Datos (DCE). Los DTE son los dispositivos que generan o son el destino de los datos, tales como las computadoras personales, las estaciones de trabajo, los servidores de archivos, los servidores de impresión, todos son parte del grupo de estaciones finales. Mientras que los DCE son los dispositivos de red intermediarios que reciben y retransmiten las tramas dentro de la red, y pueden ser ruteadores, conmutadores (switch), concentradores (hub), repetidores, o interfaces de comunicación, como un módem o una tarjeta de interfase por ejemplo.
+
+NIC, o Tarjeta de Interfaz de Red - permite el acceso de una computadora a una red local. Cada adaptador posee una dirección MAC que la identifica en la red y es única. Una computadora conectada a una red se denomina nodo. 
+Repetidor o repeater - aumenta el alcance de una conexión física, recibiendo las señales y retransmitiéndolas, para evitar su degradación a lo largo del medio de transmisión, lográndose un alcance mayor. Usualmente se usa para unir dos áreas locales de igual tecnología y sólo tiene dos puertos. Opera en la capa física del modelo OSI. 
+Concentrador o hub - funciona como un repetidor, pero permite la interconexión de múltiples nodos, su funcionamiento es relativamente simple, ya que recibe una trama de ethernet y la repite por todos sus puertos, sin llevar a cabo ningún proceso sobre las mismas. Opera en la capa física del modelo OSI. 
+Puente o bridge - interconectan segmentos de red, haciendo el cambio de frames (tramas) entre las redes de acuerdo con una tabla de direcciones que dice en qué segmento está ubicada una dirección MAC. 
+ 
+Conexiones en un switch EthernetConmutador o Switch - funciona como el bridge, pero permite la interconexión de múltiples segmentos de red, funciona en velocidades más rápidas y es más sofisticado. Los switches pueden tener otras funcionalidades, como redes virtuales y permiten su configuración a través de la propia red. Su funcionamiento básico es en las capas física y de enlace de datos del modelo OSI, por lo cual son capaces de procesar información de las tramas; siendo su funcionalidad más importante las tablas de dirección. Por ejemplo, una computadora conectada al puerto 1 del conmutador envía una trama a otra computadora conectada al puerto 2, el switch recibe la trama y la transmite a todos sus puertos, excepto aquel por donde la recibió, la computadora 2 recibirá el mensaje y eventualmente lo responderá, generando tráfico en el sentido contrario, por lo cual ahora el switch conocerá las direcciones MAC de las computadoras en el puerto 1 y 2, y cuando reciba otra trama con dirección de destino a alguna de ellas, sólo transmitirá la trama a dicho puerto, lo cual disminuye el tráfico de la red y contribuye al buen funcionamiento de la misma. 
+L2TP (Layer 2 Tunneling Protocol) fue diseñado por un grupo de trabajo de IETF como el heredero aparente de los protocolos PPTP y L2F, creado para corregir las deficiencias de estos protocolos y establecerse como un estándar aprobado por el IETF (RFC 2661). L2TP utiliza PPP para proporcionar acceso telefónico que puede ser dirigido a través de un túnel por Internet hasta un punto determinado. L2TP define su propio protocolo de establecimiento de túneles, basado en L2F. El transporte de L2TP está definido para una gran variedad de tipos de paquete, incluyendo X.25, Frame Relay y ATM.
+
+Al utilizar PPP para el establecimiento telefónico de enlaces, L2TP incluye los mecanismos de autenticación de PPP, PAP y CHAP. De forma similar a PPTP, soporta la utilización de estos protocolos de autenticación, como RADIUS.
+
+A pesar de que L2TP ofrece un acceso económico, con soporte multiprotocolo y acceso a redes de área local remotas, no presenta unas características criptográficas especialmente robustas. Por ejemplo:
+
+Sólo se realiza la operación de autenticación entre los puntos finales del túnel, pero no para cada uno de los paquetes que viajan por él. Esto puede dar lugar a suplantaciones de identidad en algún punto interior al túnel. 
+Sin comprobación de la integridad de cada paquete, sería posible realizar un ataque de denegación del servicio por medio de mensajes falsos de control que den por acabado el túnel L2TP o la conexión PPP subyacente. 
+L2TP no cifra en principio el tráfico de datos de usuario, lo cual puede dar problemas cuando sea importante mantener la confidencialidad de los datos. 
+A pesar de que la información contenida en los paquetes PPP puede ser cifrada, este protocolo no dispone de mecanismos para generación automática de claves, o refresco automático de claves. Esto puede hacer que alguien que escuche en la red y descubra una única clave tenga acceso a todos los datos transmitidos. 
+A causa de estos inconvenientes, el grupo del IETF que trabaja en el desarrollo de PPP consideró la forma de solventarlos. Ante la opción de crear un nuevo conjunto de protocolos para L2TP del mismo estilo de los que se están realizando para IPSec, y dado la duplicación del trabajo respecto al propio grupo de desarrollo de IPSec que supondría, se tomó la decisión de utilizar los propios protocolos IPSec para proteger los datos que viajan por un túnel L2TP.
+
+L2TP es en realidad una variación de un protocolo de encapsulamiento IP. Un túnel L2TP se crea encapsulando una trama L2TP en un paquete UDP, el cual es encapsulado a su vez en un paquete IP, cuyas direcciones de origen y destino definen los extremos del túnel. Siendo el protocolo de encapsulamiento más externo IP, los protocolos IPSec pueden ser utilizados sobre este paquete, protegiendo así la información que se transporta por el túnel.
+
+Obtenido de "http://es.wikipedia.org/wiki/L2TP"
+Categoría: Protocolos
+
+La arquitectura o topología de red es la disposición física en la que se conectan los nodos de una red de ordenadores o servidores, mediante la combinación de estándares y protocolos.
+
+Define las reglas de una red y cómo interactúan sus componentes. Estos equipos de red pueden conectarse de muchas y muy variadas maneras. La conexión más simple es un enlace unidireccional entre dos nodos. Se puede añadir un enlace de retorno para la comunicación en ambos sentidos. Los cables de comunicación modernos normalmente incluyen más de un cable para facilitar esto, aunque redes muy simples basadas en buses tienen comunicación bidireccional en un solo cable.
+
+En casos mixtos se puede usar la palabra arquitectura en un sentido relajado para hablar a la vez de la disposición física del cableado y de como el protocolo considera dicho cableado. Así, en un anillo con una MAU podemos decir que tenemos una topología en anillo, o de que se trata de un anillo con topología en estrella.
+
+La topología de red la determina únicamente la configuración de las conexiones entre nodos. La distancia entre los nodos, las interconexiones físicas, las tasas de transmisión y/o los tipos de señales no pertenecen a la topología de la red, aunque pueden verse afectados por la misma.
+
+
+
+
+Tabla de contenidos [ocultar]
+1 Componentes 
+2 Tipos de arquitecturas 
+2.1 Redes centralizadas 
+2.2 Descentralización 
+2.3 Híbridas 
+3 Véase también 
+4 Enlace externo 
+ 
+
+
+[editar] Componentes
+Describe los componentes de una red, asi como la forma en que se relaccionan y coordinan para alcanzar el objetivo final de la red.
+
+Hay que tener en cuenta:
+
+Hardware. 
+Software. 
+Operatividad. 
+Escenarios. 
+Interconexión. 
+Compatibilidad. 
+Análisis y diseño. 
+JANUNES GRANDES Al principio, la transmisión de datos era un gran problema, que fue resuelto dividiéndolo los procesos en capas, ordenadas de forma piramidal. Mientras más inferior sea una capa, se tratará de un proceso más físico, y mientras más se ascenda, se tratará de un proceso más lógico. La principal arquitectura de capas es el Modelo OSI.
+
+En una arquitectura de capas, cada capa realiza unas funciones y ofrece unos servicios.
+
+
+a)Una capa N ofrece sus servicios a la capa superior N+1. Una capa N+1 solo "ve" los servicios de la capa N.
+b)Las capas de un componente se comunican entre si usando interfaces (que no pertenecen a la arquitectura).
+c)Una capa de un componente se comunica con su homóloga de otro componente mediante un protocolo.
+d)En cada capa existern entidades (generalmente procesos) que realizan las funciones de esa capa. Janun predeterminada
+
+
+[editar] Tipos de arquitecturas
+
+[editar] Redes centralizadas
+La topología en estrella reduce la posibilidad de fallo de red conectando todos los nodos a un nodo central. Cuando se aplica a una red basada en bus, este concentrador central reenvía todas las transmisiones recibidas de cualquier nodo periférico a todos los nodos periféricos de la red, algunas veces incluso al nodo que lo envió. Todos los nodos periféricos se pueden comunicar con los demás transmitiendo o recibiendo del nodo central solamente. Un fallo en la línea de conexión de cualquier nodo con el nodo central provocaría el aislamiento de ese nodo respecto a los demás, pero el resto de sistemas permanecería intacto. El tipo de concentrador hub se utiliza en esta topología.
+
+Si el nodo central es pasivo, el nodo origen debe ser capaz de tolerar un eco de su transmisión. Una red en estrella activa tiene un nodo central activo que normalmente tiene los medios para prevenir problemas relacionados con el eco.
+
+Una topología en árbol (también conocida como topología jerárquica) puede ser vista como una colección de redes en estrella ordenadas en una jerarquía. Éste árbol tiene nodos periféricos individuales (por ejemplo hojas) que requieren transmitir a y recibir de otro nodo solamente y no necesitan actuar como repetidores o regeneradores. Al contrario que en las redes en estrella, la función del nodo central se puede distribuir.
+
+Como en las redes en estrella convencionales, los nodos individuales pueden quedar aislados de la red por un fallo puntual en la ruta de conexión del nodo. Si falla un enlace que conecta con un nodo hoja, ese nodo hoja queda aislado; si falla un enlace con un nodo que no sea hoja, la sección entera queda aislada del resto.
+
+Para aliviar la cantidad de tráfico de red que se necesita para retransmitir todo a todos los nodos, se desarrollaron nodos centrales más avanzados que permiten mantener un listado de las identidades de los diferentes sistemas conectados a la red. Éstos switches de red “aprenderían” cómo es la estructura de la red transmitiendo paquetes de datos a todos los nodos y luego observando de dónde vienen los paquetes respuesta.
+
+
+[editar] Descentralización
+En una topología en malla, hay al menos dos nodos con dos o más caminos entre ellos. Un tipo especial de malla en la que se limite el número de saltos entre dos nodos, es un hipercubo. El número de caminos arbitrarios en las redes en malla las hace más difíciles de diseñar e implementar, pero su naturaleza descentralizada las hace muy útiles.
+
+Un red totalmente conectada o completa, es una topología de red en la que hay un enlace directo entre cada pareja de nodos. En una red totalmente conexa con n nodos, hay  enlaces directos. Las redes diseñadas con esta topología, normalmente son caras de instalar, pero son muy fiables gracias a los múltiples caminos por los que los datos pueden viajar. Se ve principalmente en aplicaciones militares.
+
+
+[editar] Híbridas
+Las redes híbridas usan una combinación de dos o más topologías distintas de tal manera que la red resultante no tiene forma estándar. Por ejemplo, una red en árbol conectada a una red en árbol sigue siendo una red en árbol, pero dos redes en estrella conectadas entre sí (lo que se conoce como estrella extendida) muestran una topología de red híbrida. Una topología híbrida, siempre se produce cuando se conectan dos topologías de red básicas. Dos ejemplos comunes son:
+
+Red de estrella en anillo, consta de dos o más topologías en estrella conectadas mediante una unidad de acceso multiestación (MAU) como hub centralizado. 
+Una red de estrella en bus, consta de dos o más topologías en estrella conectadas mediante un bus troncal (el bus troncal funciona como la espina dorsal de la red). 
+Mientras que las redes en rejilla han encontrado su sitio en aplicaciones de computación de alto rendimiento, algunos sistemas han utilizado algoritmos genéticos para diseñar redes personalizadas que tienen el menor número posible de saltos entre nodos distintos. Algunas de las estructuras de redes resultantes son casi incomprensibles, aunque funcionan bastante bien.
+
+
+[editar] Véase también
+Red en bus 
+Red en estrella 
+Red en anillo 
+Red en árbol 
+Red en malla 
+
+[editar] Enlace externo
+Información sobre redes 
+Componentes y topología de redes 
+Manuales y Tutoriales de redes 
+Obtenido de "http://es.wikipedia.org/wiki/Topolog%C3%ADa_de_red"
+Una red de área amplia, WAN, acrónimo de la expresión en idioma inglés Wide Area Network, es un tipo de red de computadoras capaz de cubrir distancias desde unos 100 hasta unos 1000 km, dando el servicio a un país o un continente. Un ejemplo de este tipo de redes sería RedIRIS, Internet o cualquier red en la cual no estén en un mismo edificio todos sus miembros (sobre la distancia hay discusión posible).
+
+Muchas WAN son construidas por y para una organización o empresa particular y son de uso privado, otras son construidas por los proveedores de internet (ISP) para proveer de conexión a sus clientes.
+
+Hoy en día internet proporciona WAN de alta velocidad, y la necesidad de redes privadas WAN se ha reducido drásticamente mientras que las VPN que utilizan cifrado y otras técnicas para hacer esa red dedicada aumentan continuamente.
+
+Normalmente la WAN es una red punto a punto, es decir, red de paquete conmutado. Las redes WAN pueden usar sistemas de comunicación vía satélite o de radio. Fue la aparición de los portátiles y los PDA´s la que trajo el concepto de redes inalámbricas.
+
+Una red de área amplia o WAN (Wide Area Network), se extiende sobre un área geográfica extensa, a veces un país o un continente; y su función fundamental está orientada a la interconexión de redes o equipos terminales que se encuentran ubicados a grandes distancias entre sí. Para ello cuentan con una infraestructura basada en poderosos nodos de conmutación que llevan a cabo la interconexión de dichos elementos, por los que además fluyen un volumen apreciable de información de manera continua. Por esta razón también se dice que las redes WAN tienen carácter público, pues el tráfico de información que por ellas circula proviene de diferentes lugares, siendo usada por numerosos usuarios de diferentes países del mundo para transmitir información de un lugar a otro. A diferencia de las redes LAN, la velocidad a la que circulan los datos por esta suele ser menor que la que se puede alcanzar en las LAN. Además, las redes LAN tienen carácter privado, pues su uso está restringido normalmente a los usuarios miembros de una empresa, o institución, para los cuales la red fue diseñada.
+
+La infraestructura de Redes WAN la componen además de los nodos de conmutación, líneas de transmisión de grandes prestaciones, caracterizadas por sus grandes velocidades y ancho de banda en la mayoría de los casos. Las líneas de transmisión (también llamadas circuitos, canales o troncales) mueven información entre los diferentes nodos que componen la red.
+
+Los elementos de conmutación también son dispositivos de altas prestaciones, pues deben ser capaces de manejar la cantidad de tráfico que por ellos circula. De manera general, a estos dispositivos les llegan los datos por una línea de entrada, y este debe encargarse de escoger una línea de salida para reenviarlos. A continuación, en la Figura 1, se muestra un esquema general de los que podría ser la estructura de una WAN. En el mismo, cada host está conectada a una LAN (Local Area Network), que a su vez se conecta a uno de los nodos de conmutación de la WAN. Este nodo debe encargarse de encaminar la información hacia el destino para la que está dirigida.
+
+Antes de abordar el siguiente tema, es necesario que quede claro el término conmutación, que pudiéramos definirlo como la manera en que los nodos o elementos de interconexión garantizan la interconexión de dos sistemas finales, para intercambiar información.
+
+
+[editar] Características
+Posee máquinas dedicadas a la ejecución de programas de usuario (hosts) 
+Una subred, donde conectan varios hosts. 
+División entre líneas de transmisión y elementos de conmutación (enrutadores) 
+Usualmente los routers son computadores de las subredes que componen la WAN. 
+
+[editar] Topología de los routers
+Topologías
+
+Hecha una definición de las redes WAN y los elementos básicos que la forman podemos pasar a analizar las diferentes topologías que ella puede adoptar .Sin embargo, antes de analizar las topologías específicas que se usan para las redes WAN, sería prudente hacer una breve introducción del término topología. El término topología se divide en dos aspectos fundamentales:
+
+Topología Física 
+Topología Lógica 
+
+La Topología Física se refiere a la forma física o patrón que forman los nodos que están conectados a la red, sin especificar el tipo de dispositivo, los métodos de conectividad o las direcciones en dicha red. Esta basada en tres formas básicas fundamentales: bus, anillo y estrella.
+
+Por su parte la Topología Lógica describe la manera en que los datos son convertidos a un formato de trama especifico y la manera en que los pulsos eléctricos son transmitidos a través del medio de comunicación, por lo que esta topología está directamente relacionada con la Capa Física y la Capa de Enlace del Modelo OSI vistas en clases anteriores. Las topologías lógicas más populares son Ethernet y Token-Ring ambas muy usadas en redes LAN Entre las topologías lógicas usadas para redes WAN tenemos a ATM (Asynchronous Transfer Mode) que es conocido también como estándar ATM. De ATM estaremos hablando más adelante ya que es necesario explicar otros conceptos antes de llegar a él.
+
+En el caso de las redes WAN su topología física pudiera en ocasiones ser más compleja y no responder a las formas básicas (bus, estrella y anillo), debido a varios factores determinantes, estos son: la distancia que deben cubrir las redes, la cantidad enorme de usuarios, el tráfico que deben soportar y la diversidad de equipos de interconexión que deben usar. Existe un grupo establecido de topologías que son las más usadas y la implementación de cada una de ellas en particular, está condicionada por necesidades especificas como pueden ser: cantidad de nodos a conectar, distancia entre los nodos e infraestructura establecida en ellos (Ej.: si se van a conectar a través de la red telefónica, o de un enlace punto-a-punto, medio de transmisión que se usa, etc.). A continuación se presentan las topologías usadas en redes WAN:
+
+Punto a Punto
+
+Esta topología cada nodo se conecta a otro a través de circuitos dedicados, es decir, canales que son arrendados por empresas o instituciones a las compañías telefónicas. Dichos canales están siempre disponibles para la comunicación entre los dos puntos.
+
+Esta configuración es solo funcional para pequeñas WANs ya que todos los nodos deben participar en el tráfico, es decir que si aumenta la cantidad de nodos aumenta la cantidad de tráfico y esto con el consiguiente encarecimiento de la red.
+
+Anillo
+
+En la topología de anillo cada nodo es conectado a otros dos más formando un patrón de anillo . Esta topología tiene dos ventajas: por un lado si existe algún problema en las conexiones en un cable, la información le sigue llegando al nodo usando otro recorrido y si algún nodo esta muy ocupado el tráfico se puede derivar hacia otros nodos.
+
+Extender este tipo de redes es más caro que extender una red punto-a-punto ya que se necesita al menos un enlace más.
+
+Estrella
+
+En esta configuración un nodo actúa como punto central de conexión para todos los demás, permitiendo así que en caso de que exista un fallo en alguno de los cables los demás nodos no pierdan conexión con el nodo central. La principal desventaja de esta topología es que algún problema que exista en el nodo central se convierte en un desastre total para la red ya que se pierde la conexión de todos los nodos.
+
+
+Malla
+
+En esta topología la esencia es buscar la interconexión de los nodos de tal manera que si uno falla los demás puedan redireccionar los datos rápida y fácilmente. Esta topología es la que más tolerancia tiene a los fallos porque es la que provee más caminos por donde puedan viajar los datos que van de un punto a otro.
+
+La principal desventaja de las redes tipo malla es su costo, es por esto que se ha creado una alternativa que es la red de malla parcial en la cual los nodos más críticos (por los que pasa mas trafico) se interconectan entre ellos y los demás nodos se interconectan a través de otra topología ( estrella, anillo).
+
+Para entender la forma en que se comunican los nodos en una red WAN es preciso abordar un tema que es medular en este tipo de redes.
+
+
+Topologías de los routers en una red de área amplia (WAN):
+
+Estrella 
+Anillo 
+Árbol 
+Completa 
+Intersección de anillos 
+Irregular 
+Obtenido de "http://es.wikipedia.org/wiki/WAN"
+Categorías: Redes informáticas | Acrónimos de informática
+
+El Bus de Serie Universal (USB, de sus siglas en inglés Universal Serial Bus) es una interfaz que provee un estándar de bus serie para conectar dispositivos a un ordenador personal (generalmente a un PC). Un sistema USB tiene un diseño asimétrico, que consiste en un solo servidor y múltiples dispositivos conectados en serie para ampliar la gama de conexion, en una estructura de árbol utilizando concentradores especiales. Se pueden conectar hasta 127 dispositivos a un sólo servidor, pero la suma debe incluir a los concentradores también, así que el total de dispositivos realmente usables es algo menor.
+
+Fue creado en 1996 por siete empresas: IBM, Intel, Northern Telecom, Compaq, Microsoft, Digital Equipment Corporation y NEC.
+
+El estándar incluye la transmisión de energía eléctrica al dispositivo conectado. Algunos dispositivos requieren una potencia mínima, así que se pueden conectar varios sin necesitar fuentes de alimentación extra. La mayoría de los concentradores incluyen fuentes de alimentación que brindan energía a los dispositivos conectados a ellos, pero algunos dispositivos consumen tanta energía que necesitan su propia fuente de alimentación. Los concentradores con fuente de alimentación pueden proporcionarle corriente eléctrica a otros dispositivos sin quitarle corriente al resto de la conexión (dentro de ciertos límites).
+
+El diseño del USB tenía en mente eliminar la necesidad de adquirir tarjetas separadas para poner en los puertos bus ISA o PCI, y mejorar las capacidades plug-and-play permitiendo a esos dispositivos ser conectados o deconectados al sistema sin necesidad de reiniciar. Cuando se conecta un nuevo dispositivo, el servidor lo enumera y agrega el software necesario para que pueda funcionar.
+
+El USB puede conectar periféricos como ratones, teclados, escáneres, cámaras digitales, impresoras, discos duros, tarjetas de sonido y componentes de red. Para dispositivos multimedia como escáneres y cámaras digitales, el USB se ha convertido en el método estándar de conexión. Para impresoras, el USB ha crecido tanto en popularidad que ha empezado a desplazar a los puertos paralelos porque el USB hace sencillo el poder agregar más de una impresora a un ordenador personal.
+
+En el caso de los discos duros, el USB es poco probable que reemplace completamente a los buses como el ATA (IDE) y el SCSI porque el USB tiene un rendimiento un poco más lento que esos otros estándares. El nuevo estándar Serial ATA permite tasas de transferencia de hasta aproximadamente 150 MB por segundo. Sin embargo, el USB tiene una importante ventaja en su habilidad de poder instalar y desinstalar dispositivos sin tener que abrir el sistema, lo cual es útil para dispositivos de almacenamiento desinstalables. Hoy en día, una gran parte de los fabricantes ofrece dispositivos USB portátiles que ofrecen un rendimiento casi indistinguible en comparación con los ATA (IDE).
+
+El USB no ha remplazado completamente a los teclados AT y ratones PS/2, pero virtualmente todas las placas base de PC traen uno o más puertos USB. En el momento de escribir éste documento, la mayoría de las placas base traen múltiples conexiones USB 2.0.
+
+ 
+Tarjeta PCI-USB 2.0.El estándar USB 1.1 tenía dos velocidades de transferencia: 1.5 Mbit/s para teclados, ratón, joysticks, etc., y velocidad completa a 12 Mbit/s. La mayor ventaja del estándar USB 2.0 es añadir un modo de alta velocidad de 480 Mbit/s. En su velocidad más alta, el USB compite directamente con FireWire.
+
+Las especificaciones USB 1.0, 1.1 y 2.0 definen dos tipos de conectores para conectar dispositivos al servidor: A y B. Sin embargo, la capa mecánica ha cambiado en algunos conectores. Por ejemplo, el IBM UltraPort es un conector USB privado localizado en la parte superior del LCD de los ordenadores portátiles de IBM. Utiliza un conector mecánico diferente mientras mantiene las señales y protocolos característicos del USB. Otros fabricantes de artículos pequeños han desarrollado también sus medios de conexión pequeños, y una gran variedad de ellos han aparecido. Algunos de baja calidad.
+
+Una extensión del USB llamada "USB-On-The-Go" permite a un puerto actuar como servidor o como dispositivo - esto se determina por qué lado del cable está conectado al aparato. Incluso después de que el cable está conectado y las unidades se están comunicando, las 2 unidades pueden "cambiar de papel" bajo el control de un programa. Esta facilidad está específicamente diseñada para dispositivos como PDA, donde el enlace USB podría conectarse a un PC como un dispositivo, y conectarse como servidor a un teclado o ratón. El "USB-On-The-Go" también ha diseñado 2 conectores pequeños, el mini-A y el mini-B, así que esto debería detener la proliferación de conectores miniaturizados de entrada.
+
+
+[editar] Véase también
+Memoria USB: son memorias que permiten el almacenamiento de datos por medio de su conector el cual trabaja generalmente con un metodo de transferencia plano de 480 Mbit/seg 
+Hub USB 
+
+[editar] Enlaces externos
+ Commons alberga contenido multimedia sobre USB.Commons 
+USB, incluyendo documentación (inglés) 
+Linux USB Project (inglés) 
+USB, funciones de las patillas (inglés) 
+
+Obtenido de "http://es.wikipedia.org/wiki/USB"
+Categorías: Tecnologías y protocolos de nivel físico | Acrónimos de informática | Interfaces | Conectores | USB | Wikipedia:Artículos destacados en w:de
+
+Es el acrónimo de las palabras modulador/demodulador. El módem actúa como un equipo terminal del circuito de datos (ETCD), permitiendo la transmisión de un flujo de datos digitales a través de una señal analógica.
+
+Tabla de contenidos [ocultar]
+1 Cómo funciona 
+2 Tipos de modems 
+3 Módems telefónicos 
+3.1 Tipos de modulación 
+3.2 Órdenes AT 
+3.2.1 Órdenes de comunicación 
+3.2.2 Órdenes de Control 
+3.3 Registros 
+3.4 Perfiles de funcionamiento 
+3.5 Pasos para establecer una comunicación. 
+4 Test en módems Hayes 
+5 Protocolos de comprobación de errores 
+6 Protocolos de transferencia de archivos 
+7 Véase también 
+8 Enlaces externos 
+ 
+
+
+[editar] Cómo funciona
+El modulador emite una señal analógica constante denominada portadora. Generalmente, se trata de una simple señal sinusoidal. A medida que se desea transmitir datos digitales, se modifica alguna característica de la señal portadora, de manera que se indica si se está transmitiendo un "cero" o un "uno". Las características que se pueden modificar de la señal portadora son:
+
+Fase, dando lugar a una modulación de fase (PM/PSK). 
+Frecuencia, dando lugar a una modulación de frecuencia (FM/FSK). 
+Amplitud, dando lugar a una modulación de amplitud (AM/ASK). 
+También es posible una combinación de modulaciones o modulaciones más complejas como la Modulación de amplitud en cuadratura.
+
+El demodulador interpreta los cambios en la señal portadora para reconstruir el flujo de datos digitales.
+
+
+[editar] Tipos de modems
+La distinción principal que se suele hacer es entre modems internos y módems externos, aunque, recientemente, han aparecido unos modems llamados "modems software", más conocidos como "winmodems" o "linuxmodems", que han complicado un poco el panorama.
+
+Internos: consisten en una tarjeta de expansión sobre la cual están dispuestos los diferentes componentes que forman el módem. Existen para diversos tipos de conector: 
+Bus ISA: debido a las bajas velocidades que se manejan en estos aparatos, durante muchos años se utilizó en exclusiva este conector, hoy en día en desuso. 
+PCI: el formato más común en la actualidad. 
+AMR: sólo en algunas placas muy modernas; baratos pero poco recomendables por su bajo rendimiento. 
+La principal ventaja de estos módems reside en su mayor integración con el ordenador, ya que no ocupan espacio sobre la mesa y reciben energía eléctrica directamente del propio ordenador. Además, suelen ser algo más baratos debido a que carecen de carcasa y transformador, especialmente si son PCI (en este caso, son casi todos del tipo "módem software"). Por el contrario, son algo más complejos de instalar y la información sobre su estado sólo puede obtenerse por software. 
+Externos: similares a los anteriores, pero externos al ordenador o PDA. La ventaja de estos módems reside en su fácil transportabilidad entre ordenadores diferentes (algunos de ellos más fácilmente transportables y pequeños que otros), además de que podemos saber el estado del módem (marcando, con/sin línea, transmitiendo...) mediante los LED de estado que incorporan. Por el contrario, y obviamente, ocupan más espacio que los internos. Tipos de conexión: 
+
+La conexión de los módems telefónicos con el ordenador se realiza generalmente mediante uno de los puertos serie tradicionales o COM, por lo que se usa la UART del ordenador, que deberá ser capaz de proporcionar la suficiente velocidad de comunicación. La UART debe ser de 16550 o superior para que el rendimiento de un módem de 28.800 bps o más sea el adecuado. Estos modems necesitan un enchufe para su transformador. 
+Modems PC Card: son módems en forma de tarjeta, que se utilizaban en portátiles, antes de la llegada del USB, que puede ser utilizado tanto en los ordenadores de sobremesa como en los portátiles. Su tamaño es similar al de una tarjeta de crédito algo más gruesa, pero sus capacidades pueden ser igual o más avanzadas que en los modelos normales. 
+Existen modelos para puerto USB, de conexión y configuración aún más sencillas, que no necesitan toma de corriente. Hay modelos tanto para conexión mediante telefonía fija, como para telefonía móvil. Véase : Módem USB Vodafone Mobile Connect 3G. 
+Modems software, HSP o Winmodems: son modems generalmente internos, en los cuales se han eliminado varias piezas electrónicas (por ejemplo, chips especializados), de manera que el microprocesador del ordenador debe suplir su función mediante un programa. Lo normal es que utilicen como conexión una ranura PCI (o una AMR), aunque no todos los módems PCI son de este tipo. El uso de la CPU entorpece el funcionamiento del resto de aplicaciones del usuario. Además, la necesidad de disponer del programa puede imposibilitar su uso con sistemas operativos no soportados por el fabricante, de manera que, por ejemplo, si el fabricante desaparece, el módem quedaría eventualmente inutilizado ante una futura actualización del sistema. A pesar de su bajo coste, resultan poco o nada recomendables. 
+Modems completos: los modems clásicos no HSP, bien sean internos o externos. En ellos, el rendimiento depende casi exclusivamente de la velocidad del módem y de la UART del ordenador, no del microprocesador. 
+
+[editar] Módems telefónicos
+Su uso más común y conocido es en transmisiones de datos por vía telefónica.
+
+Los ordenadores procesan datos de forma digital; sin embargo, las líneas telefónicas de la red básica sólo transmiten señales analógicas.
+
+Los métodos de modulación y otras características de los módems telefónicos están estandarizados por el UIT-T (el antiguo CCITT) en la serie de Recomendaciones "V". Estas Recomendaciones también determinan la velocidad de transmisión. Destacan:
+
+V.32. Transmisión a 9.600 bps. 
+V.32 bis. Transmisión a 14.400 bps. 
+V.34. Transmisión a 33.600 bps. Uso de técnicas de compresión de datos. 
+V.90. Transmisión a 56'6 Kbps de descarga y hasta 33.600 bps de subida. 
+V.92. Mejora sobre V.90 con compresión de datos y llamada en espera. La velocidad de subida se incrementa, pero sigue sin igualar a la de descarga. 
+Existen, además, módems DSL (Digital Subscriber Line), que utilizan un espectro de frecuencias situado por encima de la banda vocal (300 - 3.400 Hz) en líneas telefónicas o por encima de los 80 KHz ocupados en las líneas RDSI, y permiten alcanzar velocidades mucho mayores que un módem telefónico convencional. También poseen otras cualidades, como es la posibilidad de establecer una comunicación telefónica por voz al mismo tiempo que se envían y reciben datos.
+
+
+[editar] Tipos de modulación
+Se utilizan diferentes tipos de modulación estos son los siguites:
+
+ASK, (Amplitude Shift Keying, Modulación en Amplitud): la amplitud de la portadora se modula a niveles correspondientes a los dígitos binarios de entrada 1 ó 0. 
+FSK, (Frecuency Shift Keying, Modulación por Desplazamiento de Frecuencia): la frecuencia portadora se modula sumándole o restándole una frecuencia de desplazamiento que representa los dígitos binarios 1 o 0. Es el tipo de modulación común en modems de baja velocidad en la que los dos estados de la señal binaria se transmiten como dos frecuencias distintas. 
+PSK, (Phase Shift Keying, Modulación de Fase): tipo de modulación donde la portadora transmitida se desplaza cierto número de grados en respuesta a la configuración de los datos. Los módems bifásicos p. ej., emplean desplazamientos de 180º para representar el dígito binario 0. 
+Pero en el canal telefónico también existen perturbaciones que el módem debe enfrentar para poder transmitir la información. Estos trastornos se pueden enumerar en: distorsiones, deformaciones y ecos. Ruidos aleatorios e impulsivos. Y por último las interferencias.
+
+
+[editar] Órdenes AT
+
+[editar] Órdenes de comunicación
+ATA. con esta orden el módem queda en espera de una llamada telefónica, comportándose como un receptor, (autoanswer). 
+ATB 0 o 1. Permite seleccionar dos modos de trabajo del módem, de acuerdo a las normas Bell para USA (1) o CCITT para Europa (0). 
+ATE 0 o 1. Selecciona eco local activado (1) o desactivado (0). Cuando el computador local envía un dato al remoto, éste puede o no verse en la pantalla local. Trabajando en modo Full Duplex, el remoto envía un eco de lo que se le envía. De esta forma si está activado el eco local, se verán en pantalla los caracteres por duplicado, (el eco remoto y el local) 
+ATF 0 o 1. Selecciona el modo Half (0) o Full (1) dúplex. 
+ATH 0 o 1. Conecta (1) o desconecta (0) la línea telefónica desde el módem. 
+ATM 0 a 3. Controla el altavoz del módem. Se puede dejar el altavoz siempre apagado (0), encenderse hasta que la conexión se haya establecido (1), dejarle permanentemente encendido (2) o fijar que se encienda solo después de la llamada y hasta que se establezca la conexión (3). 
+ATO 0 o 1. Durante una conexión telefónica con otro módem, se puede temporalmente dejar colgada la conexión (interactivo en línea), para ello se utiliza la secuencia de escape. Para recuperar la línea se utiliza la orden ATO. Con ATO 1 pasa a modo on line y fuerza al módem a adaptarse a la línea. 
+AT&L 0 o 1. Esta orden permite conexiones a través de la línea telefónica, (mediante el tono de línea) (0), o a través de líneas directas (sin señal de tono) (1). Si es 1, al llamar con atdp se activa la portadora. 
+AT&C 0 o 1. Controla la señal DCD, con 0 permanece activada permanentemente. Con 1 refleja el estado real de la señal. 
+ATD. Esta orden es la encargada de realizar las llamadas telefónicas. 
+Puede hacer uso de una serie de subórdenes;
+
+W No empieza a marcar hasta haber recibido la señal de tono. 
+@ Espera el tiempo indicado en el registro S7 para recibir una señal de llamada, y luego espera 5 segundos antes de proceder con la siguiente orden. 
+, Hace una pausa al marcar. 
+ ? Corta la línea durante la llamada 0'5 s 
+ ; Después de llamar retorna al modo de órdenes. 
+P Llama utilizando pulsos. 
+T Llama utilizando tonos. 
+R Llama y queda en modo autoanswer. 
+S Llama a un número de teléfono almacenado en la RAM del módem. 
+
+AT&P 0 ó 1. Cuando se utiliza el modo de llamada por pulsos se pueden seleccionar el sistema británico (1) o el europeo (0) cuyos rangos son 33%, 67% y 
+39%, 61% respectivamente.
+
+ATU 0, 1 ó 2. Esta orden tiene por misión adaptar las características receptoras emisoras del módem, al estado de la línea. Permite tres condiciones: media calidad (0), muy mala calidad (1), y mala calidad (2). 
+ATL 0 a 3. Determina el nivel de volumen del altavoz. Puede ser bajo (0, 1), medio (2) o alto (3). 
+ATY 0 o 1. Si el módem recibe una señal de Break, inicia una secuencia para cortar la comunicación. Esta función puede estar activada (1) o desactivada (0). 
+ATZ. Limpia el buffer del módem y restaura los valores originales grabados en su memoria RAM no volátil. Después de un ATZ, es conveniente esperar, al menos, un segundo antes de enviar otra orden. 
+AT&D 0 a 3. Analiza el estado de la señal DTR. Puede ignorarse este estado (0), cuando la señal pase de on a off deja al módem en modo de órdenes (1), cuando cambia la señal inhabilita el autoanswer, cuelga el teléfono y queda en modo de órdenes (2), o por último, al cambiar la señal desconecta y hace un reset del módem (3). 
+AT&S 0 o 1. Analiza el estado de la señal DSR, pudiendo dejarla activada permanentemente (0), o hacerla compatible con la norma RS-232 C (1). 
+AT&G 0 a 2. Especifica el uso o no de la señal de tono en el modo de pulsos. Puede ser 550 Hz (1), de 1.800 Hz (2), o no ser utilizada (0). 
+AT&R 0 ó 1. La CTS responde a los cambios de la RTS, o la ignora (queda activada permanentemente). 
+AT&X 0 a 2. Determina la procedencia de la señal de clock para modos sincrónicos. 
+
+[editar] Órdenes de Control
+Las órdenes de control son las siguientes:
+
+A/. Repite la última orden introducida en el módem. 
+ATI 0 a 3. Proporciona el número de versión (0), el valor de control de la ROM (1), una comprobación interna (2), o la versión del software (3). Actúa a modo de autotest. 
+ATQ 0 o 1. Los códigos que genera el módem como resultado de sus operaciones, son (0) o no (1) enviados al ordenador. 
+ATSn?. Lee el registro Sn del módem. El valor de n dependerá del número de registros que tenga el módem. 
+ATSn=m. Asigna al registro Sn del módem. Los valores a asignar dependen de cada registro y de los valores que soporte el módem. Adelante se enumeran los diferentes registros 
+ATV 0 ó 1. Los códigos generados por el módem como resultado de sus operaciones, cuando son enviados al computador, pueden serlo en forma de letra (1) o como números (0). 
+ATX 0 a 4. Selecciona los tipos de respuesta que el módem transmite a la terminal, desde CONNECT 2400, BUSY, NO CARRIER, etc. Con 0, 1 o 3 permite llamar sin esperar señal de tono. 
+AT&F. Transfiere la configuración de ajustes que el módem tiene en su ROM a los registros operativos necesarios (configuración por defecto). 
+AT&Zn. Graba números de teléfono en la RAM del módem. El teléfono es el valor de n. 
+AT&W. Graba la configuración activa en la RAM del módem. 
+AT&J 0 ó 1. Permite seleccionar el tipo de conector a utilizar con la línea telefónica. Puede ser un jack RJ-11 (0) o un RJ-12 (1). 
+AT&T 0 a n. Le permite al módem entrar en modo de test, que puede ser local digital, local, remoto digital, etc. Con AT&T0 se finalizan los test. 
+AT&M 0 a 3. Establece el modo asíncronico (0), o el modo sincrónico (1 a 3). 
+AT&V. Muestra la configuración activa del módem. 
+Cada módem utiliza una serie de órdenes "AT" comunes y otras específicas. Por ello, se deberá hacer uso de los manuales que acompañan al módem para configurarlo adecuadamente.
+
+
+[editar] Registros
+Los registros o registros S son porciones de memoria donde se pueden guardar permanentemente parámetros que definen el perfil del módem (profiles). Además de las órdenes "AT", se dispone de esta serie de registros que permiten al usuario la modificación de otras características de su funcionamiento. Al igual que ocurre con las órdenes "AT", existen registros comunes y otros específicos del módem. Se enumeraran los más comunes.
+
+Registro 0: número de llamadas que el módem espera antes de responder (autoanswer). Si su valor es 0, el módem nunca responderá a las llamadas.
+
+Registro 1: contabilizador de llamadas realizadas / recibidas.
+
+Registro 2: código del carácter que se utiliza para activar la secuencia de escape. Suele ser un +.
+
+Registro 3: código del carácter de fin de línea. Suele ser un 13 (enter).
+
+Registro 4: código de carácter de avance de línea, (line feed).
+
+Registro 5: código de carácter de borrado con retroceso (backspace).
+
+Registro 6: tiempo de espera antes de empezar a marcar (s).
+
+Registro 7: tiempo de espera para recibir portadora (s).
+
+Registro 8: tiempo asignado a la pausa del Hayes (la coma, en s).
+
+Registro 9: tiempo de respuesta a la detección de portadora, para activar la DCD (en décimas de segundo).
+
+Registro 10: tiempo máximo de pérdida de portadora para cortar la línea. Aumentando su valor permite al remoto cortar temporalmente la conexión sin que el módem local inicie la secuencia de desconexión. Si es 255, se asume que siempre hay portadora. Este tiempo debe ser mayor que el del registro 9 (en décimas de segundo).
+
+Registro 12: determina el guard time; éste es el tiempo mínimo que precede y sigue a un código de escape (+++), sin que se hayan transmitido o recibido datos. Si es 0, no hay límite de tiempo (S12 x 20 ms).
+
+Registro 18: contiene la duración de los tests.
+
+Registro 25: tiempo para que el módem considere que la señal de DTR ha cambiado.
+
+Registro 26: tiempo de respuesta de la señal CTS ante RTS.
+
+
+[editar] Perfiles de funcionamiento
+Existen 3 tipos de perfil para funcionamiento de los módems:
+
+El de fábrica, (por defecto). 
+El activo. 
+El del usuario. 
+Estos perfiles están guardados en su memoria RAM no volátil y el perfil de fabrica está guardado en ROM.
+
+Hay dos opciones o lugares de memoria donde se pueden grabar los perfiles
+
+AT&Y0, (al encender se carga el perfil = 0) 
+AT&Y1, (al encender se carga el perfil = 1) 
+Estas órdenes se envían antes de apagar el módem para que los cargue en su próximo encendido.
+
+Cuando se escriben las órdenes "AT", dependiendo del tamaño del buffer del módem, se pueden ir concatenando sin necesidad de escribir para cada uno de ellos el prefijo "AT". De esta forma, por ejemplo cuando en un programa se pide una secuencia de inicialización del módem, se puede incluir conjuntamente en una sola línea todos las órdenes necesarias para configurar el módem.
+
+A continuación se describen los procesos que se llevan a cabo para establecer una comunicación a través del módem:
+
+
+[editar] Pasos para establecer una comunicación.
+1) Detección del tono de línea. El módem dispone de un detector del tono de línea. Este se activa si dicho tono permanece por más de un segundo. De no ser así, sea por que ha pasado un segundo sin detectar nada o no se ha mantenido activado ese tiempo el tono, envía al ordenador el mensaje "NO DIALTONE".
+
+2) Marcación del número. Si no se indica el modo de llamada, primero se intenta llamar con tonos y si el detector de tonos sigue activo, se pasa a llamar con pulsos. En el periodo de tiempo entre cada dígito del número telefónico, el IDP (Interdigit pulse), se continua atendiendo al detector de tono. Si en algún IDP el detector se activa, la llamada se termina y se retorna un mensaje de BUSY. Una vez terminada la marcación, se vuelve a atender al detector de tono para comprobar si hay conexión. En este caso pueden suceder varias cosas:
+
+Rings de espera. Se detectan y contabilizan los rings que se reciban, y se comparan con el registro S1 del módem. Si se excede del valor allí contenido se retorna al mensaje "NO ANSWER". 
+Si hay respuesta se activa un detector de voz/señal, la detección de la respuesta del otro módem se realiza a través del filtro de banda alta (al menos debe estar activo 2 segundos). 
+Si el detector de tono fluctúa en un período de 2 segundos se retorna el mensaje "VOICE". El mensaje "NO ANSWER" puede obtenerse si se produce un intervalo de silencio después de la llamada. 
+3) Establecer el enlace. Implica una secuencia de procesos que dependen si se está llamando o si se recibe la llamada.
+
+Si se está llamando será:
+
+Fijar la recepción de datos a 1. 
+Seleccionar el modo de baja velocidad. 
+Activar 0'6 segundos el tono de llamada y esperar señal de línea. 
+Desactivar señal de tono 
+Seleccionar modo de alta velocidad. 
+Esperar a recibir unos, después transmitir unos y activar la transmisión 
+Analizar los datos recibidos para comprobar que hay conexión. Si ésta no se consigue en el tiempo límite fijado en el registro S7, se da el mensaje "NO CARRIER"; en caso contrario, se dejan de enviar unos, se activa la señal de conexión, se desbloquea la recepción de datos y se da el mensaje "CARRIER". 
+Si se está recibiendo será:
+
+Selección del modo respuesta. 
+Desactivar el scrambler. 
+Seleccionar el modo de baja velocidad y activar el tono de respuesta (p. ej. 2.400 Hz durante 3'3 s). 
+Desactivar el transmisor. 
+Esperar portadora, si no se recibe activar el transmisor, el modo de alta velocidad y el tono a 1.800 Hz. 
+Esperar el tiempo indicado en S7, si no hay conexión envía el mensaje "NO CARRIER", si la hay, indica "CONNECT", se activa el transmisor, el detector de portadora y la señal de conexión. 
+En resumen los pasos para establecimiento de una conexión son:
+
+La terminal levanta la línea DTR. 
+Se envía desde la terminal la orden ATDT 5551234 ("AT" -> atención, D -> marcar, T -> por tonos, 5551234 -> número a llamar.) 
+El módem levanta la línea y marca el número. 
+El módem realiza el hand shaking con el módem remoto. 
+El programa de comunicación espera el código de resultado. 
+Código de resultado "CONNECT". 
+
+[editar] Test en módems Hayes
+Los tests permiten verificar el módem local, la terminal local, el módem remoto y la línea de comunicaciones. Con el registro del módem S18 se indica el tiempo de duración de los tests. Si su contenido es 0, no hay límite de tiempo y es el usuario el que debe finalizar las pruebas con la orden AT&T0. El módem al encenderse realiza una serie de exámenes internos. En caso de surgir algún error, se le indicará al DTE oportunamente.
+
+Los tests que pueden realizarse son:
+
+Local analog loopback, (bucle local analógico): se ejecuta con &T1. Comprueba la conexión entre el módem y el terminal local. Tras introducir AT&T1, pasados unos segundos, se entra en modo on line. Para realizar el test debe estar activado el eco local. La ejecución correcta del test implica que todo carácter digitado por el usuario aparecerá duplicado. Para terminar el test, se pulsa la secuencia de escape y después AT&T0. Si el test se inicia estando ya conectado a un servicio, esta conexión se corta. 
+Local Digital Loopback, (bucle local digital): se ejecuta con &T3. Solo puede realizarse durante una conexión con un módem remoto. Comprueba la conexión entre el módem local y el remoto, y el circuito de línea. Envía al módem remoto las cadenas que reciba de él. 
+Remote Digital Loopback, (bucle digital remoto): se ejecuta con &T6. Comprueba el terminal local, el módem local, el módem remoto y el circuito de línea. Debe realizarse durante una conexión, y el módem remoto debe aceptar la petición del test. Para finalizarlo se pasa a modo de órdenes con la secuencia de escape y se teclea AT&T0. El terminal local compara la cadena recibida con la transmitida por él previamente. Las cadenas son proporcionadas por el usuario. 
+Remote Digital Loopback with Selftest, (bucle digital remoto con autotest): se ejecuta con &T7. Comprueba el módem local, el remoto, y el circuito de línea. Debe realizarse durante una conexión y para finalizarlo hay que indicar la secuencia de escape y AT&T0. Se genera un patrón binario, según la recomendación V.54 del CCITT, para comprobar la conexión. Al finalizar el test se indica el número de errores aparecidos, (de 000 a 255). 
+Local Analog Loopback with Selftest, (bucle analógico local con autotest): se ejecuta con &T8. Comprueba el módem local. Tras iniciarse el test, pasados unos segundos, se retorna al modo de órdenes. Se finaliza con &T0 o si se alcanza el tiempo límite definido en S18. El test comprueba los circuitos de transmisión y recepción del módem. Se utiliza un patrón binario, según la recomendación CCITT V.54. Si está conectado con algún servicio, la conexión se corta. Al finalizar el test se retorna el número de errores, (000 a 255). 
+
+[editar] Protocolos de comprobación de errores
+El control de errores: son varias técnicas mediante las cuales se chequea la fiabilidad de los bloques de datos o de los caracteres.
+
+Paridad: función donde el transmisor añade otro bit a los que codifican un símbolo. Es paridad par, cuando el símbolo tenga un número par de bits y es impar en caso contrario. El receptor recalcula el número de par de bits con valor uno, y si el valor recalculado coincide con el bit de paridad enviado, acepta el paquete. De esta forma se detectan errores de un solo bit en los símbolos transmitidos, pero no errores múltiples. 
+CRC: (Cyclic Redundancy Check, prueba de redundancia cíclica). Esta técnica de detección de error consiste en un algoritmo cíclico en el cual cada bloque o trama de datos es chequeada por el módem que envía y por el que recibe. El módem que está enviando inserta el resultado de su cálculo en cada bloque en forma de código CRC. Por su parte, el módem que está recibiendo compara el resultado con el código CRC recibido y responde con un reconocimiento positivo o negativo dependiendo del resultado. 
+MNP: (Microcom Networking Protocol, protocolo de red Microcom). Es un control de error desarrollado por Microcom, Inc. Este protocolo asegura transmisiones libres de error por medio de una detección de error, (CRC) y retransmisión de tramas equivocadas. 
+
+[editar] Protocolos de transferencia de archivos
+Xmodem: es el protocolo más popular, pero lentamente está siendo reemplazado por protocolos más fiables y más rápidos. Xmodem envía archivos en bloques de 128 caracteres al mismo tiempo. Cuando el computador que está recibiendo comprueba que el bloque ha llegado intacto, lo señala así y espera el bloque siguiente. El chequeo de error es un checksum o un chequeo más sofisticado de redundancia cíclica. Algunas comunicaciones por software soportan ambas y podrían automáticamente usar la más indicada para un momento dado. Durante una descarga, el software tiende a usar el CRC, pero se cambiará a checksum si se detecta que el host no soporta el CRC. El protocolo de Xmodem también necesita tener declarado en su configuración: no paridad, ocho bits de datos y un bit de parada. 
+Xmodem-1k: es una pequeña variante del anteriormente mencionado, que usa bloques que posen un kilobyte (1.024 bytes) de tamaño. Este protocolo es todavía mal llamado ‘Ymodem’ por algunos programas, pero la gente gradualmente se inclina a llamarlo correctamente. 
+Xmodem-1k-g: es una variante del anterior para canales libres de error tales como corrección de errores por hardware o líneas de cable null-modem entre dos computadoras. Logra mayor velocidad enviando bloques uno tras otro sin tener que esperar el reconocimiento desde el receptor. Sin embargo, no puede retransmitir los bloques en caso de errores. En caso de que un error sea detectado en el receptor, la transferencia será abortada. Al igual que el anterior, muchas veces es mal llamado ‘Ymodem-g’. 
+Zmodem: este avanzado protocolo es muy rápido al igual que garantiza una buena fiabilidad y ofrece varias características. Zmodem usa paquetes de 1 kb en una línea limpia, pero puede reducir el tamaño del paquete según si la calidad de la línea va deteriorándose. Una vez que la calidad de la línea es recuperada el tamaño del paquete se incrementa nuevamente. Zmodem puede transferir un grupo de archivos en un lote (batch) y guardar exactamente el tamaño y la fecha de los archivos. También puede detectar y recuperar rápidamente errores, y puede resumir e interrumpir transferencias en un período de tiempo más tarde. Igualmente es muy bueno para enlaces satelitales y redes de paquetes switchadas. 
+ASCII: en una transferencia ASCII, es como que si el que envía estuviera actualmente digitando los caracteres y el receptor grabándolos ahora. No se utiliza ninguna forma de detección de error. Usualmente, solo los archivos ASCII pueden ser enviados de esta forma, es decir, como archivos binarios que contienen caracteres. 
+Ymodem: este protocolo es una variante del Xmodem, el cual permite que múltiples archivos sean enviados en una transferencia. A lo largo de ella, se guarda el nombre correcto, tamaño, y fecha del archivo. Puede usar 128 o (más comúnmente), 1.024 bytes para los bloques. 
+Ymodem-g: este protocolo es una variante del anterior, el cual alcanza una taza de transferencia muy alta, enviando bloques uno tras otro sin esperar por un reconocimiento. Esto, sin embargo, significa que si un error es detectado por el receptor, la transferencia será abortada. 
+Telink: este protocolo es principalmente encontrado en Fido Bulletin Board Systems. Es básicamente el protocolo Xmodem usando CRC para chequear y un bloque extra enviado como cabecera del archivo diciendo su nombre, tamaño y fecha. Por su parte, también permite que más de un archivo sea enviado al mismo tiempo (Fido es una BBS muy popular, que es usada en todo el mundo). 
+Kermit: este protocolo fue desarrollado para hacer más fácil que los diferentes tipos de computadoras intercambiasen archivos entre ellas. Casi ninguna computadora que usa Kermit puede ser configurada para enviar archivos a otra computadora que también use Kermit. Kermit usa pequeños paquetes (usualmente de 94 bytes) y aunque es fiable, es lento porque la relación del protocolo de datos para usarlos es más alta que en muchos otros protocolos. 
+

@@ -1,0 +1,776 @@
+<html>
+<head>
+<title>RegexpBuilder documentation</title>
+<link type="text/css" rel="stylesheet" href="http://alexgorbatchev.com/pub/sh/2.0.320/styles/shCore.css"/>
+<link type="text/css" rel="stylesheet" href="http://alexgorbatchev.com/pub/sh/2.0.320/styles/shThemeDefault.css" id="shTheme"/>
+<script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/2.0.320/scripts/shCore.js"></script>
+<script type='text/javascript' src='http://alexgorbatchev.com/pub/sh/2.0.320/scripts/shBrushPhp.js'></script>
+<script type='text/javascript' src='http://alexgorbatchev.com/pub/sh/2.0.320/scripts/shBrushJScript.js'></script>
+<style>
+body{
+	padding:0;
+	font-family:Arial,Verdana,sans-serif;
+	font-size:11px;
+	background: #CAD8F7;
+}
+h2{
+	margin:5px 0;
+}
+h3{
+	margin:20px 0 5px;
+}
+.page-wrapper{
+	height:100%;
+}
+.content-wrapper{
+	text-align:center;
+	vertical-align:top;
+	width:900px;
+}
+.nav{
+	height:40px;
+	-moz-border-radius-topleft:5px;
+	-webkit-border-top-left-radius:5px;
+	border-top-left-radius:5px;
+	-moz-border-radius-topright:5px;
+	-webkit-border-top-right-radius:5px;
+	border-top-right-radius:5px;
+	background:#D2E1F6;
+}
+.nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.nav ul li{
+	float:left;
+}
+.nav ul li span{
+	cursor:pointer;
+	display:block;
+	width:146px;
+	margin-right:1px;
+	padding-top:10px;
+	height:40px;
+	text-align:center;
+	color:#166AEE;
+}
+.nav ul li:last-child span{
+	width:150px;
+}
+.nav ul li span.long{
+	padding-top:13px;
+	font-size:14px;
+}
+.nav ul li a.active span,.nav ul li a.hover span{
+	background:#166AEE;
+	-moz-border-radius-topleft:5px;
+	-webkit-border-top-left-radius:5px;
+	border-top-left-radius:5px;
+	-moz-border-radius-topright:5px;
+	-webkit-border-top-right-radius:5px;
+	border-top-right-radius:5px;
+	color:white;
+}
+.structure{		
+	background:#FFF;
+	color:white;
+	text-align:left;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-webkit-box-shadow: 5px 5px 10px #888;
+	-moz-box-shadow: 5px 5px 10px #888;
+	border:7px solid #FFF;
+}
+.content{
+	padding:15px 10px;
+	background:#166AEE;
+	-moz-border-radius-bottomleft:5px;
+	-webkit-border-bottom-left-radius:5px;
+	border-bottom-left-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-bottom-right-radius:5px;
+	border-bottom-right-radius:5px;
+	font-size:14px;
+	line-height:1.3;
+	font-family:Verdana,sans-serif;
+}
+.content a{
+	color:white;
+	text-decoration:underline;
+}
+.hiddenpanel{
+	display:none;
+}
+.header{
+	height:200px;
+	font-size:110px;
+	color:orange;
+	text-align:center;
+	text-shadow: #D2E1F6 2px 2px 2px;
+}
+.header .colordiff{
+	color:#166AEE;
+}
+.header .min-size{
+	font-size:33px;
+	display:block;
+}
+.version{
+	font-size:15px; 
+	display:block;
+	color:#166AEE;
+	margin-top:9px;
+}
+.padd{
+	padding: 0 20px;
+}
+.arg{
+	/*border:1px solid white;*/
+	background: white;
+	color: #166AEE;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	margin:5px 0;
+	padding:5px;
+	font-size:12px;
+}
+.arg code,.return{
+	margin:0 20px;
+}
+</style>
+<style>
+.syntaxhighlighter{
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	background-color:#D2E1F6 !important;
+	border:1px solid white !important;
+}
+.syntaxhighlighter .line .number{
+	color:#166AEE!important;
+}
+.syntaxhighlighter .variable{
+	color:#0000DD!important;
+}
+.syntaxhighlighter .string, .syntaxhighlighter .string a {
+	color:#008000 !important;
+}
+.syntaxhighlighter .comments{
+	color:#FF8000!important;
+}
+.syntaxhighlighter .functions {
+	color:red !important;
+}
+</style>
+<script type="text/javascript">
+SyntaxHighlighter.all();
+var tabOpened="introduction";
+function hasClass(obj,cls)
+{
+	return obj.className.indexOf(cls)>=0;
+}
+function addClass(obj,cls)
+{
+	if(!hasClass(obj,cls)) obj.className+=" "+cls;
+}
+function removeClass(obj,cls)
+{
+	obj.className=obj.className.replace(cls,"");
+}
+function changeTab(id,tab)
+{
+	if(tabOpened==id) return;
+	addClass(document.getElementById(tabOpened),"hiddenpanel");
+	removeClass(document.getElementById(id),"hiddenpanel");
+	tabOpened=id;
+	var li=document.getElementById("navmenu").getElementsByTagName("li");
+	for(i=0;i<li.length;i++){
+		removeClass(li[i].getElementsByTagName("a")[0],"active");
+	}
+	addClass(tab,"active");
+}
+</script>
+</head>
+<body>
+	<table class="page-wrapper" align="center" cellpadding="0" cellspacing="0">
+		<tr>
+			<td class="content-wrapper" align="center">				
+				<div class="structure">
+				<div class="header">
+					RegexpBuilder
+					<span class="version">Version 1.0</span>
+				</div>
+				<div class="nav">
+					<ul id="navmenu">
+						<li><a class="active" onClick="changeTab('introduction',this)" onMouseOver="addClass(this,'hover')" onMouseOut="removeClass(this,'hover')"><span>Introduction</span></a></li>
+						<li><a onClick="changeTab('initfn',this)" onMouseOver="addClass(this,'hover')" onMouseOut="removeClass(this,'hover')"><span class="long">Init and other functions</span></a></li>
+						<li><a onClick="changeTab('sub',this)" onMouseOver="addClass(this,'hover')" onMouseOut="removeClass(this,'hover')"><span class="long">Subjects and groups</span></a></li>
+						<li><a onClick="changeTab('freq',this)" onMouseOver="addClass(this,'hover')" onMouseOut="removeClass(this,'hover')"><span>Frequency</span></a></li>
+						<li><a onClick="changeTab('cond',this)" onMouseOver="addClass(this,'hover')" onMouseOut="removeClass(this,'hover')"><span>Conditions</span></a></li>
+						<li><a onClick="changeTab('credits',this)" onMouseOver="addClass(this,'hover')" onMouseOut="removeClass(this,'hover')"><span>Credits</span></a></li>
+					</ul>
+				</div>
+					<div class="content" id="introduction">	
+						RegexpBuilder is a library that helps you to build simple regular expressions
+						<br><br><h2>Library structure</h2>
+						This library builds simple regular expressions starting from a base structure composed by 3 entities:<br>
+						<b>subject[frequency][condition]</b><br>
+						<ul>
+							<li>The subject is the main part of the regular expression and it indicates which part of the string the regexp must match.</li>
+							<li>The optional frequency indicates the number of ripetitions of the subject</li>
+							<li>The optional condition sets a condition for the presence of the subject</li>
+						</ul>
+						You can also use group methods to build a unique subject starting from multiple subjects
+						<br><br><h2>Features</h2>
+						<ul>
+						<li>Support for every type of match</li>
+						<li>Capturing and non-capturing groups</li>						
+						<li>Predefined characters sets</li>
+						<li>Unicode characters</li>
+						<li>Back references</li>
+						<li>Assertions</li>
+						<li>Conditional subpatterns</li>
+						</ul>
+						<br><h2>Changelog</h2>
+						<ul>
+							<li>
+								<b>Version 1.0</b>
+								<ul>
+									<li>Added replaceWith, replaceWithCallback, split and grep methods</li>
+									<li>Fixed bug on characters escape</li>
+									<li>Added 6 more tests</li>
+								</ul>
+							</li>
+							<li>
+								<b>Version 0.2</b>
+								<ul>
+									<li>Fixed bug on conditions using PRECEEDED_BY and NOT_PRECEEDED_BY</li>
+									<li>Added 2 more tests</li>
+								</ul>
+							</li>
+							<li>
+								<b>Version 0.1</b>
+								<ul>
+									<li>First release</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="content hiddenpanel" id="initfn">
+						<h2>Modifiers constants</h2>
+						<div class="padd">
+							<h3>CASE_SENSITIVE</h3>
+							<div class="padd">Setting this modifier the regexp become case sensitive</div>
+							<h3>CASE_INSENSITIVE</h3>
+							<div class="padd">Setting this modifier the regexp become case insensitive</div>							
+							<h3>MULTILINE</h3>
+							<div class="padd">Setting this modifier the regexp will treat the strings as a set of lines separated by \n</div>
+							<h3>UNICODE_MODE</h3>
+							<div class="padd">Setting this modifier the UNICODE mode will be enabled and the regexp can match also on non-latin letters</div>
+						</div>
+						<h2>Costructor</h2>
+						<div class="padd">
+							<h3>regexpBuilder</h3>
+							<div class="padd">
+								Class costructor. Set regexp modifiers.
+								<br><b>Arguments</b>
+								<div class="arg">
+									String <code>$modifiers</code> A set of modifiers constants concatenated
+								</div>
+								<b>Example</b>
+								<pre class="brush: php; tab-size: 4;">
+									$R=new regexpBuilder(CASE_INSENSITIVE); //The regexp is case insensitive
+									$R=new regexpBuilder(UNICODE_MODE.CASE_INSENSITIVE); //The regexp uses unicode mode and is case insensitive
+								</pre>
+							</div>
+						</div>
+						<h2>Other functions</h2>
+						<div class="padd">
+							<h3>render</h3>
+							<div class="padd">
+								Returns the regexp constructed
+								<br>
+								<b>Return</b><br><span class="return">String</span> Regexp constructed<br>
+								<b>Example</b>
+								<pre class="brush: php; tab-size: 4;">
+									$R=new regexpBuilder(CASE_INSENSITIVE);
+									$R->match("abc");
+									echo $R->render();	//#(?:abc)#i
+								</pre>
+							</div>
+							<h3>testOn</h3>
+							<div class="padd">
+								Test the regexp on the given strings
+								<br><b>Arguments</b>
+								<div class="arg">
+									String <code>...</code> Strings for the test
+								</div>
+								<b>Return</b><br><span class="return">Bool</span> False if at least one test is false, true otherwise<br>
+								<b>Example</b>
+								<pre class="brush: php; tab-size: 4;">
+									$R->testOn("string1","string2");
+								</pre>
+							</div>
+							<h3>execOn</h3>
+							<div class="padd">
+								Execute the regexp on the given string and return the matches array
+								<br><b>Arguments</b>
+								<div class="arg">
+									String <code>$string</code> String for the execution<br>
+									Mixed <code>$flags</code> Optional flags (http://www.php.net/manual/en/function.preg-match-all.php)<br>
+								</div>
+								<b>Return</b><br><span class="return">Array</span> Array of matches<br>
+								<b>Example</b>
+								<pre class="brush: php; tab-size: 4;">
+									$R->execOn("string1",PREG_PATTERN_ORDER);
+								</pre>
+							</div>
+							<h3>replaceWith</h3>
+							<div class="padd">
+								Replace every match in the given string with the given replacement
+								<br><b>Arguments</b>
+								<div class="arg">
+									String <code>$replacement</code> Replacement string<br>
+									String <code>$string</code> String for the replacement<br>
+									Int <code>$limit</code> Maximum number of replacements. By default there's no limit.<br>
+								</div>
+								<b>Return</b><br><span class="return">String</span> The result of the replacement<br>
+								<b>Example</b>
+								<pre class="brush: php; tab-size: 4;">
+									$R->replaceWith("replacement","string");
+								</pre>
+							</div>
+							<h3>replaceWithCallback</h3>
+							<div class="padd">
+								Replace every match in the given string using the given callback
+								<br><b>Arguments</b>
+								<div class="arg">
+									String|Fn <code>$callback</code> The name of the function or the result of create_function()<br>
+									String <code>$string</code> String for the replacement<br>
+									Int <code>$limit</code> Maximum number of replacements. By default there's no limit.<br>
+								</div>
+								<b>Return</b><br><span class="return">String</span> The result of the replacement<br>
+								<b>Example</b>
+								<pre class="brush: php; tab-size: 4;">
+									$fn=create_function('$match','return trim($match[0]);');
+									$R->replaceWithCallback($fn,"string");
+								</pre>
+							</div>
+							<h3>split</h3>
+							<div class="padd">
+								Split string by the regexp
+								<br><b>Arguments</b>
+								<div class="arg">
+									String <code>$string</code> Subject<br>
+									Int <code>$limit</code> Maximum number of substrings. By default there's no limit.<br>
+									Int <code>$flags</code> Optional flags (http://www.php.net/manual/en/function.preg-split.php)<br>
+								</div>
+								<b>Return</b><br><span class="return">Array</span> Splitted string result<br>
+								<b>Example</b>
+								<pre class="brush: php; tab-size: 4;">
+									$R->split("string");
+								</pre>
+							</div>
+							<h3>grep</h3>
+							<div class="padd">
+								Returns the entries of the given array that match the regexp
+								<br><b>Arguments</b>
+								<div class="arg">
+									Array <code>$input</code> Subject array<br>
+									Int <code>$flags</code> Optional flags (http://www.php.net/manual/en/function.preg-grep.php)<br>
+								</div>
+								<b>Return</b><br><span class="return">Array</span> Filtered array<br>
+								<b>Example</b>
+								<pre class="brush: php; tab-size: 4;">
+									$array=array("filter","this","array");
+									$R->grep($array);
+								</pre>
+							</div>
+							<h3>addCode</h3>
+							<div class="padd">
+								Add the given string to the regexp without escape it. This can be useful for add pieces of code directly at the end of the regexp, but it can break internal class controls and generate errors.
+								<br><b>Arguments</b>
+								<div class="arg">
+									String <code>$regexp</code> Piece of code to add at the end of the regexp<br>
+								</div>
+								<b>Return</b><br><span class="return">Object</span> Class instance<br>
+								<b>Example</b>
+								<pre class="brush: php; tab-size: 4;">
+									$R->addCode("[a-z]*");
+								</pre>
+							</div>
+							<h3>setErrorLevel</h3>
+							<div class="padd">
+								Set the error level. 1=errors are shown and stored in the internal array,0=errors are stored in the internal array but they are not shown
+								<br><b>Arguments</b>
+								<div class="arg">
+									Int <code>$level</code> Error level<br>
+								</div>
+								<b>Return</b><br><span class="return">Object</span> Class instance
+							</div>
+							<h3>getErrors</h3>
+							<div class="padd">
+								Return the internal errors array
+								<br>
+								<b>Return</b><br><span class="return">Array</span> Internal errors array
+							</div>
+						</div>
+					</div>
+					<div class="content hiddenpanel" id="sub">
+						The default character set of the library includes only letters from the latin alphabet. If you want to extend it anable the UNICODE mode by setting the correct modifier in the class constructor and use UNICODE constants instead of latin constants.
+						<h2>Characters group constants</h2>
+						<div class="padd">
+							<h3>GENERAL_SPACE_CHAR</h3>
+							<div class="padd">Every space, tabulation, newline ecc..</div>
+							<h3>NEWLINE_CHAR</h3>
+							<div class="padd">Newline character</div>							
+							<h3>TAB_CHAR</h3>
+							<div class="padd">Tabulation character</div>
+							<h3>CARRIAGE_RETURN_CHAR</h3>
+							<div class="padd">Carriage return character</div>
+							<h3>SPACE_CHAR</h3>
+							<div class="padd">Space character</div>
+							<h3>NON_GENERAL_SPACE_CHAR</h3>
+							<div class="padd">Every char except space, tabulation, newline ecc...</div>
+						</div>
+						<h2>Latin characters group constants</h2>
+						<div class="padd">
+							<h3>LETTER_CHAR</h3>
+							<div class="padd">Letter</div>
+							<h3>UPPERCASE_LETTER</h3>
+							<div class="padd">Uppercase letter</div>							
+							<h3>LOWERCASE_LETTER</h3>
+							<div class="padd">Lowercase letter</div>
+							<h3>DIGIT_CHAR</h3>
+							<div class="padd">Number</div>
+							<h3>NON_DIGIT_CHAR</h3>
+							<div class="padd">Every char except numbers</div>
+							<h3>NON_LETTER_CHAR</h3>
+							<div class="padd">Every char except letters</div>
+						</div>
+						<h2>UNICODE mode characters group constants</h2>
+						<div class="padd">
+							<h3>UNICODE_LETTER_CHAR</h3>
+							<div class="padd">Letter</div>
+							<h3>UNICODE_UPPERCASE_LETTER</h3>
+							<div class="padd">Uppercase letter</div>							
+							<h3>UNICODE_LOWERCASE_LETTER</h3>
+							<div class="padd">Lowercase letter</div>
+							<h3>UNICODE_DIGIT_CHAR</h3>
+							<div class="padd">Number</div>
+							<h3>UNICODE_NON_DIGIT_CHAR</h3>
+							<div class="padd">Every char except numbers</div>
+							<h3>UNICODE_NON_LETTER_CHAR</h3>
+							<div class="padd">Every char except letters</div>
+						</div>
+						<h2>Subject functions</h2>
+						<div class="padd">
+							<h3>match</h3>
+							<div class="padd">
+								Match the given string
+								<br><b>Arguments</b>
+								<div class="arg">
+									String <code>$text</code> Text to match
+								</div>
+								<b>Return</b><br><span class="return">Object</span> Class instance
+								<b>Example</b>
+								<pre class="brush: php; tab-size: 4;">
+									$R->match("test");	//Match the string "test"
+								</pre>
+							</div>
+							<h3>matchOneOfTheseChars</h3>
+							<div class="padd">
+								Match one of the given characters
+								<br><b>Arguments</b>
+								<div class="arg">
+									string|array <code>$chars</code> Characters to match
+								</div>
+								<b>Return</b><br><span class="return">Object</span> Class instance
+								<b>Example</b>
+								<pre class="brush: php; tab-size: 4;">
+									$R->matchOneOfTheseChars("abc")	//Match "a", "b" or "c"
+									$R->matchOneOfTheseChars("a","b","c")	//Same as above
+									$R->matchOneOfTheseChars(array("a","b","c"))	//Same as above
+								</pre>
+							</div>
+							<h3>matchEveryCharExcept</h3>
+							<div class="padd">
+								Match every character except the given
+								<br><b>Arguments</b>
+								<div class="arg">
+									string|array <code>$chars</code> Characters
+								</div>
+								<b>Return</b><br><span class="return">Object</span> Class instance
+								<b>Example</b>
+								<pre class="brush: php; tab-size: 4;">
+									$R->matchEveryCharExcept("abc")	//Match every character except "a", "b" or "c"
+									$R->matchEveryCharExcept("a","b","c")	//Same as above
+									$R->matchEveryCharExcept(array("a","b","c"))	//Same as above
+								</pre>
+							</div>
+							<h3>matchEverything</h3>
+							<div class="padd">
+								Match every character
+								<br>
+								<b>Return</b><br><span class="return">Object</span> Class instance
+								<b>Example</b>
+								<pre class="brush: php; tab-size: 4;">
+									$R->matchEverything()->frequency(4);//Match the next 4 characters
+								</pre>
+							</div>
+							<h3>matchOneOfTheseWords</h3>
+							<div class="padd">
+								Match one of the given words
+								<br><b>Arguments</b>
+								<div class="arg">
+									string|array <code>$words</code> Words to match
+								</div>
+								<b>Return</b><br><span class="return">Object</span> Class instance
+								<b>Example</b>
+								<pre class="brush: php; tab-size: 4;">
+									$R->matchOneOfTheseWords("test","foo")	//Match "test" or "foo"
+									$R->matchOneOfTheseWords(array("test","foo"))	//Same as above
+								</pre>
+							</div>
+							<h3>matchCapture</h3>
+							<div class="padd">
+								Back reference. Match the result of a previous capturing group by name or position. The position count starts from 1
+								<br><b>Arguments</b>
+								<div class="arg">
+									int|string <code>$name</code> Name or position of the capturing group result to match
+								</div>
+								<b>Return</b><br><span class="return">Object</span> Class instance
+								<b>Example</b>
+								<pre class="brush: php; tab-size: 4;">
+									$R->capture("test")
+									->matchOneOfTheseWords("abc","def")
+									->closeCapture()
+									->matchCapture("test");	//Match the result of the "test" capturing group. If the "test" capture match "abc" this function match "abc", If the "test" capture match "def" this function match "def"
+								</pre>
+							</div>
+						</div>
+						<h2>Group functions</h2>
+						Using these functions you can group many subjects inside a new one and then set a frequency or a condition for that. In this way you can manage a group of subjects as a single one.
+						<div class="padd">
+							<h3>capture</h3>
+							<div class="padd">
+								Start a capturing group
+								<br><b>Arguments</b>
+								<div class="arg">
+									string <code>$name</code> An optional string to assign a name the capture group
+								</div>
+								<b>Return</b><br><span class="return">Object</span> Class instance
+								<b>Example</b>
+								<pre class="brush: php; tab-size: 4;">
+									$R->capture("test")
+									->matchOneOfTheseWords("abc","def")
+									->match("other")->frequency(5)
+									->closeCapture();	//Match "abc" or "def" followed by "other" repeated 5 times
+								</pre>
+							</div>
+							<h3>closeCapture</h3>
+							<div class="padd">
+								Close a capturing group. Look at the example above
+								<br>
+								<b>Return</b><br><span class="return">Object</span> Class instance
+							</div>
+							<h3>openGroup</h3>
+							<div class="padd">
+								Start a non capturing group. The difference between this method and "capture" is that when you execute the regular expression the part of the string matched by "capture" will be returned in the result array, with this function won't.
+								<br>
+								<b>Return</b><br><span class="return">Object</span> Class instance
+								<b>Example</b>
+								<pre class="brush: php; tab-size: 4;">
+									$R->openGroup()
+									->matchOneOfTheseWords("abc","def")
+									->match("test")->frequency(5)
+									->openGroup()->frequency(2);	//Match "abc" or "def" followed by "other" repeated 5 times. Look for this group 2 times.
+								</pre>
+							</div>
+							<h3>closeGroup</h3>
+							<div class="padd">
+								Close a non capturing group. Look at the example above
+								<br>
+								<b>Return</b><br><span class="return">Object</span> Class instance
+							</div>
+						</div><br>
+						<h2>Special subject functions</h2>
+						For these subjects you can't specify a frequency
+						<div class="padd">
+							<h3>matchLineStart</h3>
+							<div class="padd">
+								Match the line start
+								<br>
+								<b>Return</b><br><span class="return">Object</span> Class instance
+								<b>Example</b>
+								<pre class="brush: php; tab-size: 4;">
+									$R->matchLineStart()->match("test")	//Look for test at the begin of the string
+								</pre>
+							</div>
+							<h3>matchLineEnd</h3>
+							<div class="padd">
+								Match the line end
+								<br>
+								<b>Return</b><br><span class="return">Object</span> Class instance
+								<b>Example</b>
+								<pre class="brush: php; tab-size: 4;">
+									$R->match("test")->matchLineEnd()	//Look for test at the end of the line
+								</pre>
+							</div>
+						</div>
+					</div>
+					<div class="content hiddenpanel" id="freq">
+						<h2>Frequency constants</h2>
+						<div class="padd">
+							<h3>ONE_OR_MORE</h3>
+							<div class="padd">Match the previous subject one ore more times</div>
+							<h3>ZERO_OR_MORE</h3>
+							<div class="padd">Match the previous subject zero or more times</div>							
+							<h3>ZERO_OR_ONE</h3>
+							<div class="padd">Match the previous subject zero or one time</div>
+						</div>
+						<h2>Frequency limit constants</h2>
+						<div class="padd">
+							<h3>LESS_THEN</h3>
+							<div class="padd">Match the previous subject less times then the given number</div>
+							<h3>MORE_THEN</h3>
+							<div class="padd">Match the previous subject more times then the given number</div>							
+							<h3>LESS_THEN_OR_EQUAL_TO</h3>
+							<div class="padd">Match the previous subject less times then the given number or exactly the given number of times</div>
+							<h3>MORE_THEN_OR_EQUAL_TO</h3>
+							<div class="padd">Match the previous subject more times then the given number or exactly the given number of times</div>
+						</div>
+						<h2>Frequency functions</h2>
+						<div class="padd">
+							<h3>execOn</h3>
+							<div class="padd">
+								Set the frequency of the previous subject
+								<br><b>Arguments</b>
+								<div class="arg">
+									String|int <code>$min</code> The smaller limit of frequency, the exact frequency or one of the frequency or frequency limit constants<br>
+									Int <code>$max</code> The higher limit of frequency<br>
+								</div>
+								<b>Return</b><br><span class="return">Object</span> Class instance
+								<b>Example</b>
+								<pre class="brush: php; tab-size: 4;">
+									$R->match("a")->frequency(5);	//Match "a" exactly 5 times
+									$R->match("a")->frequency(5,7);	//Match "a" between 5 and 7 times
+									$R->match("a")->frequency(ONE_OR_MORE);	//Match "a" one or more times
+									$R->match("a")->frequency(MORE_THEN,7);	//Match "a" more than 7 times
+								</pre>
+							</div>
+							<h3>oneOrMoreTimes</h3>
+							<div class="padd">
+								Set the frequency of the previous subject to one or more times. Same as frequency(ONE_OR_MORE)
+								<br>
+								<b>Return</b><br><span class="return">Object</span> Class instance
+								<b>Example</b>
+								<pre class="brush: php; tab-size: 4;">
+									$R->match("a")->oneOrMoreTimes();	//Match "a" one or more times
+								</pre>
+							</div>
+							<h3>zeroOrMoreTimes</h3>
+							<div class="padd">
+								Set the frequency of the previous subject to zero or more times. Same as frequency(ZERO_OR_MORE)
+								<br>
+								<b>Return</b><br><span class="return">Object</span> Class instance
+								<b>Example</b>
+								<pre class="brush: php; tab-size: 4;">
+									$R->match("a")->zeroOrMoreTimes();	//Match "a" zero or more times
+								</pre>
+							</div>
+							<h3>zeroOrOneTime</h3>
+							<div class="padd">
+								Set the frequency of the previous subject to zero or one time. Same as frequency(ZERO_OR_ONE)
+								<br>
+								<b>Return</b><br><span class="return">Object</span> Class instance
+								<b>Example</b>
+								<pre class="brush: php; tab-size: 4;">
+									$R->match("a")->zeroOrOneTime();	//Match "a" zero or one time
+								</pre>
+							</div>
+						</div>
+					</div>
+					<div class="content hiddenpanel" id="cond">
+						<h2>Condition constants</h2>
+						<div class="padd">
+							<h3>FOLLOWED_BY</h3>
+							<div class="padd">Match the previous subject if it's followed by...</div>
+							<h3>NOT_FOLLOWED_BY</h3>
+							<div class="padd">Match the previous subject if it's not followed by...</div>							
+							<h3>PRECEEDED_BY</h3>
+							<div class="padd">Match the previous subject if it's preceeded by...</div>
+							<h3>NOT_PRECEEDED_BY</h3>
+							<div class="padd">Match the previous subject if it's not preceeded by...</div>
+						</div>
+						<h2>Condition functions</h2>
+						<div class="padd">
+							<h3>ifItIs</h3>
+							<div class="padd">
+								Start a condition for the previous subject
+								<br><b>Arguments</b>
+								<div class="arg">
+									String <code>$condition</code> One of the condition constants<br>
+								</div>
+								<b>Return</b><br><span class="return">Object</span> Class instance
+								<b>Example</b>
+								<pre class="brush: php; tab-size: 4;">
+									$R->match("a")->ifItIs(FOLLOWED_BY)->match("b")->closeIf();	//Match "a" if it's followed by "b"
+									
+									//If..then..otherwise sintax
+									$R->match("a")->ifItIs(FOLLOWED_BY)
+									->match("b")
+									->then()->match("b")
+									->otherwise->matchEverything()
+									->closeIf();	//If "a" is followed by "b" match "b" otherwise match every other char
+								</pre>
+							</div>
+							<h3>then</h3>
+							<div class="padd">
+								Execute every function after this only if the prevoius condition is true
+								<br>
+								<b>Return</b><br><span class="return">Object</span> Class instance<br>
+								<b>Example</b>
+								<pre class="brush: php; tab-size: 4;">
+									$R->match("a")->ifItIs(FOLLOWED_BY)
+									->match("b")
+									->then()->match("b")
+									->closeIf();	//Match "b" only if "a" is followed by "b"
+								</pre>
+							</div>
+							<h3>otherwise</h3>
+							<div class="padd">
+								Execute every function after this only if the prevoius condition is false
+								<br>
+								<b>Return</b><br><span class="return">Object</span> Class instance<br>
+								<b>Example</b>
+								<pre class="brush: php; tab-size: 4;">
+									$R->match("a")->ifItIs(FOLLOWED_BY)
+									->match("b")
+									->then()->match("b")
+									->otherwise()->match("c")
+									->closeIf();	//Match "c" only if "a" is not followed by "b"
+								</pre>
+							</div>
+							<h3>closeIf</h3>
+							<div class="padd">
+								Close the condition
+								<br>
+								<b>Return</b><br><span class="return">Object</span> Class instance
+							</div>
+						</div>
+					</div>
+					<div class="content hiddenpanel" id="credits">
+						Copyright 2009 Marco Marchiò<br><br>
+						Author: Marco Marchiò<br><br>
+						License:<br>This code is released under LGPL license. Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
